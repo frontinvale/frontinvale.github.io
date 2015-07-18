@@ -200,10 +200,6 @@ a:hover {
       width: 100%; } }
 
 .welcome {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
   position: relative; }
   @media (max-width: 1023px) {
     .welcome {
@@ -215,7 +211,7 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(37, 140, 246, 0.75); }
+    background-color: #f2db3e; }
   .welcome .header {
     position: relative;
     display: table;
@@ -275,34 +271,17 @@ a:hover {
       margin: .5em 0 2em 0; }
 
 .about {
-  padding: 4em 0; }
+  padding: 8em 0; }
   .about:after {
     content: "";
     display: table;
     clear: both; }
-  .about .conference, .about .staff {
-    float: left;
-    width: calc(50% - 4em); }
-    .about .conference img, .about .staff img {
-      border: solid 1px #cecece;
-      border-radius: 50%;
-      padding: 1em;
-      width: 6em;
-      height: 6em;
-      float: left;
-      margin: 0 2em 2em 0; }
-    .about .conference .content h1, .about .conference .content p, .about .staff .content h1, .about .staff .content p {
+  .about .conference {
+    text-align: center; }
+    .about .conference .content h1, .about .conference .content p {
       color: #333; }
-    .about .conference .content h1, .about .staff .content h1 {
+    .about .conference .content h1 {
       margin-bottom: 15px; }
-  .about .staff {
-    margin-left: 8em; }
-  @media (max-width: 479px) {
-    .about .conference, .about .staff {
-      width: 100%;
-      margin: 0; }
-    .about .staff {
-      margin-top: 4em; } }
 
 .speakers {
   padding: 3em 0;
@@ -362,7 +341,7 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(0, 0, 0, 0.2); }
   .location * {
     position: relative; }
   .location img {

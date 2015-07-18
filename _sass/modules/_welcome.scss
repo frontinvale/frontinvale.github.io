@@ -1,5 +1,5 @@
 .welcome {
-  @include background("../images/background.jpg", cover, center top);
+  // @include background("../images/background.jpg", cover, center top);
   position: relative;
 
   @media(max-width: 1023px) {
@@ -13,7 +13,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(37, 140, 246, .75);
+    background-color: rgba(242, 219, 62, 1);
   }
 
   .header {
