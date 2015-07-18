@@ -26,7 +26,7 @@
 
           &:hover, &.active {
            color: #fff;
-            background-color: $blue;
+            background-color: $css-color;
           }
         }
       }
@@ -76,7 +76,7 @@
       }
 
       .title {
-        color: $blue;
+        color: $css-color;
         font-family: "Panton Light";
 
         time {
