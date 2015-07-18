@@ -9,7 +9,7 @@
   font-family: "Panton Bold";
   font-size: .875em;
   color: #fff;
-  @include button-states($orange);
+  @include button-states($css-color);
   cursor: pointer;
   border: none;
   text-align: center;
