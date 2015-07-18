@@ -1,0 +1,44 @@
+.about {
+  padding: 4em 0;
+  @include clearfix;
+
+  .conference, .staff {
+    float: left;
+    width: calc(50% - 4em);
+
+    img {
+      border: solid 1px #cecece;
+      border-radius: 50%;
+      padding: 1em;
+      width: 6em;
+      height: 6em;
+      float: left;
+      margin: 0 2em 2em 0;
+    }
+
+    .content {
+      h1, p {
+        color: #333;
+      }
+
+      h1 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .staff {
+    margin-left: 8em;
+  }
+
+  @media(max-width: 479px) {
+    .conference, .staff {
+      width: 100%;
+      margin: 0;
+    }
+
+    .staff {
+      margin-top: 4em;
+    }
+  }
+}

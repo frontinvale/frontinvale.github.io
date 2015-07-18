@@ -1,0 +1,33 @@
+.location {
+  text-align: center;
+  padding: 8em 0;
+  @include background("../images/place.jpg");
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  * {
+    position: relative;
+  }
+
+  img {
+    width: 3em;
+  }
+
+  h1 {
+    margin: 15px 0;
+  }
+
+  .link {
+    color: #fff;
+    font-family: "Panton Light";
+  }
+}

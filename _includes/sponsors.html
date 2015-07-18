@@ -1,0 +1,20 @@
+<section class="sponsors" id="sponsors">
+  <div class="row">
+    <h1>Patrocinadores</h1>
+    
+    <ul class="sponsors-list">
+      {% for sponsor in site.sponsors %}
+      <li class="item">
+        <a href="{{sponsor.link}}" target="_blank" class="item-link">
+          <p class="category">{{sponsor.quota}}</p>
+
+          <div class="imgs">
+          <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    
+  </div>
+</section>

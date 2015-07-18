@@ -1,0 +1,124 @@
+.welcome {
+  @include background("../images/background.jpg", cover, center top);
+  position: relative;
+
+  @media(max-width: 1023px) {
+    text-align: center;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(37, 140, 246, .75);
+  }
+
+  .header {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 2em 0;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+
+    .logo, .menu {
+      @extend .v-align;
+    }
+
+    .logo {
+      @extend .fit;
+
+      img, span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      img {
+        width: 2em;
+        margin-right: 1em;
+      }
+
+      span {
+        color: #fff;
+        font-family: "Panton Light";
+
+        strong {
+          font-family: "Panton Bold";
+        }
+      }
+    }
+
+    .menu {
+      width: 100%;
+      text-align: right;
+
+      .trigger {
+        display: none;
+      }
+
+      .list {
+        display: inline-block;
+        text-align: left;
+        list-style: none;
+        margin: 0 -1em;
+
+        .item {
+          display: inline-block;
+
+          .item-link {
+            display: inline-block;
+            font-family: "Panton Bold";
+            color: #fff;
+            text-decoration: none;
+            margin: 1em;
+
+            &:hover, .active {
+              color: $orange;
+            }
+          }
+        }
+      }
+    }
+
+    @media(max-width: 1023px) {
+      .logo, .menu {
+        display: block;
+        text-align: center;
+      }
+
+      .logo {
+        width: auto;
+      }
+
+      .menu {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  .info {
+    position: relative;
+    padding: 8em 0 4em 0;
+
+    h1 {
+      font-size: 4em;
+      font-family: "Panton Light";
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-top: 2em;
+    }
+
+    p {
+      font-family: "Panton Light";
+      margin: .5em 0 2em 0;
+    }
+
+    .register {
+      @extend .btn;
+    }
+  }
+}
