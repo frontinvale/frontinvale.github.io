@@ -44,5 +44,26 @@
     .register {
       @extend .btn;
     }
+
+    .social {
+      padding: 15px 0 0;
+
+      a {
+        display: inline-block;
+        margin: 0 5px;
+
+        img {
+          -webkit-transition: all 250ms ease-in-out;
+          transition: all 250ms ease-in-out;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+
+        &:hover img {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+      }
+    }
   }
 }

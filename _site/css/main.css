@@ -361,6 +361,19 @@ a:hover {
       font-family: "Panton Bold";
       margin: .5em 0 2em 0;
       text-shadow: 1px 1px 3px #E55126; }
+    .welcome .info .social {
+      padding: 15px 0 0; }
+      .welcome .info .social a {
+        display: inline-block;
+        margin: 0 5px; }
+        .welcome .info .social a img {
+          -webkit-transition: all 250ms ease-in-out;
+          transition: all 250ms ease-in-out;
+          -webkit-transform: scale(1);
+          transform: scale(1); }
+        .welcome .info .social a:hover img {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .about {
   padding: 8em 0; }
