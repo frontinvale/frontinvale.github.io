@@ -284,6 +284,8 @@ a:hover {
     .header .menu-control-close {
       display: none; } }
   @media (max-width: 1080px) {
+    .header input#menu-control:focus ~ .menu-control {
+      box-shadow: 0 0 8px #FFB300; }
     .header #menu-control:checked ~ .menu-control {
       -webkit-transform: translate(-200px, 0);
       transform: translate(-200px, 0); }

@@ -127,6 +127,10 @@
   }
 
   @media(max-width: 1080px) {
+    input#menu-control:focus ~ .menu-control {
+      box-shadow: 0 0 8px #FFB300;
+    }
+
     #menu-control:checked ~ {
       .menu-control {
         -webkit-transform: translate(-200px, 0);
