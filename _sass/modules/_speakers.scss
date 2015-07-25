@@ -13,6 +13,7 @@
     @include clearfix;
     font-size: 0;
     margin: 0 -15px;
+    text-align: center;
 
     .speaker {
       font-size: 1rem;
@@ -24,9 +25,11 @@
       .photo {
         width: 100%;
         background-color: #eaeaea;
+        overflow: hidden;
         // @include icon("../images/speaker.svg", 50% 50%);
 
         img {
+          display: block;
           width: 100%;
         }
       }

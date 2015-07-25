@@ -236,7 +236,8 @@ a:hover {
           font-family: "Panton Bold";
           color: #fff;
           text-decoration: none;
-          margin: 1em; }
+          margin: 1em;
+          transition: all 200ms ease-in-out; }
           .header .menu .list .item .item-link:hover, .header .menu .list .item .item-link .active {
             color: #ffb300;
             text-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
@@ -270,13 +271,16 @@ a:hover {
     text-align: center; }
     .welcome .info h1 {
       font-size: 4em;
-      font-family: "Panton Light"; }
+      font-family: "Panton Light";
+      text-shadow: 1px 1px 3px #E55126; }
     .welcome .info h2 {
       font-size: 2em;
-      margin-top: 2em; }
+      margin-top: 2em;
+      text-shadow: 1px 1px 3px #E55126; }
     .welcome .info p {
       font-family: "Panton Bold";
-      margin: .5em 0 2em 0; }
+      margin: .5em 0 2em 0;
+      text-shadow: 1px 1px 3px #E55126; }
 
 .about {
   padding: 8em 0; }
@@ -301,7 +305,8 @@ a:hover {
   .speakers .speakers-list {
     list-style: none;
     font-size: 0;
-    margin: 0 -15px; }
+    margin: 0 -15px;
+    text-align: center; }
     .speakers .speakers-list:after {
       content: "";
       display: table;
@@ -314,8 +319,10 @@ a:hover {
       width: calc(25% - 30px); }
       .speakers .speakers-list .speaker .photo {
         width: 100%;
-        background-color: #eaeaea; }
+        background-color: #eaeaea;
+        overflow: hidden; }
         .speakers .speakers-list .speaker .photo img {
+          display: block;
           width: 100%; }
       .speakers .speakers-list .speaker .speaker-link {
         text-decoration: none; }
@@ -506,9 +513,10 @@ a:hover {
       min-width: 300px;
       min-height: 150px;
       margin: 15px;
-      border: 1px solid #ccc;
       font-size: 1rem;
-      text-align: center; }
+      text-align: center;
+      border: 1px solid #ccc;
+      background-color: #fff; }
       .sponsors .sponsors-list .item a.item-info {
         display: table-cell;
         vertical-align: middle;
