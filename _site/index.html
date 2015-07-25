@@ -16,44 +16,45 @@
 
 
   <body>
-    <div class="main">
-      <section class="welcome">
+    <!-- <div class="main"> -->
+      <header class="header">
+  <div class="logo">
+    <h1>
+      <img src="images/logo.png" alt="Logo">
+      <span><strong>Front in Vale</strong> 2015</span>
+    </h1>
+  </div>
+
+  <nav class="menu">
+    <span class="trigger"><i></i></span>
+
+    <ul class="list">
+      <li class="item">
+        <a href="#" data-ref=".welcome" class="item-link">Sobre</a>
+      </li>
+
+      <!-- <li class="item">
+        <a href="#speakers" class="item-link">Palestrantes</a>
+      </li> -->
+
+      <li class="item">
+        <a href="#location" data-ref="#location" class="item-link">Local</a>
+      </li>
+
+      <!-- <li class="item">
+        <a href="#schedule" class="item-link">Programação</a>
+      </li> -->
+
+      <li class="item">
+        <a href="#sponsors" data-ref="#sponsors" class="item-link">Patrocinadores</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+<section class="welcome">
   <div class="row">
-    <header class="header">
-      <div class="logo">
-        <h1>
-          <img src="images/logo.png" alt="Logo">
-          <span><strong>Front in Vale</strong> 2015</span>
-        </h1>
-      </div>
-
-      <nav class="menu">
-        <span class="trigger"><i></i></span>
-
-        <ul class="list">
-          <li class="item">
-            <a href="#" class="item-link">Sobre</a>
-          </li>
-
-          <!-- <li class="item">
-            <a href="#speakers" class="item-link">Palestrantes</a>
-          </li> -->
-
-          <li class="item">
-            <a href="#location" class="item-link">Local</a>
-          </li>
-
-          <!-- <li class="item">
-            <a href="#schedule" class="item-link">Programação</a>
-          </li> -->
-
-          <li class="item">
-            <a href="#sponsors" class="item-link">Patrocinadores</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
     <article class="info">
       <h1>Primeiro evento de <br>front-end no Vale do Paraíba.</h1>
 
@@ -260,35 +261,58 @@
 <section class="sponsors" id="sponsors">
   <div class="row">
     <h1>Patrocinadores</h1>
-    
     <ul class="sponsors-list">
       
       <li class="item">
         <a href="http://css4html.com.br/" target="_blank" class="item-link">
-          <p class="category">Realização</p>
-
           <div class="imgs">
-          <img src="images/sponsors/css4html.svg" alt="Css4html">
+            <img src="images/sponsors/css4html.svg" alt="Css4html">
           </div>
         </a>
       </li>
       
       <li class="item">
         <a href="http://designa.com.br/" target="_blank" class="item-link">
-          <p class="category">Realização</p>
-
           <div class="imgs">
-          <img src="images/sponsors/designa.svg" alt="Designa">
+            <img src="images/sponsors/designa.svg" alt="Designa">
           </div>
         </a>
       </li>
       
       <li class="item">
         <a href="#" target="_blank" class="item-link">
-          <p class="category">Realização</p>
-
           <div class="imgs">
-          <img src="images/sponsors/levit.svg" alt="Levit">
+            <img src="images/sponsors/levit.svg" alt="Levit">
+          </div>
+        </a>
+      </li>
+      
+    </ul>
+
+    
+    <h1>Realização</h1>
+    <ul class="sponsors-list">
+      
+      <li class="item">
+        <a href="http://css4html.com.br/" target="_blank" class="item-link">
+          <div class="imgs">
+            <img src="images/sponsors/css4html.svg" alt="Css4html">
+          </div>
+        </a>
+      </li>
+      
+      <li class="item">
+        <a href="http://designa.com.br/" target="_blank" class="item-link">
+          <div class="imgs">
+            <img src="images/sponsors/designa.svg" alt="Designa">
+          </div>
+        </a>
+      </li>
+      
+      <li class="item">
+        <a href="#" target="_blank" class="item-link">
+          <div class="imgs">
+            <img src="images/sponsors/levit.svg" alt="Levit">
           </div>
         </a>
       </li>
@@ -307,7 +331,8 @@
   </div>
 </footer>
 
-    </div>
+
+    <!-- </div> -->
 
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/showRoom.js"></script>

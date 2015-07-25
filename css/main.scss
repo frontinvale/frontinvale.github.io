@@ -18,7 +18,8 @@
 
 @import "core/buttons";
 
-@import "modules/welcome",
+@import "modules/header",
+        "modules/welcome",
         "modules/about",
         "modules/speakers",
         "modules/location",

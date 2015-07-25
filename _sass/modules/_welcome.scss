@@ -1,5 +1,7 @@
 .welcome {
   // @include background("../images/background.jpg", cover, center top);
+  min-height: 100%;
+  padding-top: 50px;
   position: relative;
 
   @media(max-width: 1023px) {
@@ -14,88 +16,6 @@
     top: 0;
     bottom: 0;
     background-color: #ffb300;
-  }
-
-  .header {
-    position: relative;
-    display: table;
-    width: 100%;
-    padding: 2em 0;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
-
-    .logo, .menu {
-      @extend .v-align;
-    }
-
-    .logo {
-      @extend .fit;
-
-      img, span {
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      img {
-        width: 2em;
-        margin-right: 1em;
-      }
-
-      span {
-        color: #fff;
-        font-family: "Panton Light";
-
-        strong {
-          font-family: "Panton Bold";
-        }
-      }
-    }
-
-    .menu {
-      width: 100%;
-      text-align: right;
-
-      .trigger {
-        display: none;
-      }
-
-      .list {
-        display: inline-block;
-        text-align: left;
-        list-style: none;
-        margin: 0 -1em;
-
-        .item {
-          display: inline-block;
-
-          .item-link {
-            display: inline-block;
-            font-family: "Panton Bold";
-            color: #fff;
-            text-decoration: none;
-            margin: 1em;
-
-            &:hover, .active {
-              color: $html-color;
-            }
-          }
-        }
-      }
-    }
-
-    @media(max-width: 1023px) {
-      .logo, .menu {
-        display: block;
-        text-align: center;
-      }
-
-      .logo {
-        width: auto;
-      }
-
-      .menu {
-        margin-top: 1em;
-      }
-    }
   }
 
   .info {

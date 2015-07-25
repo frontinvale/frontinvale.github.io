@@ -1,16 +1,36 @@
 $(function(){
-  showRoom();
+  var frontInVale = function() {
+    function init() {
+      bindClickMenu();
+      bindClickShowRoom();
+    }
 
-  function showRoom(){
-    $(".days a").on("click", function(e){
-      e.preventDefault();
+    function bindClickMenu() {
+      $('.menu .item-link').on('click', function() {
+        var $this = $(this),
+            ref = $this.data().ref;
+        
+        $('html, body').animate({scrollTop: $(ref).offset().top}, {queue: false, duration: 600});
+        
+        return false;
+      });
+    }
 
-      var dayId = $(this).attr("href");
+    function bindClickShowRoom(){
+      $(".days a").on("click", function(e){
+        e.preventDefault();
 
-      $("*").removeClass("active");
+        var dayId = $(this).attr("href");
 
-      $(this).addClass("active");
-      $(dayId).addClass("active");
-    })
-  }
+        $("*").removeClass("active");
+
+        $(this).addClass("active");
+        $(dayId).addClass("active");
+      })
+    }
+
+    return {init: init};
+  }();
+
+  $(document).ready(frontInVale.init);
 })

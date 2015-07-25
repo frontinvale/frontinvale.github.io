@@ -107,7 +107,7 @@ a:hover {
     .row {
       padding: 0 25px; } }
 
-.v-align, .welcome .header .logo, .welcome .header .menu, .sponsors .sponsors-list .no-sponsor img, .sponsors .sponsors-list .no-sponsor p {
+.v-align, .header .logo, .header .menu, .sponsors .sponsors-list .no-sponsor img, .sponsors .sponsors-list .no-sponsor p {
   vertical-align: middle;
   display: table-cell; }
 
@@ -132,7 +132,7 @@ a:hover {
 .no-scroll {
   overflow: hidden; }
 
-.fit, .welcome .header .logo {
+.fit, .header .logo {
   width: 1%;
   white-space: nowrap; }
 
@@ -199,7 +199,58 @@ a:hover {
       min-width: 0;
       width: 100%; } }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 2em;
+  background-color: #ffb300;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  z-index: 1; }
+  .header .logo img, .header .logo span {
+    display: inline-block;
+    vertical-align: middle; }
+  .header .logo img {
+    width: 2em;
+    margin-right: 1em; }
+  .header .logo span {
+    color: #fff;
+    font-family: "Panton Light"; }
+    .header .logo span strong {
+      font-family: "Panton Bold"; }
+  .header .menu {
+    width: 100%;
+    text-align: right; }
+    .header .menu .trigger {
+      display: none; }
+    .header .menu .list {
+      display: inline-block;
+      text-align: left;
+      list-style: none;
+      margin: 0 -1em; }
+      .header .menu .list .item {
+        display: inline-block; }
+        .header .menu .list .item .item-link {
+          display: inline-block;
+          font-family: "Panton Bold";
+          color: #fff;
+          text-decoration: none;
+          margin: 1em; }
+          .header .menu .list .item .item-link:hover, .header .menu .list .item .item-link .active {
+            color: #f16529; }
+  @media (max-width: 1023px) {
+    .header .logo, .header .menu {
+      display: block;
+      text-align: center; }
+    .header .logo {
+      width: auto; }
+    .header .menu {
+      margin-top: 1em; } }
+
 .welcome {
+  min-height: 100%;
+  padding-top: 50px;
   position: relative; }
   @media (max-width: 1023px) {
     .welcome {
@@ -212,51 +263,6 @@ a:hover {
     top: 0;
     bottom: 0;
     background-color: #ffb300; }
-  .welcome .header {
-    position: relative;
-    display: table;
-    width: 100%;
-    padding: 2em 0;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.5); }
-    .welcome .header .logo img, .welcome .header .logo span {
-      display: inline-block;
-      vertical-align: middle; }
-    .welcome .header .logo img {
-      width: 2em;
-      margin-right: 1em; }
-    .welcome .header .logo span {
-      color: #fff;
-      font-family: "Panton Light"; }
-      .welcome .header .logo span strong {
-        font-family: "Panton Bold"; }
-    .welcome .header .menu {
-      width: 100%;
-      text-align: right; }
-      .welcome .header .menu .trigger {
-        display: none; }
-      .welcome .header .menu .list {
-        display: inline-block;
-        text-align: left;
-        list-style: none;
-        margin: 0 -1em; }
-        .welcome .header .menu .list .item {
-          display: inline-block; }
-          .welcome .header .menu .list .item .item-link {
-            display: inline-block;
-            font-family: "Panton Bold";
-            color: #fff;
-            text-decoration: none;
-            margin: 1em; }
-            .welcome .header .menu .list .item .item-link:hover, .welcome .header .menu .list .item .item-link .active {
-              color: #f16529; }
-    @media (max-width: 1023px) {
-      .welcome .header .logo, .welcome .header .menu {
-        display: block;
-        text-align: center; }
-      .welcome .header .logo {
-        width: auto; }
-      .welcome .header .menu {
-        margin-top: 1em; } }
   .welcome .info {
     position: relative;
     padding: 8em 0 4em 0; }
