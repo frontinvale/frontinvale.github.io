@@ -1,6 +1,6 @@
-.sponsors {
+.realization {
   background-color: #f2f2f2;
-  padding: 4em 0 0;
+  padding: 4em 0;
 
   h1 {
     font-family: "Panton Light";
@@ -8,7 +8,7 @@
     color: #333;
   }
 
-  .sponsors-list {
+  .realization-list {
     list-style: none;
     @include clearfix;
     font-size: 0;
@@ -18,18 +18,11 @@
     justify-content: center;
 
     .item {
-      display: table;
-      min-width: 300px;
-      min-height: 150px;
-      margin: 15px;
-      border: 1px solid #ccc;
       font-size: 1rem;
+      vertical-align: top;
+      display: inline-block;
+      margin: 15px;
       text-align: center;
-
-      a.item-info {
-        display: table-cell;
-        vertical-align: middle;
-      }
 
       .category {
         font-family: "Panton Light";
@@ -85,15 +78,13 @@
   }
 
   @media(max-width: 767px) {
-    .sponsors-list .item {
-      // width: calc(50% - 30px);
+    .realization-list .item {
     }
   }
 
   @media(max-width: 520px) {
-    .sponsors-list .item {
+    .realization-list .item {
       width: 100%;
-      margin: 15px 0;
     }
   }
 }

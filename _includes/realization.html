@@ -1,13 +1,12 @@
-<section class="sponsors" id="sponsors">
+<section class="realization" id="realization">
   <div class="row">
-    <h1>Patrocinadores</h1>
-    
-    <ul class="sponsors-list">
-      {% for sponsor in site.sponsors %}
+    <h1>Realizadores</h1>
+    <ul class="realization-list">
+      {% for filmmaker in site.filmmakers %}
       <li class="item">
-        <a href="{{sponsor.link}}" target="_blank" class="item-link">
+        <a href="{{filmmaker.link}}" target="_blank" class="item-link">
           <div class="imgs">
-            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+            <img src="{{filmmaker.logo}}" alt="{{filmmaker.name}}">
           </div>
         </a>
       </li>

@@ -107,7 +107,7 @@ a:hover {
     .row {
       padding: 0 25px; } }
 
-.v-align, .header .logo, .header .menu, .sponsors .sponsors-list .no-sponsor img, .sponsors .sponsors-list .no-sponsor p {
+.v-align, .header .logo, .header .menu, .realization .realization-list .no-sponsor img, .realization .realization-list .no-sponsor p, .sponsors .sponsors-list .no-sponsor img, .sponsors .sponsors-list .no-sponsor p {
   vertical-align: middle;
   display: table-cell; }
 
@@ -162,7 +162,7 @@ a:hover {
     html .welcome .info h1, body .welcome .info h1 {
       font-size: 2em; }
     html .sponsors .sponsors-list .item .imgs img, body .sponsors .sponsors-list .item .imgs img {
-      height: 10em; }
+      height: 13em; }
     html .footer img, body .footer img {
       padding-right: 1em; } }
 @media (max-width: 319px) {
@@ -358,6 +358,63 @@ a:hover {
     color: #fff;
     font-family: "Panton Light"; }
 
+.realization {
+  background-color: #f2f2f2;
+  padding: 4em 0; }
+  .realization h1 {
+    font-family: "Panton Light";
+    text-align: center;
+    color: #333; }
+  .realization .realization-list {
+    list-style: none;
+    font-size: 0;
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .realization .realization-list:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .realization .realization-list .item {
+      font-size: 1rem;
+      vertical-align: top;
+      display: inline-block;
+      margin: 15px;
+      text-align: center; }
+      .realization .realization-list .item .category {
+        font-family: "Panton Light";
+        color: #333; }
+      .realization .realization-list .item .imgs {
+        padding-top: 25px; }
+        .realization .realization-list .item .imgs img {
+          height: 12em;
+          margin-right: 1em;
+          display: block;
+          margin: 0 auto; }
+      .realization .realization-list .item .item-link {
+        text-decoration: none; }
+      .realization .realization-list .item .link {
+        font-style: italic; }
+    .realization .realization-list .no-sponsor {
+      background-color: #eaeaea;
+      display: table;
+      padding: 15px;
+      min-width: 20em; }
+      .realization .realization-list .no-sponsor:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%; }
+      .realization .realization-list .no-sponsor img {
+        margin-right: 1em;
+        width: 3em; }
+      .realization .realization-list .no-sponsor p {
+        color: #333; }
+  @media (max-width: 520px) {
+    .realization .realization-list .item {
+      width: 100%; } }
+
 .schedule {
   padding: 4em 0; }
   .schedule h1 {
@@ -425,7 +482,7 @@ a:hover {
 
 .sponsors {
   background-color: #f2f2f2;
-  padding: 4em 0; }
+  padding: 4em 0 0; }
   .sponsors h1 {
     font-family: "Panton Light";
     text-align: center;
@@ -433,17 +490,25 @@ a:hover {
   .sponsors .sponsors-list {
     list-style: none;
     font-size: 0;
-    margin: 0 -15px; }
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
     .sponsors .sponsors-list:after {
       content: "";
       display: table;
       clear: both; }
     .sponsors .sponsors-list .item {
-      font-size: 1rem;
-      vertical-align: top;
-      display: inline-block;
+      display: table;
+      min-width: 300px;
+      min-height: 150px;
       margin: 15px;
-      width: calc(25% - 30px); }
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      text-align: center; }
+      .sponsors .sponsors-list .item a.item-info {
+        display: table-cell;
+        vertical-align: middle; }
       .sponsors .sponsors-list .item .category {
         font-family: "Panton Light";
         color: #333; }
@@ -452,7 +517,8 @@ a:hover {
         .sponsors .sponsors-list .item .imgs img {
           height: 12em;
           margin-right: 1em;
-          display: inline-block; }
+          display: block;
+          margin: 0 auto; }
       .sponsors .sponsors-list .item .item-link {
         text-decoration: none; }
       .sponsors .sponsors-list .item .link {
@@ -472,12 +538,10 @@ a:hover {
         width: 3em; }
       .sponsors .sponsors-list .no-sponsor p {
         color: #333; }
-  @media (max-width: 767px) {
+  @media (max-width: 520px) {
     .sponsors .sponsors-list .item {
-      width: calc(50% - 30px); } }
-  @media (max-width: 319px) {
-    .sponsors .sponsors-list .item {
-      width: 100%; } }
+      width: 100%;
+      margin: 15px 0; } }
 
 .footer {
   padding: 2em 0;

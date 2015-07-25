@@ -10,7 +10,7 @@ $(function(){
         var $this = $(this),
             ref = $this.data().ref;
         
-        $('html, body').animate({scrollTop: $(ref).offset().top}, {queue: false, duration: 600});
+        $('html, body').animate({scrollTop: $(ref).offset().top - 85}, {queue: false, duration: 600});
         
         return false;
       });
