@@ -238,7 +238,8 @@ a:hover {
           text-decoration: none;
           margin: 1em; }
           .header .menu .list .item .item-link:hover, .header .menu .list .item .item-link .active {
-            color: #f16529; }
+            color: #ffb300;
+            text-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
   @media (max-width: 1023px) {
     .header .logo, .header .menu {
       display: block;

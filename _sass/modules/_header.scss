@@ -60,7 +60,8 @@
           margin: 1em;
 
           &:hover, .active {
-            color: $html-color;
+            color: $js-color;
+            text-shadow: 0 0 4px rgba(0,0,0,0.3);
           }
         }
       }
