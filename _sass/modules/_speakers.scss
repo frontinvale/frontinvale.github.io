@@ -31,6 +31,19 @@
         img {
           display: block;
           width: 100%;
+          -webkit-transition: all 300ms ease;
+          transition: all 300ms ease;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+
+      a {
+        display: block;
+
+        &:hover img {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
         }
       }
 

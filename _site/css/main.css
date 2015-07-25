@@ -323,7 +323,16 @@ a:hover {
         overflow: hidden; }
         .speakers .speakers-list .speaker .photo img {
           display: block;
-          width: 100%; }
+          width: 100%;
+          -webkit-transition: all 300ms ease;
+          transition: all 300ms ease;
+          -webkit-transform: scale(1);
+          transform: scale(1); }
+      .speakers .speakers-list .speaker a {
+        display: block; }
+        .speakers .speakers-list .speaker a:hover img {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
       .speakers .speakers-list .speaker .speaker-link {
         text-decoration: none; }
       .speakers .speakers-list .speaker .speaker-name {
