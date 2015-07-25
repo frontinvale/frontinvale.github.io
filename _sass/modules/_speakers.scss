@@ -33,8 +33,8 @@
           width: 100%;
           -webkit-transition: all 300ms ease;
           transition: all 300ms ease;
-          -webkit-transform: scale(1);
-          transform: scale(1);
+          -webkit-transform: scale(1) rotate(0deg);
+          transform: scale(1) rotate(0deg);
         }
       }
 
@@ -42,8 +42,8 @@
         display: block;
 
         &:hover img {
-          -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+          -webkit-transform: scale(1.16) rotate(10deg);
+          transform: scale(1.16) rotate(10deg);
         }
       }
 
