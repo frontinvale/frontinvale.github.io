@@ -192,4 +192,16 @@
       // margin-top: 1em;
     }
   }
+
+  @media(max-width: 480px) {
+    .logo {
+      .logo-text {
+        width: 200px;
+      }
+    }
+
+    .menu-control {
+      right: 20px;
+    }
+  }
 }
