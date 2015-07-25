@@ -1,6 +1,6 @@
 ---
 name: "Levit"
 quota: "Realização"
-link: "#"
+link: "http://levit.co"
 logo: "images/sponsors/levit.svg"
 ---

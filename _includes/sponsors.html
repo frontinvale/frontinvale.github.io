@@ -4,14 +4,14 @@
     <ul class="sponsors-list">
       {% for sponsor in site.sponsors %}
         <li class="item">
-          {% if sponsor.name.present? %}
+          {% if sponsor.name != "" %}
             <a href="{{sponsor.link}}" target="_blank" class="item-link">
               <div class="imgs">
                 <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
               </div>
             </a>
           {% else %}
-            <a href="#receber-informacoes" class="item-info">
+            <a href="https://docs.google.com/forms/d/1qe8-FHAjiVqp6b83SmKiZ0s67Ek5URdAKaDd5ztzr4o/viewform" title="Cadastrar interesse." target="_blank" class="item-info">
               Tem interesse em <br>
               Patrocionar / Apoiar
             </a>

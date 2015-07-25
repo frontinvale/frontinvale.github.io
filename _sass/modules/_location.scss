@@ -2,6 +2,7 @@
   text-align: center;
   padding: 8em 0;
   @include background("../images/place.jpg");
+  background-attachment: fixed;
   position: relative;
 
   &:before {

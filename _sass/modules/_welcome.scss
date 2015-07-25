@@ -15,12 +15,13 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: #ffb300;
+    background: #ffb300 url(../images/bg-header.png) fixed;
   }
 
   .info {
     position: relative;
     padding: 8em 0 4em 0;
+    text-align: center;
 
     h1 {
       font-size: 4em;
@@ -33,7 +34,7 @@
     }
 
     p {
-      font-family: "Panton Light";
+      font-family: "Panton Bold";
       margin: .5em 0 2em 0;
     }
 
