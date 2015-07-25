@@ -2,5 +2,5 @@
 name: "Levit"
 quota: "Realização"
 link: "http://levit.co"
-logo: "images/sponsors/levit.svg"
+logo: "images/filmmakers/levit.svg"
 ---
