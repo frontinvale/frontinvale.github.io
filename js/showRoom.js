@@ -34,4 +34,4 @@ $(function(){
   }();
 
   $(document).ready(frontInVale.init);
-})
+});
