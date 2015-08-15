@@ -1,6 +1,68 @@
 <section class="sponsors" id="sponsors">
   <div class="row">
     <h1>Patrocinadores</h1>
+    
+    <h2>Ouro</h2>
+    <ul class="sponsors-list">
+      {% for sponsor in site.sponsors-ouro %}
+        <li class="item">
+          {% if sponsor.name != "" %}
+            <a href="{{sponsor.link}}" target="_blank" class="item-link">
+              <div class="imgs">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+              </div>
+            </a>
+          {% else %}
+            <a href="https://docs.google.com/forms/d/1qe8-FHAjiVqp6b83SmKiZ0s67Ek5URdAKaDd5ztzr4o/viewform" title="Cadastrar interesse." target="_blank" class="item-info">
+              Tem interesse em <br>
+              Patrocinar / Apoiar
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Prata</h2>
+    <ul class="sponsors-list">
+      {% for sponsor in site.sponsors-prata %}
+        <li class="item">
+          {% if sponsor.name != "" %}
+            <a href="{{sponsor.link}}" target="_blank" class="item-link">
+              <div class="imgs">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+              </div>
+            </a>
+          {% else %}
+            <a href="https://docs.google.com/forms/d/1qe8-FHAjiVqp6b83SmKiZ0s67Ek5URdAKaDd5ztzr4o/viewform" title="Cadastrar interesse." target="_blank" class="item-info">
+              Tem interesse em <br>
+              Patrocinar / Apoiar
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Bronze</h2>
+    <ul class="sponsors-list">
+      {% for sponsor in site.sponsors-bronze %}
+        <li class="item">
+          {% if sponsor.name != "" %}
+            <a href="{{sponsor.link}}" target="_blank" class="item-link">
+              <div class="imgs">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+              </div>
+            </a>
+          {% else %}
+            <a href="https://docs.google.com/forms/d/1qe8-FHAjiVqp6b83SmKiZ0s67Ek5URdAKaDd5ztzr4o/viewform" title="Cadastrar interesse." target="_blank" class="item-info">
+              Tem interesse em <br>
+              Patrocinar / Apoiar
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Apoiadores</h2>
     <ul class="sponsors-list">
       {% for sponsor in site.sponsors %}
         <li class="item">

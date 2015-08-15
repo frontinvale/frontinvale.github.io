@@ -13,5 +13,8 @@ markdown: kramdown
 
 collections:
 - sponsors
+- sponsors-ouro
+- sponsors-prata
+- sponsors-bronze
 - speakers
 - filmmakers

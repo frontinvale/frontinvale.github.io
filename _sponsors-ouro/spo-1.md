@@ -1,6 +1,6 @@
 ---
 name: ""
-quota: "Apoiadores"
+quota: "Ouro"
 link: ""
 logo: ""
 ---

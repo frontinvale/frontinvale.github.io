@@ -1,6 +1,6 @@
 ---
 name: ""
-quota: "Realização"
+quota: "Apoiadores"
 link: ""
 logo: ""
 ---

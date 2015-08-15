@@ -301,7 +301,7 @@ a:hover {
       bottom: 0;
       width: 200px;
       background-color: #E55126;
-      box-shadow: -1px 0 2px #fff;
+      box-shadow: -1px 0 2px rgba(0, 0, 0, 0.5);
       -webkit-transform: translate(102%, 0);
       transform: translate(102%, 0);
       -webkit-transition: all 350ms;
@@ -593,13 +593,19 @@ a:hover {
   background-color: #f2f2f2;
   padding: 4em 0 0; }
   .sponsors h1 {
+    color: #333;
+    margin-bottom: 50px;
+    text-align: center; }
+  .sponsors h2 {
     font-family: "Panton Light";
+    font-size: 1.8em;
     text-align: center;
     color: #333; }
   .sponsors .sponsors-list {
     list-style: none;
     font-size: 0;
     margin: 0 -15px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
@@ -609,8 +615,8 @@ a:hover {
       clear: both; }
     .sponsors .sponsors-list .item {
       display: table;
-      min-width: 300px;
-      min-height: 150px;
+      min-width: 280px;
+      min-height: 90px;
       margin: 15px;
       font-size: 1rem;
       text-align: center;
