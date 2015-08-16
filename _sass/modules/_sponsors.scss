@@ -32,8 +32,8 @@
       margin: 15px;
       font-size: 1rem;
       text-align: center;
-      border: 1px solid #ccc;
-      background-color: #fff;
+      // border: 1px solid #ccc;
+      // background-color: #fff;
 
       a.item-info {
         display: table-cell;
@@ -46,18 +46,31 @@
         color: #333;
       }
 
-      .imgs {
-        padding-top: 25px;
+      .item-link {
+        // padding-top: 25px;
 
         img {
           height: 12em;
-          margin-right: 1em;
+          max-height: 120px;
           display: block;
           margin: 0 auto;
+          
+          &.item-img-silver {
+            max-height: 100px;
+          }
+
+          &.item-img-bronze {
+            max-height: 80px;
+          }
+
+          &.item-img-supporter {
+            max-height: 60px;
+          }
         }
       }
 
       .item-link {
+        display: block;
         text-decoration: none;
       }
 
