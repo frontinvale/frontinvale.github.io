@@ -1,6 +1,6 @@
 ---
-name: ""
+name: "TopTal"
 quota: "Prata"
-link: ""
-logo: ""
+link: "http://www.toptal.com/?utm_source=frontinvale"
+logo: "images/sponsors/toptal.svg"
 ---

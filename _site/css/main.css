@@ -1,15 +1,19 @@
 @font-face {
   font-family: "Panton Bold";
   src: url("../fonts/Panton-BlackCaps.otf"); }
+
 @font-face {
   font-family: "Panton Bold Italic";
   src: url("../fonts/Panton-BlackitalicCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light";
   src: url("../fonts/Panton-LightCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light Italic";
   src: url("../fonts/Panton-LightitalicCaps.otf"); }
+
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-family: "Panton Bold"; }
@@ -48,15 +52,19 @@ a:hover {
 @font-face {
   font-family: "Panton Bold";
   src: url("../fonts/Panton-BlackCaps.otf"); }
+
 @font-face {
   font-family: "Panton Bold Italic";
   src: url("../fonts/Panton-BlackitalicCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light";
   src: url("../fonts/Panton-LightCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light Italic";
   src: url("../fonts/Panton-LightitalicCaps.otf"); }
+
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-family: "Panton Bold"; }

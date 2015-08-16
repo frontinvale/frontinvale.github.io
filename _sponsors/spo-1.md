@@ -1,6 +1,6 @@
 ---
-name: ""
+name: "Google"
 quota: "Apoiadores"
-link: ""
-logo: ""
+link: "https://www.google.com.br/"
+logo: "images/sponsors/google.svg"
 ---

@@ -1,6 +1,6 @@
 ---
-name: ""
+name: "Novatec"
 quota: "Apoiadores"
-link: ""
-logo: ""
+link: "http://novatec.com.br/?utm_source=frontinvale"
+logo: "images/sponsors/novatec.svg"
 ---
