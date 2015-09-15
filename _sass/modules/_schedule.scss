@@ -32,7 +32,7 @@
       position: relative;
       display: block;
       padding: 0 25px;
-      margin: 25px 0;
+      margin: 25px 0 50px 0;
       @include clearfix;
 
       .pull-right,
@@ -61,6 +61,7 @@
       .title {
         color: $css-color;
         font-family: "Panton Light";
+        font-weight: bold;
 
         time {
           color: #333;
@@ -71,6 +72,12 @@
       .speaker {
         margin-top: .5em;
         font-family: "Panton Light";
+        color: #333;
+      }
+
+      .talk-description {
+        margin-top: .5em;
+        font-family: Helvetica, sans-serif;
         color: #333;
       }
     }
