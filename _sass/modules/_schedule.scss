@@ -58,6 +58,11 @@
         background-color: white;
       }
 
+      .speaker-image {
+        width: 100%;
+        max-width: 350px;
+      }
+
       .title {
         color: $css-color;
         font-family: "Panton Light";
