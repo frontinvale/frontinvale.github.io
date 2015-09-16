@@ -1,6 +1,6 @@
 ---
-name: "Locaweb"
+name: "HE:Labs"
 quota: "Bronze"
-link: "http://www.locaweb.com.br/default.html?utm_source=frontinvale"
-logo: "images/sponsors/logo-locaweb.svg"
+link: "http://helabs.com?utm_source=frontinvale"
+logo: "images/sponsors/helabs.svg"
 ---
