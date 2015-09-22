@@ -201,11 +201,28 @@
     .logo {
       .logo-text {
         width: 200px;
+        margin: 0 auto; 
       }
     }
 
     .menu-control {
       right: 20px;
+    }
+  }
+
+  @media(max-width: 340px) {
+    .menu-control {
+      top: 22px;
+    }
+
+    .logo {
+      img.logo-icon {
+        width: 40px;
+      }
+
+      .logo-text {
+        width: 170px;
+      }
     }
   }
 }

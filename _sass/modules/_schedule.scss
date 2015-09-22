@@ -93,4 +93,28 @@
       display: block;
     }
   }
+
+  @media(max-width: 480px) {
+    .room {
+      &:before {
+        display: none;
+      }
+
+      .lecture {
+        padding: 8px 0;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+
+        &:before {
+          display: none;
+        }
+
+        .pull-right,
+        .pull-left {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    }
+  }
 }
