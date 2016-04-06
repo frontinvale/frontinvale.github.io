@@ -1,0 +1,139 @@
+$baseColor: #262938
+
+%title
+  font-size: 48px
+  font-weight: 700  
+
+html, body
+  height: 100%
+
+.fv-body
+  background: #fff //url(/images/temp.png) no-repeat center 0
+  font-family: 'Droid Sans', sans-serif
+  font-weight: 400
+
+.fv-body *
+  margin: 0
+  padding: 0
+
+.fv-header
+  height: 100%
+  min-height: 500px
+  background: $baseColor url(/images/bg-header.jpg) no-repeat center center
+  background-size: cover
+
+  display: flex
+  justify-content: center
+  flex-direction: column
+
+  p
+    color: #fff
+    font-size: 48px
+    letter-spacing: 1px
+    text-align: center
+
+    strong
+      font-weight: 700
+
+    & + p
+      font-size: 40px
+
+.fv-title
+  text-align: center
+  a
+    display: inline-block
+    text-decoration: none
+
+    img
+      display: block
+      margin: 0 auto
+
+      &:first-of-type
+        margin-bottom: 20px
+
+.fv-social
+  position: absolute
+  top: 33px
+  left: 50%
+  transform: translate(-50%, 0)
+
+  a
+    display: inline-block
+    margin: 0 5px
+
+  img
+    width: 40px
+
+.fv-message
+  padding: 48px 20px
+  font-size: 40px
+  text-align: center
+
+.fv-spot
+  color: #fff
+  min-height: 338px
+  text-align: center
+  background: $baseColor url(/images/bg-spot.png) no-repeat center center
+
+  display: flex
+  justify-content: center
+  flex-direction: column
+
+  h2
+    @extend %title
+
+  address
+    padding-top: 14px
+    font-size: 22px
+    font-style: normal
+
+.fv-last-edition
+  color: #1f2436
+  text-align: center
+  padding: 40px
+
+  h2
+    padding-bottom: 93px
+    @extend %title
+
+  div
+    max-width: 980px
+    margin: 0 auto
+
+    &:after
+      content: ""
+      display: block
+      clear: both
+
+  a
+    float: left
+    color: #1f2436
+    display: inline-block
+    text-decoration: none
+    @extend %title
+
+    &:last-of-type
+      float: right
+
+    &:hover
+      img
+        transform: scale(1.2)
+
+  img
+    display: block
+    max-width: 335px
+    margin-bottom: 90px
+    transition: transform 0.5s ease-in-out
+    transform: scale(1)
+
+.fv-footer
+  padding: 10px 20px
+  text-align: center
+  background-color: #1f2436
+
+  a
+    display: inline-block
+    margin: 0 20px
+  
+  img
+    max-width: 100px
