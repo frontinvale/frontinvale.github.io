@@ -1,4 +1,4 @@
-FrontInVale 2015
+FrontInVale 2016
 
 
 ### Set up & Install dependencies
@@ -22,4 +22,5 @@ http://localhost:4000
 ```
 
 ### Credits
+This project was created by [CSS4HTML](http://www.css4html.com.br)
 This project was created by [Designa](http://www.designa.com.br)
