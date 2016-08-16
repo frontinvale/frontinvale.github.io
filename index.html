@@ -3,32 +3,271 @@ layout: landing
 ---
 
 <header class="fv-header">
-  <h1 class="fv-title">
-    <a href="http://frontinvale.com.br">
-      <img class="logo-icon" src="images/logo-frontinvale.svg" alt="Logo Front in Vale 2016">
-      <img class="logo-text" src="images/font-logo-frontinvale.svg" alt="Front in Vale 2016">
-    </a>
-  </h1>
+  <input type="checkbox" id="menu-control">
+  <label for="menu-control" class="menu-control"></label>
+  <label for="menu-control" class="menu-control-close"></label>
 
-  <p class='fv-links'>
-    <a href="http://www.eventick.com.br/frontinvale2016" target="_blank">INSCREVA-SE</a>
-    <a href="http://bit.ly/frontinvalec4p" target="_blank">CALL4PAPERS</a>
-  </p>
-
-  <p>10 set 2016</p>
-
-  <div class="fv-social">
-    <a href="https://www.facebook.com/frontinvale" target="_blank" title="Curta nossa fanpage.">
-      <img src="images/icon-facebook.svg" alt="Facebook">
+  <nav>
+    <a href="{{ site.baseurl }}/" data-ref=".fv-welcome" title="{{ site.title }}">
+      <img src="images/logo-frontinvale.svg" alt="{{ site.title }}" width="60">
     </a>
-    <a href="https://twitter.com/frontinvale" target="_blank" title="Siga-nos no twitter.">
-      <img src="images/icon-twitter.svg" alt="Twitter">
-    </a>
-    <a href="http://bit.ly/frontinvale2015-videos" target="_blank" title="Siga-nos no youtube.">
-      <img src="images/icon-youtube.svg" alt="Youtube">
-    </a>
-    <a href="http://bit.ly/farohotel-maps" target="_blank" title="Veja o lugar do evento.">
-      <img src="images/icon-maps.svg" alt="Google Maps">
-    </a>
-  </div>
+    <ul>
+      <li>
+        <a href="#about" data-ref="#about">Sobre</a>
+      </li>
+      <li>
+        <a href="#talkers" data-ref="#talkers">Palestrantes</a>
+      </li>
+      <li>
+        <a href="#place" data-ref="#place">Local</a>
+      </li>
+      <li>
+        <a href="#schedule" data-ref="#schedule">Programação</a>
+      </li>
+      <li>
+        <a href="#sponsors" data-ref="#sponsors">Patrocinadores</a>
+      </li>
+      <li>
+        <a href="{{ site.eventick }}" target="_blank">Inscreva-se agora</a>
+      </li>
+    </ul>
+  </nav>
 </header>
+
+<section class="fv-welcome">
+  <div class="fv-middle">
+    <p>Segunda Edição</p>
+    <h1>{{ site.title }}</h1>
+    <p>Sábado, 10 de Setembro de 2016</p>
+    <a href="{{ site.eventick }}" target="_blank" class="fv-join">Inscreva-se agora</a>
+    <div class="fv-social">
+      <a href="https://www.facebook.com/frontinvale" target="_blank" title="Curta nossa fanpage.">
+        <img src="images/icon-facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://twitter.com/frontinvale" target="_blank" title="Siga-nos no twitter.">
+        <img src="images/icon-twitter.svg" alt="Twitter">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="fv-about">
+  <div class="fv-middle">
+    <h2>Sobre o evento</h2>
+    <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Interagi no mé, cursus quis, vehicula ac nisi. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.</p>
+  </div>
+</section>
+
+<section id="talkers" class="fv-talkers">
+  <h2>Palestrantes</h2>
+  <ul class="fv-speakers">
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+  </ul>
+
+  <h2>Lightning talks</h2>
+  <ul class="fv-lightning">
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/160/160">
+      <span>Silvio Rodrigues</span>
+    </li>
+  </ul>
+</section>
+
+<section id="place" class="fv-place">
+  <div class="fv-middle">
+    <h2>Coordenadas</h2>
+    <p>23°11'55.8"S 45°53'01.6"W</p>
+    <a href="http://bit.ly/farohotel-maps" target="_blank" class="fv-maps">Abrir no Google Maps</a>
+  </div>
+</section>
+
+<section id="schedule" class="fv-schedule">
+  <h2>Programação</h2>
+  <ol>
+    <li>
+      <h3>08:00 - Credenciamento / Welcome Coffee</h3>
+    </li>
+    <li>
+      <h3>08:40 - Abertura oficial</h3>
+    </li>
+    <li>
+      <h3>09:00 - Falando sobre Cultura de Desenvolvimento</h3>
+      <p>POR RAPHAEL FABENI</p>
+      <p>Trabalhar no mundo da web muitas vezes é visto como algo duro e cansativo: pressão, prazos e stress são alguns dos fatores que podem desmotivar muitas pessoas. Nessa talk vamos passar por alguns pontos já aplicados no dia a dia da Netshoes, que juntos, podem auxiliar a criar e manter uma cultura de desenvolvimento no seu time.</p>
+    </li>
+    <li>
+      <h3>08:40 - Abertura oficial</h3>
+      <p>POR RAPHAEL FABENI</p>
+      <p>Trabalhar no mundo da web muitas vezes é visto como algo duro e cansativo: pressão, prazos e stress são alguns dos fatores que podem desmotivar muitas pessoas. Nessa talk vamos passar por alguns pontos já aplicados no dia a dia da Netshoes, que juntos, podem auxiliar a criar e manter uma cultura de desenvolvimento no seu time.</p>
+    </li>
+    <li>
+      <h3>08:40 - Abertura oficial</h3>
+      <p>POR RAPHAEL FABENI</p>
+      <p>Trabalhar no mundo da web muitas vezes é visto como algo duro e cansativo: pressão, prazos e stress são alguns dos fatores que podem desmotivar muitas pessoas. Nessa talk vamos passar por alguns pontos já aplicados no dia a dia da Netshoes, que juntos, podem auxiliar a criar e manter uma cultura de desenvolvimento no seu time.</p>
+    </li>
+    <li>
+      <h3>08:40 - Abertura oficial</h3>
+      <p>POR RAPHAEL FABENI</p>
+      <p>Trabalhar no mundo da web muitas vezes é visto como algo duro e cansativo: pressão, prazos e stress são alguns dos fatores que podem desmotivar muitas pessoas. Nessa talk vamos passar por alguns pontos já aplicados no dia a dia da Netshoes, que juntos, podem auxiliar a criar e manter uma cultura de desenvolvimento no seu time.</p>
+    </li>
+    <li>
+      <h3>08:40 - Abertura oficial</h3>
+      <p>POR RAPHAEL FABENI</p>
+      <p>Trabalhar no mundo da web muitas vezes é visto como algo duro e cansativo: pressão, prazos e stress são alguns dos fatores que podem desmotivar muitas pessoas. Nessa talk vamos passar por alguns pontos já aplicados no dia a dia da Netshoes, que juntos, podem auxiliar a criar e manter uma cultura de desenvolvimento no seu time.</p>
+    </li>
+    <li>
+      <h3>08:40 - Abertura oficial</h3>
+      <p>POR RAPHAEL FABENI</p>
+      <p>Trabalhar no mundo da web muitas vezes é visto como algo duro e cansativo: pressão, prazos e stress são alguns dos fatores que podem desmotivar muitas pessoas. Nessa talk vamos passar por alguns pontos já aplicados no dia a dia da Netshoes, que juntos, podem auxiliar a criar e manter uma cultura de desenvolvimento no seu time.</p>
+    </li>
+  </ol>
+</section>
+
+<section id="sponsors" class="fv-sponsors">
+  <h2>Ouro</h2>
+  <ul>
+    <li>
+      <a href="http://www.locaweb.com.br/default.html?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-locaweb.svg" alt="Locaweb" width="488">
+      </a>
+    </li>
+  </ul>
+
+  <h2>Prata</h2>
+  <ul>
+    <li>
+      <a href="http://www.toptal.com/?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="237">
+      </a>
+    </li>
+    <li>
+      <a href="http://www.embras.net/?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="237">
+      </a>
+    </li>
+  </ul>
+
+  <h2>Bronze</h2>
+  <ul>
+    <!-- <li>
+      <a href="https://docs.google.com/forms/d/1qe8-FHAjiVqp6b83SmKiZ0s67Ek5URdAKaDd5ztzr4o/viewform" title="Cadastrar interesse." target="_blank" class="item-info">
+        Tem interesse em <br>
+        Patrocinar / Apoiar
+      </a>
+    </li> -->
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <!-- <li>
+      <a href="https://docs.google.com/forms/d/1qe8-FHAjiVqp6b83SmKiZ0s67Ek5URdAKaDd5ztzr4o/viewform" title="Cadastrar interesse." target="_blank" class="item-info">
+        Tem interesse em <br>
+        Patrocinar / Apoiar
+      </a>
+    </li> -->
+  </ul>
+
+  <h2>Apoiadores</h2>
+  <ul>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+    <li>
+      <a href="http://helabs.com?utm_source=frontinvale" target="_blank">
+        <img src="images/logo-focusnetworks.svg" alt="TopTal" width="184">
+      </a>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <h2>Realização</h2>
+
+  <a href="http://designa.com.br/" target="_blank">
+    <img src="/images/logo-designa.svg" alt="DESIGNA" width="113">
+  </a>
+  <a href="http://css4html.com.br/" target="_blank">
+    <img src="/images/logo-css4html.svg" alt="CSS4HTML" width="145">
+  </a>
+
+  <p>©Copyright 2016 - todos os direitos reservados</p>
+</footer>

@@ -6,14 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 title: Front in Vale
-year: 2015
+year: 2016
 email: contato@frontinvale.com.br
-description: Primeiro evento de front-end no Vale do Paraíba.
+description: Segundo evento de front-end no Vale do Paraíba.
 keywords: 'frontend, front-end, html, html5, css, css3, javascript, js'
 baseurl: ""
 image_social: '/images/frontinvale-social.png'
 url: "http://frontinvale.com.br"
 twitter_username: frontinvale
 github_username:  frontinvale
+eventick: http://www.eventick.com.br/frontinvale2016
 
 markdown: kramdown
