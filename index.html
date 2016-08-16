@@ -1,40 +1,7 @@
 ---
 layout: landing
 ---
-
-<header class="fv-header">
-  <input type="checkbox" id="menu-control">
-  <label for="menu-control" class="menu-control"></label>
-  <label for="menu-control" class="menu-control-close"></label>
-
-  <nav>
-    <a href="{{ site.baseurl }}/" data-ref=".fv-welcome" title="{{ site.title }}">
-      <img src="images/logo-frontinvale.svg" alt="{{ site.title }}" width="60">
-    </a>
-    <ul>
-      <li>
-        <a href="#about" data-ref="#about">Sobre</a>
-      </li>
-      <li>
-        <a href="#talkers" data-ref="#talkers">Palestrantes</a>
-      </li>
-      <li>
-        <a href="#place" data-ref="#place">Local</a>
-      </li>
-      <li>
-        <a href="#schedule" data-ref="#schedule">Programação</a>
-      </li>
-      <li>
-        <a href="#sponsors" data-ref="#sponsors">Patrocinadores</a>
-      </li>
-      <li>
-        <a href="{{ site.eventick }}" target="_blank">Inscreva-se agora</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-<section class="fv-welcome">
+<section id="welcome" class="fv-welcome">
   <div class="fv-middle">
     <p>Segunda Edição</p>
     <h1>{{ site.title }}</h1>
@@ -258,6 +225,38 @@ layout: landing
     </li>
   </ul>
 </section>
+
+<header class="fv-header">
+  <input type="checkbox" id="menu-control">
+  <label for="menu-control" class="menu-control"></label>
+  <label for="menu-control" class="menu-control-close"></label>
+
+  <nav>
+    <a href="#welcome" title="{{ site.title }}">
+      <img src="images/logo-frontinvale.svg" alt="{{ site.title }}" width="60">
+    </a>
+    <ul>
+      <li>
+        <a href="#about">Sobre</a>
+      </li>
+      <li>
+        <a href="#talkers">Palestrantes</a>
+      </li>
+      <li>
+        <a href="#place" >Local</a>
+      </li>
+      <li>
+        <a href="#schedule" >Programação</a>
+      </li>
+      <li>
+        <a href="#sponsors" >Patrocinadores</a>
+      </li>
+      <li>
+        <a href="{{ site.eventick }}" target="_blank">Inscreva-se agora</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
 <footer>
   <h2>Realização</h2>

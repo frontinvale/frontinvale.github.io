@@ -4,6 +4,24 @@ body
   width: 100%
   font-family: 'cpmono_v07plain'
 
+body
+  &::after
+    content: ""
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 20
+    opacity: 0
+    visibility: hidden
+    transition: all 0.5s ease-in-out
+    background: #fff url(/images/loading.gif) no-repeat center center
+
+  &.fv-loading::after
+    visibility: visible
+    opacity: 1
+
 header
   position: fixed
   top: 0
@@ -44,7 +62,7 @@ header
       color: #fff
       position: relative
 
-      &:after
+      &::after
         content: ""
         display: block
         height: 2px
@@ -61,19 +79,30 @@ header
         text-decoration: none
         color: #fff
 
-        &:after
-          visibility: visible
-          opacity: 1
-          right: 0
-          left: 0
-
       &:visited
         color: #fff
+
+      &:hover::after,
+      &.fv-on::after
+        visibility: visible
+        opacity: 1
+        right: 0
+        left: 0
 
   input
     position: fixed
     left: -9999px
     opacity: 0
+
+// $sections: about, talkers, place, schedule, sponsors
+
+// // @each $section in $sections
+// //   section##{$section}:target ~ header
+// //     a[href="##{$section}"]::after
+// //       visibility: visible
+// //       opacity: 1
+// //       right: 0
+// //       left: 0
 
 section
   position: relative
