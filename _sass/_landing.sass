@@ -28,78 +28,152 @@ header
   right: 0
   width: 100%
   padding: 33px 20px 0
+  box-sizing: border-box
   font-size: 12px
-  z-index: 2
-
-  nav
-    max-width: 940px
-    margin: 0 auto
-
-  ul
-    float: right
-
-    li
-      float: left
-      padding: 18px 15px
-      list-style: none
-
-      &:last-child
-        padding: 2px 0 0 18px
-
-        a
-          padding: 13px 10px
-          border: 3px solid #fff
-          transition: all 0.3s ease-in-out
-
-          &:after
-            display: none
-
-          &:hover
-            box-shadow: inset 0 0 37px 18px #067E6F
-
-    a
-      display: block
-      color: #fff
-      position: relative
-
-      &::after
-        content: ""
-        display: block
-        height: 2px
-        position: absolute
-        bottom: -5px
-        right: 45%
-        left: 45%
-        background: #fff
-        opacity: 0
-        visibility: hidden
-        transition: all 0.3s ease-in-out
-
-      &:hover
-        text-decoration: none
-        color: #fff
-
-      &:visited
-        color: #fff
-
-      &:hover::after,
-      &.fv-on::after
-        visibility: visible
-        opacity: 1
-        right: 0
-        left: 0
+  z-index: 16
 
   input
     position: fixed
     left: -9999px
     opacity: 0
 
+  nav
+    max-width: 940px
+    margin: 0 auto
+  
+  @media only screen and (min-width: 850px)
+    ul
+      float: right
+
+      li
+        float: left
+        padding: 18px 15px
+        list-style: none
+
+        &:last-child
+          padding: 2px 0 0 18px
+
+          a
+            padding: 13px 10px
+            border: 3px solid #fff
+            transition: all 0.3s ease-in-out
+
+            &:after
+              display: none
+
+            &:hover
+              box-shadow: inset 0 0 37px 18px #067E6F
+
+      a
+        display: block
+        color: #fff
+        position: relative
+
+        &::after
+          content: ""
+          display: block
+          height: 2px
+          position: absolute
+          bottom: -5px
+          right: 45%
+          left: 45%
+          background: #fff
+          opacity: 0
+          visibility: hidden
+          transition: all 0.3s ease-in-out
+
+        &:hover
+          text-decoration: none
+          color: #fff
+
+        &:visited
+          color: #fff
+
+        &:hover::after,
+        &.fv-on::after
+          visibility: visible
+          opacity: 1
+          right: 0
+          left: 0
+
+  @media only screen and (max-width: 849px)
+    ul
+      position: fixed
+      top: 0
+      right: 0
+      bottom: 0
+      width: 250px
+      background: #067E6F
+      z-index: 3
+      transition: all 0.5s ease-in-out
+      -webkit-transform: translate(100%, 0)
+      transform: translate(100%, 0)
+
+      li
+        list-style: none
+
+      a
+        color: #fff
+        display: block
+        padding: 10px 20px
+        font-size: 15px
+
+        &:visited
+          color: #fff
+
+    .menu-control
+      position: absolute
+      right: 40px
+      top: 50px
+      display: block
+      width: 30px
+      padding: 5px 0
+      border: solid #fff
+      border-width: 3px 0
+      z-index: 3
+      cursor: pointer
+      -webkit-transform: translate(0, 0)
+      transform: translate(0, 0)
+      -webkit-transition: all 350ms ease-in-out
+      transition: all 350ms ease-in-out
+
+    .menu-control:before
+      content: ""
+      display: block
+      height: 3px
+      background: #fff
+
+    .menu-control-close
+      position: fixed
+      top: 0
+      left: 100%
+      right: 0
+      bottom: 0
+      z-index: 2
+      background: rgba(0, 0, 0, 0.6)
+      -webkit-transition: left 350ms ease-in-out
+      transition: left 350ms ease-in-out
+
+    input:checked ~
+
+      nav ul
+        -webkit-transform: translate(0%, 0)
+        transform: translate(0%, 0)
+
+      .menu-control
+        -webkit-transform: translate(-250px, 0)
+        transform: translate(-250px, 0)
+
+      .menu-control-close
+        left: 0
+
 section
   position: relative
   min-height: 100%
-  background-attachment: fixed
   background-color: #fff
   background-position: top center
+  background-attachment: fixed
+  background-attachment: scroll
   background-size: cover
   text-align: center
 
@@ -111,21 +185,22 @@ section
   ul, ol
     margin: 0
 
-.fv-middle
-  position: fixed
-  top: 50%
-  left: 50%
-  width: 100%
-  max-width: 940px
-  transform: translate(-50%, -50%)
+@media only screen and (min-width: 850px)
+  .fv-middle
+    position: fixed
+    top: 50%
+    left: 50%
+    width: 100%
+    max-width: 940px
+    transform: translate(-50%, -50%)
 
 .fv-welcome
   background-image: url(/images/bg-welcome.png)
   overflow: hidden
 
-  @media only screen and (max-width: 1279px)
+  @media only screen and (max-width: 1280px)
     .fv-middle
-      padding-top: 40px
+      padding: 120px 20px 40px
 
   p
     color: #AFE2DB
@@ -140,7 +215,7 @@ section
     background: url(/images/frontinvale.png) no-repeat center center
     background-size: 100%
 
-    @media only screen and (max-width: 1279px)
+    @media only screen and (max-width: 1280px)
       margin-bottom: 0px
 
     + p
@@ -173,11 +248,16 @@ section
 .fv-about
   background-image: url(/images/bg-about.png)
 
+  @media only screen and (max-width: 849px)
+    padding: 120px 20px 20px
+
   .fv-middle
-    position: absolute
-    max-width: 510px
     line-height: 1
     background: rgba(255,255,255,0.85)
+    
+    @media only screen and (min-width: 850px)
+      position: absolute
+      max-width: 510px
 
   h2
     color: #067E6F
@@ -239,17 +319,19 @@ section
     span
       display: block
       padding: 9px 10px
-      position: absolute
-      top: 50%
-      right: 13px
-      left: 13px
       color: #067E6F
       font-size: 11px
       background: #fff
       z-index: 1
-      opacity: 0
-      transition: all 300ms ease-in-out
-      transform: translate(0, -50%)
+
+      @media only screen and (min-width: 850px)
+        position: absolute
+        top: 50%
+        right: 13px
+        left: 13px
+        opacity: 0
+        transition: all 300ms ease-in-out
+        transform: translate(0, -50%)
 
     &:hover
       &::after,
@@ -285,6 +367,9 @@ section
 .fv-schedule
   color: #fff
   background-image: url(/images/bg-schedule.png)
+
+  @media only screen and (max-width: 849px)
+    padding: 0 20px
 
   h2
     padding-top: 138px

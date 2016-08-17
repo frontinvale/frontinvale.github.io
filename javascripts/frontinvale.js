@@ -1,7 +1,5 @@
-//var $ = (selector) => document.querySelectorAll(selector);
-
-var frontinvale = function(){
-  var init = () => {
+var frontinvale = function() {
+  var init = function() {
     $(window).on({ scroll: windowScroll });
     $('nav ul a').on({ click: clickNav });
 
@@ -9,7 +7,7 @@ var frontinvale = function(){
   },
 
   stopScroll = false,
-  windowScroll = (e) => {
+  windowScroll = function(e) {
     if (stopScroll)
       return false;
 
@@ -41,7 +39,7 @@ var frontinvale = function(){
     return false;
   },
 
-  removeLoading = () => {
+  removeLoading = function() {
     $('body').removeClass('fv-loading');
   };
 
