@@ -1,7 +1,7 @@
 FrontInVale 2017
 May the force be with the front!
 
-### Set up & install dependencies
+### Setup & install dependencies
 
 ```
 $ git clone git@github.com:frontinvale/frontinvale.github.io.git
@@ -16,11 +16,17 @@ $ npm install && bower install
 $ gulp serve
 ```
 
-### So, go to:
+### Access:
 
 ```
 http://localhost:9000
 ```
 
+### Automatic deploy
+
+```
+$ gulp deploy
+```
+
 ### Credits
-This project was created by [CSS4HTML](http://www.css4html.com.br) && [Designa](http://www.designa.com.br)
+This project was created by [CSS4HTML](http://www.css4html.com.br) & [Designa](http://www.designa.com.br).
