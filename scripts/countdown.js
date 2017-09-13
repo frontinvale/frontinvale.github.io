@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var countdown=function(){var t,n,o,e=function(){n=document.querySelector("#timer"),o=document.querySelector(".countdown")},c=function(o){var e=60*o;n.classList.add("started"),t=setInterval(function(){e--,a(e),e>75||r(),e>25||s(),0!=e||i()},1e3)},a=function(t){var n=t/60>>0,e=t-60*n+"";o.textContent=n+":"+(e.length>1?"":"0")+e},i=function(){clearInterval(t),n.className=""},r=function(){n.classList.add("warning")},s=function(){n.classList.add("shake")};return{init:e,start:c,stop:i}}();window.onload=countdown.init;
