@@ -1,6 +1,6 @@
 body {
   background: no-repeat center;
-  background-image: url('/images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 
