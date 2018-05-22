@@ -3,9 +3,10 @@ body {
   background-image: url('../images/bg.jpg');
   background-size: cover;
   font-family: 'Roboto', sans-serif;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
-
   text-align: center;
   padding: 10px 30px;
 }
