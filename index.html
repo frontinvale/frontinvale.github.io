@@ -29,18 +29,473 @@
     <link rel="canonical" href="http://frontinvale.com.br/">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="stylesheets/frontinvale.css">
   </head>
 
   <body>
-    <img src="images/logo.svg" alt="FrontInVale 2018" class="fv-logo">
-    <img src="images/portal-rick-and-morty.svg" alt="Portal com Rick and Morty" class="fv-ilustra">
-    <div class="fv-actions">
-      <a href="http://bit.ly/frontinvale18-inscricoes" target="_blank">inscreva-se</a>
-      <a href="http://bit.ly/fiv2018-c4p" target="_blank">call4papers</a>
-    </div>
-    <p>11/AGO - Teatro Univap</p>
-    <p><small>São José dos Campos/SP</small></p>
+    <header>
+      <input id="menu-control" type="checkbox" name="menu-control">
+      <label class="menu-control" for="menu-control"></label>
+      <label class="menu-control-close" for="menu-control"></label>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#palestrantes">Palestrantes</a></li>
+          <li><a href="#programacao">Programação</a></li>
+          <li><a href="#local">Local</a></li>
+          <li><a href="#patrocinadores">Patrocinadores</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">INSCREVA-SE</a>
+      </nav>
+    </header>
+
+    <section id="home" class="centralizar">
+      <h1 class="titulo">Front In Vale</h1>
+      <img src="images/il_portal_rick_and_morty.svg" alt="Portal com Rick and Morty">
+      <p>11 de ago de 2018</p>
+      <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">INSCREVA-SE</a>
+    </section>
+
+    <section id="palestrantes" class="centralizar">
+      <h2 class="titulo">Palestrantes</h2>
+      <ul class="pessoas">
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-1">
+          <label class="foto" for="palestrante-1">
+            <img src="images/il_speaker_empty_hover.svg">
+          </label>
+          <label class="camada-lisa" for="palestrante-1"></label>
+          <div class="descricao">
+            <h4>SHOW ME WHAT YOU GOT</h4>
+            <img src="images/il_showme_hover.svg">
+          </div>
+        </li>
+        <li>
+          <input type="checkbox" id="palestrante-2">
+          <label class="foto" for="palestrante-2">
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+            <strong>JONATHAN DAVIS 22</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-2"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS 22</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-3">
+          <label class="foto" for="palestrante-3">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-3"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-4">
+          <label class="foto" for="palestrante-4">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-4"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-5">
+          <label class="foto" for="palestrante-5">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-5"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-6">
+          <label class="foto" for="palestrante-6">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-6"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+          <div class="descricao deboa">
+            <h4>SHOW ME WHAT YOU GOT</h4>
+            <img src="images/il_showme_standard.svg">
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="submeta" class="centralizar">
+      <h2 class="titulo">Call4paper</h2>
+      <p>
+        Já submeteu para nossas palestra e lightning talks?
+        <br><br>
+        Não? Corre então!
+      </p>
+      <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">SUBMETA AGORA</a>
+    </section>
+
+    <section id="locutores" class="centralizar">
+      <h2 class="titulo">Lightning talks</h2>
+      <ul class="pessoas">
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-1">
+          <label class="foto" for="palestrante-1">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS 11</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-1"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS 11</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-2">
+          <label class="foto" for="palestrante-2">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS 22</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-2"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS 22</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-3">
+          <label class="foto" for="palestrante-3">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-3"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-4">
+          <label class="foto" for="palestrante-4">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-4"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-5">
+          <label class="foto" for="palestrante-5">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-5"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-6">
+          <label class="foto" for="palestrante-6">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-6"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-7">
+          <label class="foto" for="palestrante-7">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS 11</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-7"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS 11</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+        <li class="vazio">
+          <input type="checkbox" id="palestrante-8">
+          <label class="foto" for="palestrante-8">
+            <img src="images/il_speaker_empty_hover.svg">
+            <strong>JONATHAN DAVIS 22</strong>
+          </label>
+          <label class="camada-lisa" for="palestrante-8"></label>
+          <div class="descricao">
+            <h4>JONATHAN DAVIS 22</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="programacao" class="centralizar">
+      <h2 class="titulo">Programacao</h2>
+      <div class="linha-do-tempo">
+        <div class="palestras">
+          <div class="palestra">
+            <h5>08:00</h5>
+            <div>
+              <p>Credenciamento / Welcome Coffee</p>
+            </div>
+          </div>
+          <div class="palestra">
+            <h5>08:40</h5>
+            <div>
+              <p>Abertura Oficial</p>
+            </div>
+          </div>
+          <div class="palestra">
+            <h5>09:00</h5>
+            <div>
+              <p>CSS Grid Layout</p>
+              <p><span>Maujor</span></p>
+            </div>
+          </div>
+          <div class="palestra">
+            <h5>10:00</h5>
+            <div>
+              <p>React, o mindset inicial de estado</p>
+              <p><span>Camila Belo</span></p>
+            </div>
+          </div>
+          <div class="palestra">
+            <h5>11:00</h5>
+            <div>
+              <p>Lightning Talks</p>
+              <p>Keit Oliveira - <span>O time é um reflexo de quem o lidera</span></p>
+              <p>Mariana Rondino - <span>Usabilidade e as 10 Heurísticas de Nielsen</span></p>
+              <p>Lucas J Silvan> <span>- Daltonismo no Desenvolvimento Web</spa</p>
+              <p>Paula Diniz - <span>% Pixels são importantes %</span></p>
+            </div>
+          </div>
+          <div class="palestra">
+            <h5>12:00</h5>
+            <div>
+              <p>Almoço</p>
+            </div>
+          </div>
+          <div class="palestra">
+            <h5>19:00</h5>
+            <div>
+              <p>Encerramento<br><span>Aguarde surpresas!</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="local" class="centralizar">
+      <div>
+        <div class="caixa centralizar">
+          <strong>TEATRO UNIVAP</strong>
+          <p>
+            Praça Candido Dias Castejón, 116<br>
+            12321-830 São José dos Campos
+          </p>
+          <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">VER NO MAPS</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="patrocinadores" class="centralizar">
+      <h2 class="titulo">Patrocinadores</h2>
+      <strong>OURO</strong>
+      <ul class="ouro">
+        <li><img src="http://2017.frontinvale.com.br/images/sponsors/quero-educacao.svg"></li>
+      </ul>
+      <strong>PRATA</strong>
+      <ul class="prata">
+        <li><img src="http://2017.frontinvale.com.br/images/sponsors/quero-educacao.svg"></li>
+        <li><img src="http://2017.frontinvale.com.br/images/sponsors/quero-educacao.svg"></li>
+      </ul>
+      <strong>BRONZE</strong>
+      <ul class="bronze">
+        <li><img src="http://2017.frontinvale.com.br/images/sponsors/quero-educacao.svg"></li>
+        <li><img src="http://2017.frontinvale.com.br/images/sponsors/quero-educacao.svg"></li>
+        <li><img src="http://2017.frontinvale.com.br/images/sponsors/quero-educacao.svg"></li>
+      </ul>
+    </section>
+
+    <section id="interessados" class="centralizar">
+      <p>
+        E se você tem interesse em patrocinar ou apoiar o maior evento de Front-end do Vale do Paraiba, agora é a hora de entrar para essa festa!
+      </p>
+      <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">BORA AJUDAR</a>
+    </section>
+
+    <section id="organizacao" class="centralizar">
+      <h2 class="titulo">Organizacao</h2>
+      <ul>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+      </ul>
+    </section>
+
+    <section id="organizacao" class="centralizar">
+      <h2 class="titulo">MC's</h2>
+      <ul>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+        <li>
+          <span>
+            <img src="http://2017.frontinvale.com.br/images/speakers/gabriela.jpg">
+          </span>
+          <h5>Bruno Oliveira</h5>
+        </li>
+      </ul>
+    </section>
+
+    <section id="realizacao" class="centralizar">
+      <span><img src="http://2017.frontinvale.com.br/images/logo-designa.svg"></span>
+      <p>designa.com.br</p>
+    </section>
+
+    <footer class="centralizar">
+      <h2 class="title">Contato</h2>
+      <p>contato@frontinvale.com.br</p>
+      <div>
+        <a target="_blank" href="https://www.facebook.com/frontinvale"><img src="http://2017.frontinvale.com.br/images/ic-facebook.svg"></a>
+        <a target="_blank" href="https://twitter.com/frontinvale"><img src="http://2017.frontinvale.com.br/images/ic-twitter.svg"></a>
+        <a target="_blank" href="https://www.facebook.com/frontinvale"><img src="http://2017.frontinvale.com.br/images/ic-facebook.svg"></a>
+      </div>
+    </footer>
   </body>
 </html>

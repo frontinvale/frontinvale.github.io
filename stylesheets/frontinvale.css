@@ -1,0 +1,423 @@
+@font-face {
+  font-family: 'get_schwiftyregular';
+  src: url('fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8-webfont.woff2') format('woff2'),
+       url('fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.botao {
+  padding: 10px 15px 9px;
+  margin: 0 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: -0.39px;
+  font-weight: 700;
+  color: #424242;
+  font-size: 16px;
+  background-color: #78ec21;
+  transition: ease all .2s;
+}
+
+.botao:hover {
+  background-color: #424242;
+  color: #78ec21;
+}
+
+.titulo {
+  font-family: 'get_schwiftyregular';
+  font-size: 48px;
+}
+
+.centralizar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html  {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+a { text-decoration: none; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 10;
+  box-shadow: 0 0 6px -2px #000;
+}
+
+header nav {
+  margin: 0 auto;
+  max-width: 996px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 19px;
+}
+
+header ul {
+  display: flex;
+  max-width: 996px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 24px 0; 
+}
+
+header li {
+  padding-right: 24px;
+}
+
+header li a {
+  color: #313439;
+}
+
+#home {
+  padding: 157px 0 56px;
+  background: url(../images/il_backgroud_home.jpg) no-repeat;
+  background-size: cover; 
+}
+
+#home h1 {
+  letter-spacing: -1.74px;
+  font-size: 72px;
+}
+
+#home img {
+  margin: 32px 0;
+}
+
+#home p {
+  font-size: 24px;
+  letter-spacing: -0.58px;
+  color: #fff;
+  padding-bottom: 56px;
+}
+
+#palestrantes {
+  padding: 65px 0 65px;
+  background: #fff;
+  color: #000;
+}
+
+#palestrantes .titulo {
+  padding-bottom: 50px;
+}
+
+.pessoas {
+  position: relative;
+  display: flex;
+  max-width: 1005px;
+  flex-wrap: wrap;
+}
+
+.pessoas li {
+  display: block;
+  width: 225px;
+  height: 225px;
+  margin: 15px;
+  background: url(../images/il_speaker_empty.svg) no-repeat;
+  background-size: cover;
+}
+
+.pessoas input {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 50%;
+  left: -9999px;
+} 
+
+.pessoas .foto {
+  position: relative;
+  display: block;
+}
+
+.pessoas .foto img {
+  display: block;
+  max-width: 100%;
+}
+
+.pessoas .foto strong {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  background: rgba(255,255,255,0.4);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.pessoas .descricao {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  bottom: 0;
+  width: 225px;
+  background: #fff;
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.pessoas .descricao h4 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #424242;
+  padding-bottom: 33px;
+}
+
+.pessoas .descricao.deboa {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.pessoas li:hover .foto strong,
+.pessoas li:hover .descricao,
+.pessoas input:checked ~ .foto strong,
+.pessoas input:checked ~ .descricao {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease;
+}
+
+.pessoas li:hover .deboa,
+.pessoas li:hover ~ li:last-child .deboa {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.pessoas input:checked ~ .camada-lisa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 230px;
+  bottom: 0;
+  z-index: 2;
+}
+
+.pessoas .vazio label img {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pessoas .vazio:hover img,
+.pessoas .vazio input:checked ~ .foto img {
+  opacity: 1;
+}
+
+#submeta {
+  padding: 56px 0 56px;
+  background: url(../images/il_backgroud_call4paper.jpg) center;
+  background-size: cover;
+}
+
+#submeta p {
+  padding: 68px 0 48px;
+  font-size: 24px;
+  text-align: center;
+}
+
+#locutores {
+  padding: 65px 0 65px;
+  background: #fff;
+  color: #000;
+}
+
+#locutores .titulo {
+  padding-bottom: 50px;
+}
+
+#locutores .pessoas {
+  padding-right: 100px;
+}
+
+#locutores .pessoas li {
+  width: 158px;
+  height: 158px;
+  margin: 17.5px;
+}
+
+#programacao {
+  padding: 96px 0;
+}
+
+.linha-do-tempo {
+  padding-top: 24px;
+  position: relative;
+  align-self: stretch;
+}
+
+.linha-do-tempo:before {
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 1px);
+  bottom: 90px;
+  width: 2px;
+  background-color: #fff
+}
+
+.linha-do-tempo .palestras {
+  width: calc(100% - 80px);
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  left: -5px;
+  display: table
+}
+
+.linha-do-tempo .palestras .palestra {
+  width: calc(50% - 40px);
+  float: left;
+  padding: 40px 20px;
+  clear: both;
+  text-align: right
+}
+
+.linha-do-tempo .palestras .palestra:not(:first-child) {
+  margin-top: -60px
+}
+
+.linha-do-tempo .palestras .palestra h5 {
+  font-size: 16px;
+  color: #78EC21;
+  position: relative
+}
+
+.linha-do-tempo .palestras .palestra h5:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: -75px;
+  z-index: 2
+}
+
+.linha-do-tempo .palestras .palestra div p {
+  line-height: 1.4em
+}
+
+.linha-do-tempo .palestras .palestra div p:not(:first-child) {
+  font-size: 14px;
+}
+
+.linha-do-tempo .palestras .palestra div p span {
+  font-weight: 300;
+}
+
+.linha-do-tempo .palestras .palestra:nth-child(2n) {
+  text-align: left;
+  float: right
+}
+
+.linha-do-tempo .palestras .palestra:nth-child(2n) h5:before {
+    left: -65px
+}
+
+#local {
+  background: url(../images/il_backgroud_local_desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#local > div {
+  position: relative;
+  max-width: 996px;
+  width: calc(100% - 40px);
+}
+
+#local .caixa {
+  float: right;
+  text-align: center;
+  margin: 311px 0 280px;
+  width: 45%;
+  padding: 34px;
+  border: 4px solid #78EC21;
+  border-radius: 4px;
+}
+
+#local .caixa::after {
+  content: "";
+  height: 4px;
+  background: #78EC21;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  right: 45%
+}
+
+#local .caixa::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background: #78EC21;
+  border-radius: 15px;
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 32%;
+}
+
+#local strong {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#local p {
+  font-size: 24px;
+  line-height: 30px;
+  padding: 16px 0 30px;
+}
+
+#menu-control {
+  position: fixed;
+  top: 50%;
+  left: -9999px;
+  opacity: 0;
+  visibility: hidden;;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-control-close {
+    position: fixed;
+    background: red;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+  }
+}
