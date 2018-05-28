@@ -363,7 +363,7 @@ header li a {
 #local .caixa {
   float: right;
   text-align: center;
-  margin: 311px 0 280px;
+  margin: 250px 0 220px;
   width: 45%;
   padding: 34px;
   border: 4px solid #78EC21;
@@ -408,6 +408,161 @@ header li a {
   left: -9999px;
   opacity: 0;
   visibility: hidden;;
+}
+
+
+#patrocinadores {
+  padding: 100px 0 56px;
+  color: #000;
+  background: #fff;
+}
+
+#patrocinadores strong {
+  display: block;
+  padding: 50px 0;
+  font-size: 30px;
+  color: #424242
+}
+
+#patrocinadores ul {
+  list-style: none;
+  display: flex;
+  max-width: 996px;
+}
+
+#patrocinadores li {
+  flex: 1;
+  padding: 0 30px;
+}
+
+#patrocinadores img {
+  max-width: 400px;
+  width: 100%;
+}
+
+#patrocinadores .prata img {
+  max-width: 300px;
+}
+
+#patrocinadores .bronze img {
+  max-width: 200px;
+}
+
+#interessados {
+  padding: 56px 0 56px;
+  background: url(../images/il_backgroud_boraajudar.jpg) center;
+  background-size: cover;
+}
+
+#interessados p {
+  max-width: 996px;
+  padding: 0 30px 48px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#organizacao {
+  padding: 56px 0 56px;
+  background: #000;
+  color: #fff;
+}
+
+.colegiados {
+  display: flex;
+  list-style: none;
+  max-width: 996px;
+  padding: 32px 0 0;
+}
+
+.colegiados li {
+  padding: 0 15px;
+  max-width: 171px;
+}
+
+.colegiados li:hover a {
+  opacity: 1;
+}
+
+.colegiados li:first-child {
+  padding-left: 0;
+}
+
+.colegiados li:last-child {
+  padding-right: 0;
+}
+
+.colegiados span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.colegiados img {
+  display: block;
+  max-width: 141px;
+  border-radius: 50%;
+}
+
+.colegiados span a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: rgba(255,255,255,0.5) url(../images/ic_linkedin.svg) no-repeat center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.colegiados h5 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 20px 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+#mestres {
+  padding: 56px 0 56px;
+  background: #000;
+  color: #fff;
+}
+
+#mestres .colegiados li {
+  max-width: 156px;
+}
+
+#realizacao {
+  padding: 56px 0 56px;
+  background: #000;
+  color: #fff;
+}
+
+#realizacao img {
+  margin: 32px 0 16px;
+}
+
+#realizacao p {
+  font-size: 20px;
+}
+
+footer {
+  padding: 56px 0 56px;
+  background: #000;
+  color: #fff;
+}
+
+footer p {
+  padding: 32px 0;
+  font-size: 24px;
+}
+
+footer a {
+  margin: 0 25px;
 }
 
 @media only screen and (max-width: 767px) {
