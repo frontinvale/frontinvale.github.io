@@ -165,7 +165,7 @@ header li a {
   z-index: 1;
   bottom: 0;
   right: 0;
-  background: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.75);
   display: flex;
   align-items: center;
   text-align: center;
@@ -181,6 +181,7 @@ header li a {
   bottom: 0;
   width: 225px;
   background: #fff;
+  text-align: center;
   z-index: 3;
   opacity: 0;
   visibility: hidden;
@@ -265,6 +266,7 @@ header li a {
   width: 158px;
   height: 158px;
   margin: 17.5px;
+  background-image: url(../images/il_lightningtalks_standard.svg);
 }
 
 #programacao {
@@ -513,7 +515,7 @@ header li a {
   left: 0;
   overflow: hidden;
   text-indent: -9999px;
-  background: rgba(255,255,255,0.5) url(../images/ic_linkedin.svg) no-repeat center;
+  background: rgba(255,255,255,0.75) url(../images/ic_linkedin.svg) no-repeat center;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -524,6 +526,7 @@ header li a {
   padding: 20px 20px 0;
   text-align: center;
   font-weight: 500;
+  word-spacing: 10px;
 }
 
 #mestres {
