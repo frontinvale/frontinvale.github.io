@@ -73,7 +73,6 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 19px;
 }
 
 header ul {
@@ -166,6 +165,7 @@ header li a {
   bottom: 0;
   right: 0;
   background: rgba(255,255,255,0.75);
+  color: #424242;
   display: flex;
   align-items: center;
   text-align: center;
@@ -193,6 +193,11 @@ header li a {
   text-align: center;
   color: #424242;
   padding-bottom: 33px;
+}
+
+.pessoas .descricao p {
+  font-size: 22px;
+  line-height: 24px;
 }
 
 .pessoas .descricao.deboa {
@@ -267,6 +272,11 @@ header li a {
   height: 158px;
   margin: 17.5px;
   background-image: url(../images/il_lightningtalks_standard.svg);
+}
+
+#locutores .pessoas .foto strong {
+  font-size: 24px;
+  line-height: 30px;
 }
 
 #programacao {
