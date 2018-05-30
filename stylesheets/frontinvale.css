@@ -507,13 +507,12 @@ header li a {
 .colegiados span {
   position: relative;
   display: block;
-  overflow: hidden;
-  border-radius: 50%;
+  max-width: 141px;
 }
 
 .colegiados img {
   display: block;
-  max-width: 141px;
+  max-width: 100%;
   border-radius: 50%;
 }
 
@@ -523,6 +522,7 @@ header li a {
   right: 0;
   bottom: 0;
   left: 0;
+  border-radius: 50%;
   overflow: hidden;
   text-indent: -9999px;
   background: rgba(255,255,255,0.75) url(../images/ic_linkedin.svg) no-repeat center;
