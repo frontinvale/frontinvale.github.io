@@ -50,14 +50,14 @@
       </nav>
     </header>
 
-    <section id="home" class="centralizar">
+    <section id="home" class="centralizar" data-menu="home">
       <h1 class="titulo">Front In Vale</h1>
       <img src="images/il_portal_rick_and_morty.svg" alt="Portal com Rick and Morty">
       <p>11 de ago de 2018</p>
       <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">INSCREVA-SE</a>
     </section>
 
-    <section id="palestrantes" class="centralizar">
+    <section id="palestrantes" class="centralizar" data-menu="palestrantes">
       <h2 class="titulo">Palestrantes</h2>
       <ul class="pessoas">
         <li class="vazio">
@@ -140,7 +140,7 @@
       </ul>
     </section>
 
-    <section id="submeta" class="centralizar">
+    <section id="submeta" class="centralizar" data-menu="palestrantes">
       <h2 class="titulo">Call4paper</h2>
       <p>
         Já submeteu para nossas palestra e lightning talks?
@@ -150,7 +150,7 @@
       <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">SUBMETA AGORA</a>
     </section>
 
-    <section id="locutores" class="centralizar">
+    <section id="locutores" class="centralizar" data-menu="palestrantes">
       <h2 class="titulo">Lightning talks</h2>
       <ul class="pessoas">
         <li>
@@ -253,7 +253,7 @@
       </ul>
     </section>
 
-    <section id="programacao" class="centralizar">
+    <section id="programacao" class="centralizar" data-menu="programacao">
       <h2 class="titulo">Programacao</h2>
       <div class="linha-do-tempo">
         <div class="palestras">
@@ -309,7 +309,7 @@
       </div>
     </section>
 
-    <section id="local" class="centralizar">
+    <section id="local" class="centralizar" data-menu="local">
       <div>
         <div class="caixa centralizar">
           <strong>TEATRO UNIVAP</strong>
@@ -322,7 +322,7 @@
       </div>
     </section>
 
-    <section id="patrocinadores" class="centralizar">
+    <section id="patrocinadores" class="centralizar" data-menu="patrocinadores">
       <h2 class="titulo">Patrocinadores</h2>
       <strong>OURO</strong>
       <ul class="ouro">
@@ -341,14 +341,14 @@
       </ul>
     </section>
 
-    <section id="interessados" class="centralizar">
+    <section id="interessados" class="centralizar" data-menu="patrocinadores">
       <p>
         E se você tem interesse em patrocinar ou apoiar o maior evento de Front-end do Vale do Paraiba, agora é a hora de entrar para essa festa!
       </p>
       <a href="http://bit.ly/frontinvale18-inscricoes" class="botao" target="_blank">BORA AJUDAR</a>
     </section>
 
-    <section id="organizacao" class="centralizar">
+    <section id="organizacao" class="centralizar" data-menu="contato">
       <h2 class="titulo">Organizacao</h2>
       <ul class="colegiados">
         <li>
@@ -396,7 +396,7 @@
       </ul>
     </section>
 
-    <section id="mestres" class="centralizar">
+    <section id="mestres" class="centralizar" data-menu="contato">
       <h2 class="titulo">MC's</h2>
       <ul class="colegiados">
         <li>
@@ -416,13 +416,13 @@
       </ul>
     </section>
 
-    <section id="realizacao" class="centralizar">
+    <section id="realizacao" class="centralizar" data-menu="contato">
       <h2 class="titulo">Realizacao</h2>
       <img src="images/avatar_designa.png">
       <p>designa.com.br</p>
     </section>
 
-    <footer id="contato" class="centralizar">
+    <footer id="contato" class="centralizar" data-menu="contato">
       <h2 class="titulo">Contato</h2>
       <p>contato@frontinvale.com.br</p>
       <div>
@@ -437,5 +437,8 @@
         </a>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/frontinvale.js"></script>
   </body>
 </html>

@@ -91,6 +91,10 @@ header li a {
   color: #313439;
 }
 
+header li a.ativo {
+  font-weight: 700;
+}
+
 #home {
   padding: 157px 0 56px;
   background: url(../images/il_backgroud_home.jpg) no-repeat;
