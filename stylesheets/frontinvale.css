@@ -16,13 +16,13 @@
 
 .botao {
   padding: 10px 15px 9px;
-  margin: 0 15px;
+  margin: 0;
   border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: -0.39px;
   font-weight: 700;
   color: #424242;
-  font-size: 16px;
+  font-size: 1em;
   background-color: #78ec21;
   transition: ease all .2s;
 }
@@ -34,7 +34,7 @@
 
 .titulo {
   font-family: 'get_schwiftyregular';
-  font-size: 48px;
+  font-size: 3em;
 }
 
 .centralizar {
@@ -68,6 +68,7 @@ header {
 }
 
 header nav {
+  padding: 0 15px;
   margin: 0 auto;
   max-width: 996px;
   display: flex;
@@ -103,7 +104,7 @@ header li a.ativo {
 
 #home h1 {
   letter-spacing: -1.74px;
-  font-size: 72px;
+  font-size: 4.5em;
 }
 
 #home img {
@@ -111,7 +112,7 @@ header li a.ativo {
 }
 
 #home p {
-  font-size: 24px;
+  font-size: 1.5em;
   letter-spacing: -0.58px;
   color: #fff;
   padding-bottom: 56px;
@@ -173,7 +174,7 @@ header li a.ativo {
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875em;
   opacity: 0;
   visibility: hidden;
 }
@@ -192,7 +193,7 @@ header li a.ativo {
 }
 
 .pessoas .descricao h4 {
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 700;
   text-align: center;
   color: #424242;
@@ -200,7 +201,7 @@ header li a.ativo {
 }
 
 .pessoas .descricao p {
-  font-size: 22px;
+  font-size: 1.375em;
   line-height: 24px;
 }
 
@@ -253,7 +254,7 @@ header li a.ativo {
 
 #submeta p {
   padding: 68px 0 48px;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -279,7 +280,7 @@ header li a.ativo {
 }
 
 #locutores .pessoas .foto strong {
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 30px;
 }
 
@@ -298,7 +299,7 @@ header li a.ativo {
   position: absolute;
   top: 80px;
   left: calc(50% - 1px);
-  bottom: 90px;
+  bottom: 155px;
   width: 2px;
   background-color: #fff
 }
@@ -315,7 +316,7 @@ header li a.ativo {
 .linha-do-tempo .palestras .palestra {
   width: calc(50% - 40px);
   float: left;
-  padding: 40px 20px;
+  padding: 40px 20px 100px;
   clear: both;
   text-align: right
 }
@@ -325,7 +326,7 @@ header li a.ativo {
 }
 
 .linha-do-tempo .palestras .palestra h5 {
-  font-size: 16px;
+  font-size: 1em;
   color: #78EC21;
   position: relative
 }
@@ -345,11 +346,12 @@ header li a.ativo {
 }
 
 .linha-do-tempo .palestras .palestra div p {
-  line-height: 1.4em
+  line-height: 1.4em;
+  font-size: 1.4em;
 }
 
 .linha-do-tempo .palestras .palestra div p:not(:first-child) {
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 .linha-do-tempo .palestras .palestra div p span {
@@ -408,12 +410,12 @@ header li a.ativo {
 }
 
 #local strong {
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 700;
 }
 
 #local p {
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 30px;
   padding: 16px 0 30px;
 }
@@ -433,10 +435,14 @@ header li a.ativo {
   background: #fff;
 }
 
+#patrocinadores h2 + strong {
+  padding-top: 50px;
+}
+
 #patrocinadores strong {
   display: block;
-  padding: 50px 0;
-  font-size: 30px;
+  padding: 100px 0 50px;
+  font-size: 1.875em;
   color: #424242
 }
 
@@ -473,7 +479,7 @@ header li a.ativo {
 #interessados p {
   max-width: 996px;
   padding: 0 30px 48px;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 28px;
   text-align: center;
 }
@@ -498,6 +504,10 @@ header li a.ativo {
 
 .colegiados li:hover a {
   opacity: 1;
+}
+
+.colegiados li:hover h5 {
+  color: #78ec21
 }
 
 .colegiados li:first-child {
@@ -535,12 +545,13 @@ header li a.ativo {
 }
 
 .colegiados h5 {
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 24px;
   padding: 20px 20px 0;
   text-align: center;
   font-weight: 500;
   word-spacing: 10px;
+  transition: opacity 0.3s ease;
 }
 
 #mestres {
@@ -564,7 +575,7 @@ header li a.ativo {
 }
 
 #realizacao p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 footer {
@@ -575,7 +586,7 @@ footer {
 
 footer p {
   padding: 32px 0;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 footer a {
