@@ -593,3 +593,24 @@ footer a {
     z-index: 15;
   }
 }
+
+.t1 { transition-delay: 200ms!important; }
+.t2 { transition-delay: 400ms!important; }
+.t3 { transition-delay: 600ms!important; }
+.t4 { transition-delay: 800ms!important; }
+.t5 { transition-delay: 1000ms!important; }
+.t6 { transition-delay: 1200ms!important; }
+.t7 { transition-delay: 1400ms!important; }
+.t8 { transition-delay: 1600ms!important; }
+
+[data-inview] .inview-hide { opacity: 0; transition: opacity 800ms ease-in-out; }
+[data-inview] .inview-left { opacity: 0; transform: translate(-20%, 0); transition: all 800ms ease-in-out; }
+[data-inview] .inview-right { opacity: 0; transform: translate(20%, 0); transition: all 800ms ease-in-out; }
+[data-inview] .inview-top { opacity: 0; transform: translate(0, -30px); transition: all 800ms ease-in-out; }
+[data-inview] .inview-bottom { opacity: 0; transform: translate(0, 30%); transition: all 800ms ease-in-out; }
+
+[data-inview].inview .inview-hide { opacity: 1; }
+[data-inview].inview .inview-left,
+[data-inview].inview .inview-right,
+[data-inview].inview .inview-top,
+[data-inview].inview .inview-bottom { opacity: 1; transform: translate(0, 0); }

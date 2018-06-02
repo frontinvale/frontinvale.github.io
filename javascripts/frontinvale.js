@@ -3,9 +3,12 @@ var frontinvale = function(module) {
 
   module.init = function init() {
     $('header a').not(':last').on('click', clickNav);
-    $(window).on('scroll.section', scrollActiveSection);
-    // $(window).on('scroll.view', scrollView);
-    $(window).trigger('scroll');
+
+    $(window).on('scroll', function(e) {
+      scrollActiveSection(e);
+      scrollView(e);
+    }).trigger('scroll');
+
     activeSection();
   };
 
