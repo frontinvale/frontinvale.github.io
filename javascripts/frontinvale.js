@@ -55,6 +55,7 @@ var frontinvale = function(module) {
     $('nav a.ativo').removeClass('ativo');
     $this.addClass('ativo');
 
+    $("#menu-control")[0].checked = false;
     $('html, body').animate({ scrollTop: $($id).offset().top - 64 }, { duration: 1000, queue: false, complete: function() {
       stopScroll = false;
     } });

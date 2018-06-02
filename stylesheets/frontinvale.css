@@ -14,6 +14,27 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.t1 { transition-delay: 200ms!important; }
+.t2 { transition-delay: 400ms!important; }
+.t3 { transition-delay: 600ms!important; }
+.t4 { transition-delay: 800ms!important; }
+.t5 { transition-delay: 1000ms!important; }
+.t6 { transition-delay: 1200ms!important; }
+.t7 { transition-delay: 1400ms!important; }
+.t8 { transition-delay: 1600ms!important; }
+
+[data-inview] .inview-hide { opacity: 0; transition: opacity 800ms ease-in-out; }
+[data-inview] .inview-left { opacity: 0; transform: translate(-20%, 0); transition: all 800ms ease-in-out; }
+[data-inview] .inview-right { opacity: 0; transform: translate(20%, 0); transition: all 800ms ease-in-out; }
+[data-inview] .inview-top { opacity: 0; transform: translate(0, -30px); transition: all 800ms ease-in-out; }
+[data-inview] .inview-bottom { opacity: 0; transform: translate(0, 30%); transition: all 800ms ease-in-out; }
+
+[data-inview].inview .inview-hide { opacity: 1; }
+[data-inview].inview .inview-left,
+[data-inview].inview .inview-right,
+[data-inview].inview .inview-top,
+[data-inview].inview .inview-bottom { opacity: 1; transform: translate(0, 0); }
+
 .botao {
   padding: 10px 15px 9px;
   margin: 0;
@@ -420,15 +441,6 @@ header li a.ativo {
   padding: 16px 0 30px;
 }
 
-#menu-control {
-  position: fixed;
-  top: 50%;
-  left: -9999px;
-  opacity: 0;
-  visibility: hidden;;
-}
-
-
 #patrocinadores {
   padding: 100px 0 56px;
   color: #000;
@@ -593,35 +605,94 @@ footer a {
   margin: 0 25px;
 }
 
-@media only screen and (max-width: 767px) {
+#menu-control {
+  position: fixed;
+  top: 50%;
+  left: -9999px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1020px) {
+  .menu-control {
+    position: fixed;
+    right: 20px;
+    top: 20px;  
+    display: block;
+    width: 50px;
+    z-index: 11;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-top: 6px solid #78ec21;
+    cursor: pointer;
+  }
+
+  .menu-control:after,
+  .menu-control:before {
+    content: "";
+    position: relative;
+    top: 0;
+    display: block;
+    height: 6px;
+    background: #78ec21;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(0);
+  }
+
+  .menu-control:before {
+    margin: 10px 0;
+  }
+
+  .menu-control:after {
+    margin: 0 0;
+  }
+
   .menu-control-close {
     position: fixed;
-    background: red;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    z-index: 15;
+    left: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
   }
+
+  header {
+    width: 300px;
+    left: auto;
+    bottom: 0;
+    transform: translate(300px, 0);
+    transition: all 0.5s ease-in-out;
+  }
+
+  header nav {
+    flex-direction: column;
+    font-size: 2em;
+    padding: 0 30px;
+  }
+
+  header ul { flex-direction: column; }
+  header li { padding: 0 }
+  header li a {
+    display: block;
+    padding: 15px 0;
+  }
+
+  input#menu-control:checked ~ header { transform: translate(0,0); }
+  input#menu-control:checked ~ .menu-control {
+    border-color: transparent;
+    transform: translate(-300px, 0);
+  }
+
+  input#menu-control:checked ~ .menu-control:before {
+    transform: rotate(45deg);
+  }
+
+  input#menu-control:checked ~ .menu-control:after {
+    transform: rotate(-45deg);
+    top: -16px;
+  }
+
+  input#menu-control:checked ~ .menu-control-close { left: 0; }
 }
-
-.t1 { transition-delay: 200ms!important; }
-.t2 { transition-delay: 400ms!important; }
-.t3 { transition-delay: 600ms!important; }
-.t4 { transition-delay: 800ms!important; }
-.t5 { transition-delay: 1000ms!important; }
-.t6 { transition-delay: 1200ms!important; }
-.t7 { transition-delay: 1400ms!important; }
-.t8 { transition-delay: 1600ms!important; }
-
-[data-inview] .inview-hide { opacity: 0; transition: opacity 800ms ease-in-out; }
-[data-inview] .inview-left { opacity: 0; transform: translate(-20%, 0); transition: all 800ms ease-in-out; }
-[data-inview] .inview-right { opacity: 0; transform: translate(20%, 0); transition: all 800ms ease-in-out; }
-[data-inview] .inview-top { opacity: 0; transform: translate(0, -30px); transition: all 800ms ease-in-out; }
-[data-inview] .inview-bottom { opacity: 0; transform: translate(0, 30%); transition: all 800ms ease-in-out; }
-
-[data-inview].inview .inview-hide { opacity: 1; }
-[data-inview].inview .inview-left,
-[data-inview].inview .inview-right,
-[data-inview].inview .inview-top,
-[data-inview].inview .inview-bottom { opacity: 1; transform: translate(0, 0); }
