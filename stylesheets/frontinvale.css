@@ -56,6 +56,7 @@
 .titulo {
   font-family: 'get_schwiftyregular';
   font-size: 3em;
+  text-align: center;
 }
 
 .centralizar {
@@ -126,6 +127,7 @@ header li a.ativo {
 #home h1 {
   letter-spacing: -1.74px;
   font-size: 4.5em;
+  text-align: center;
 }
 
 #home img {
@@ -154,12 +156,12 @@ header li a.ativo {
   display: flex;
   max-width: 1005px;
   flex-wrap: wrap;
+  padding-right: 239px;
 }
 
 .pessoas li {
   display: block;
-  width: 225px;
-  height: 225px;
+  width: calc(33.3% - 30px);
   margin: 15px;
   background: url(../images/il_speaker_empty.svg) no-repeat;
   background-size: cover;
@@ -180,7 +182,7 @@ header li a.ativo {
 
 .pessoas .foto img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .pessoas .foto strong {
@@ -216,7 +218,6 @@ header li a.ativo {
 .pessoas .descricao h4 {
   font-size: 1.875em;
   font-weight: 700;
-  text-align: center;
   color: #424242;
   padding-bottom: 33px;
 }
@@ -233,19 +234,11 @@ header li a.ativo {
   z-index: 2;
 }
 
-.pessoas li:hover .foto strong,
-.pessoas li:hover .descricao,
 .pessoas input:checked ~ .foto strong,
 .pessoas input:checked ~ .descricao {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s ease;
-}
-
-.pessoas li:hover .deboa,
-.pessoas li:hover ~ li:last-child .deboa {
-  opacity: 0;
-  visibility: hidden;
 }
 
 .pessoas input:checked ~ .camada-lisa {
@@ -262,7 +255,6 @@ header li a.ativo {
   transition: opacity 0.3s ease;
 }
 
-.pessoas .vazio:hover img,
 .pessoas .vazio input:checked ~ .foto img {
   opacity: 1;
 }
@@ -289,13 +281,11 @@ header li a.ativo {
   padding-bottom: 50px;
 }
 
-#locutores .pessoas {
-  padding-right: 100px;
-}
-
 #locutores .pessoas li {
-  width: 158px;
+  /*width: 158px;
   height: 158px;
+  margin: 17.5px;*/
+  width: calc(25% - 35px);
   margin: 17.5px;
   background-image: url(../images/il_lightningtalks_standard.svg);
 }
@@ -402,7 +392,7 @@ header li a.ativo {
 #local .caixa {
   float: right;
   text-align: center;
-  margin: 250px 0 220px;
+  margin: 250px auto 220px;
   width: 45%;
   padding: 34px;
   border: 4px solid #78EC21;
@@ -504,14 +494,19 @@ header li a.ativo {
 
 .colegiados {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   max-width: 996px;
   padding: 32px 0 0;
 }
 
 .colegiados li {
-  padding: 0 15px;
-  max-width: 171px;
+  margin: 0 15px;
+  flex: 1;
+  /*width: calc(16.6% - 30px);*/
+  max-width: calc(16.6% - 30px);
+  min-width: calc(16.6% - 30px);
 }
 
 .colegiados li:hover a {
@@ -533,12 +528,11 @@ header li a.ativo {
 .colegiados span {
   position: relative;
   display: block;
-  max-width: 141px;
 }
 
 .colegiados img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -559,10 +553,10 @@ header li a.ativo {
 .colegiados h5 {
   font-size: 1.25em;
   line-height: 24px;
-  padding: 20px 20px 0;
+  padding: 20px 0 0;
   text-align: center;
   font-weight: 500;
-  word-spacing: 10px;
+  word-spacing: 80px;
   transition: opacity 0.3s ease;
 }
 
@@ -613,7 +607,26 @@ footer a {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 1020px) {
+@media (min-width: 769px) {
+  .pessoas li:hover .foto strong,
+  .pessoas li:hover .descricao {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+  }
+
+  .pessoas li:hover .deboa,
+  .pessoas li:hover ~ li:last-child .deboa {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .pessoas .vazio:hover img { opacity: 1; }
+  .pessoas .descricao .perfil,
+  .pessoas .descricao .fechar { display: none; }
+}
+
+@media (max-width: 768px) {
   .menu-control {
     position: fixed;
     right: 20px;
@@ -695,4 +708,90 @@ footer a {
   }
 
   input#menu-control:checked ~ .menu-control-close { left: 0; }
+
+  .pessoas {
+    padding-right: 0; 
+  }
+
+  .pessoas .deboa {
+    display: none
+  }
+
+  .pessoas li {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+  }
+
+  .pessoas .descricao {
+    padding: 20px 15px;
+    left: 10px;
+    right: 10px;
+    top: 30px;
+    bottom: auto;
+    width: auto;
+    text-align: left;
+    box-shadow: 0 0 8px 0px rgba(0,0,0,0.5)
+  }
+
+  .pessoas .descricao h4 { font-size: 1.5em; }
+  .pessoas .descricao p { font-size: 1.1em; }
+
+  .pessoas .descricao .perfil {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+  }
+
+  .pessoas .descricao h4 {
+    padding-bottom: 10px;
+  }
+
+  .pessoas .descricao .fechar {
+    position: absolute;
+    right: 9px;
+    top: 8px;
+  }
+
+  .pessoas input:checked ~ .camada-lisa {
+    right: 0;
+    background-color: rgba(255,255,255,0.5)
+  }
+
+  #locutores .pessoas li {
+    width: calc(25% - 20px);
+    margin: 10px;
+  }
+
+  .linha-do-tempo .palestras {
+    width: 100%;
+    left: 0;
+  }
+
+  .linha-do-tempo .palestras .palestra { width: 49.5%; }
+  .linha-do-tempo .palestras .palestra h5:before { right: -34px; }
+  .linha-do-tempo .palestras .palestra:nth-child(2n) h5:before { left: -34px; }
+
+  #local { background-position: calc(50% + 280px) center; }
+  #local .caixa { float: none; margin-top: 220px; width: 70%; }
+  #local .caixa:after,
+  #local .caixa:before { display: none; }
+
+  .colegiados li {
+    min-width: 21%;
+    margin: 0 20px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pessoas li,
+  #locutores .pessoas li { width: 100%; }
+
+  #palestrantes,
+  #locutores { padding-bottom: 0; }
+
+  .colegiados li {
+    min-width: 33%;
+    margin: 0 20px;
+  }
 }
