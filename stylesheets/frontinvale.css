@@ -476,6 +476,11 @@ header li a.ativo {
   max-width: 200px;
 }
 
+#patrocinadores .apoio img {
+  max-width: 100px;
+}
+
+
 #interessados {
   padding: 56px 0 56px;
   background: url(../images/il_backgroud_boraajudar.jpg) center;
