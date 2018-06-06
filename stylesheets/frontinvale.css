@@ -464,6 +464,10 @@ header li a.ativo {
   width: 100%;
 }
 
+#patrocinadores .ouro img {
+  max-width: 500px;
+}
+
 #patrocinadores .prata img {
   max-width: 300px;
 }
