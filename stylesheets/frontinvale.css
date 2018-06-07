@@ -235,6 +235,10 @@ header li a.ativo {
   z-index: 2;
 }
 
+.pessoas input:checked ~ .foto {
+  z-index: 3;
+}
+
 .pessoas input:checked ~ .foto strong,
 .pessoas input:checked ~ .descricao {
   opacity: 1;
@@ -249,11 +253,17 @@ header li a.ativo {
   right: 230px;
   bottom: 0;
   z-index: 2;
+  background-color: rgba(255, 255, 255, .5);
 }
 
 .pessoas .vazio label img {
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+
+.pessoas .descricao img {
+  margin: 0 auto;
+  display: block;
 }
 
 .pessoas .vazio input:checked ~ .foto img {
@@ -618,6 +628,10 @@ footer a {
 }
 
 @media (min-width: 769px) {
+  .pessoas li:hover .foto {
+    z-index: 3;
+  }
+
   .pessoas li:hover .foto strong,
   .pessoas li:hover .descricao {
     opacity: 1;
@@ -768,6 +782,10 @@ footer a {
     background-color: rgba(255,255,255,0.5)
   }
 
+  .pessoas .descricao img {
+    max-height: 200px;
+  }
+
   #locutores .pessoas li {
     width: calc(25% - 20px);
     margin: 10px;
@@ -796,7 +814,10 @@ footer a {
 
 @media (max-width: 480px) {
   .pessoas li,
-  #locutores .pessoas li { width: 100%; }
+  #locutores .pessoas li {
+    width: 100%;
+    position: relative;
+  }
 
   #palestrantes,
   #locutores { padding-bottom: 0; }
