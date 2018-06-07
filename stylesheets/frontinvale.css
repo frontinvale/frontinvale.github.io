@@ -684,6 +684,7 @@ footer a {
     width: 300px;
     left: auto;
     bottom: 0;
+    overflow: auto;
     transform: translate(300px, 0);
     transition: all 0.5s ease-in-out;
   }
@@ -691,7 +692,7 @@ footer a {
   header nav {
     flex-direction: column;
     font-size: 2em;
-    padding: 0 30px;
+    padding: 0 30px 20px;
   }
 
   header ul { flex-direction: column; }
