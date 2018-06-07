@@ -192,6 +192,7 @@ header li a.ativo {
   z-index: 1;
   bottom: 0;
   right: 0;
+  padding: 15px;
   background: rgba(255,255,255,0.75);
   color: #424242;
   display: flex;
