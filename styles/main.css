@@ -44,6 +44,7 @@ a:hover  {
 }
 
 .logo img {
+  margin-top: 100px;
   width: 500px;
 }
 
@@ -73,7 +74,11 @@ a:hover  {
 }
 
 #random {
-    
+
+}
+
+.previous-editions {
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 768px) {
