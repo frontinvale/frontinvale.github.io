@@ -7,7 +7,7 @@ html, body, h1, h2, p, a {
 
 body {
   background: no-repeat center;
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg-3.jpg');
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -43,6 +43,10 @@ a:hover  {
   color: #6bff49;
 }
 
+.logo img {
+  width: 500px;
+}
+
 .btn {
   background: #6bff49;
   border-radius: 5px;
@@ -66,4 +70,15 @@ a:hover  {
 
 .mb-128 {
   margin-bottom: 128px;
+}
+
+#random {
+    
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .logo img {
+    width: 80%;
+  }
 }
