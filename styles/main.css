@@ -3,36 +3,33 @@ html, body, h1, h2, p, a {
   margin-bottom: 8px;
   padding: 0px;
   border: 0px;
+  color: #fff;  
 }
 
 body {
-  background: no-repeat center;
-  background-image: url('../images/bg-3.jpg');
+  background: url('../images/bg-3.jpg') no-repeat center;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   text-align: center;
   padding: 0px 32px;
-  color: #fff;  
 }
 
 h1 {
-  color: #fff;
   font-size: 4em;  
 }
 
 p {
-  color: #fff;
   font-size: 1.5em;
   font-weight: lighter;
 }
 
 a {
-  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   padding: 8px 16px;
@@ -45,18 +42,15 @@ a:hover  {
 
 .logo img {
   margin-top: 100px;
-  width: 500px;
 }
 
 .btn {
   background: #6bff49;
   border-radius: 5px;
   color: #093e18;
-  text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
   margin: 8px;
-  transition: ease all .2s;
   display: inline-block;
 }
 
@@ -73,16 +67,11 @@ a:hover  {
   margin-bottom: 128px;
 }
 
-#random {
-
-}
-
 .previous-editions {
   margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   .logo img {
     width: 80%;
   }
