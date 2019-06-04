@@ -1,12 +1,8 @@
 title: FrontInVale 2019
 email: contato@frontinvale.com.br
-description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Maior evento de front-end no Vale do Paraíba.
+keywords: frontend, front-end, html, html5, css, css3, javascript, js
 url: "http://frontinvale.com.br"
-twitter_username: jekyllrb
-github_username:  jekyll
 
 markdown: kramdown
 sass:
