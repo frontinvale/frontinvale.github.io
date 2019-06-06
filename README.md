@@ -22,3 +22,8 @@ After do your changes, open a pull request to branch `master`
 
 
 Contact us: [contato@frontinvale.com.br](mailto:contato@frontinvale.com.br)
+
+Docker compose
+```
+docker-compose up
+```
