@@ -1,0 +1,36 @@
+//breakpoints
+// $screen-xs: 320px
+// $screen-sm: 768px
+// $screen-md: 1280px
+// $screen-lg: 1440px
+@mixin xs-only
+  @media only screen and (max-width: $screen-xs - 1)
+    @content
+
+@mixin small
+  @media only screen and (min-width: $screen-xs)
+    @content
+
+@mixin small-only
+  @media only screen and (max-width: $screen-sm - 1)
+    @content
+
+@mixin medium
+  @media only screen and (min-width: $screen-sm)
+    @content
+
+@mixin large
+  @media only screen and (min-width: $screen-md)
+    @content
+
+@mixin xl
+  @media only screen and (min-width: $screen-lg)
+    @content
+
+@mixin retina
+  @media (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2)
+    @content
+
+@mixin custom-query($width)
+  @media only screen and (min-width: $width)
+    @content
