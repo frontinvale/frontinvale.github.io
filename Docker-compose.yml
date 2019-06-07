@@ -13,5 +13,5 @@ services:
         - 4000:4000
         - 35729:35729
     volumes:
-        # - {PWD}/:/srv/jekyll
         - D:/Projetos/frontinvale.github.io/:/srv/jekyll
+        # - {PWD}/:/srv/jekyll
