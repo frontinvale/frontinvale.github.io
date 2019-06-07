@@ -2,8 +2,8 @@ title: FrontInVale 2019
 email: contato@frontinvale.com.br
 description: Maior evento de front-end no Vale do Paraíba.
 keywords: frontend, front-end, html, html5, css, css3, javascript, js
-# url: "http://localhost:4000"
-url: "http://frontinvale.com.br"
+# url: "http://frontinvale.com.br"
+url: "http://localhost:4000"
 
 markdown: kramdown
 sass:
