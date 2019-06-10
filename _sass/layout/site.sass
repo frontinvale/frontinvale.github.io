@@ -40,5 +40,84 @@
   background: white
   color: $brown
 
-  strong
-    font-family: Quattrocento-Bold
+  .fv-title
+    padding: 140px 0 0 0
+
+.fv-timeline
+  padding: 30px 0 60px
+  position: relative
+  align-self: stretch
+
+  &:before
+    content: ""
+    position: absolute
+    top: 80px
+    left: calc(50% - 1px)
+    bottom: 155px
+    width: 2px
+    background-color: #d8d8d8
+
+  .fv-talks
+    width: calc(100% - 80px)
+    max-width: 900px
+    margin: auto
+    position: relative
+    left: -5px
+    display: table
+
+    .fv-talk-time
+      font-family: Montserrat
+      font-weight: bold
+      color: $orange
+      position: relative
+
+      img
+        position: absolute
+        width: 45px
+        height: 45px
+        border-radius: 50%
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        transform: translateY(-50%)
+        right: -88px
+        z-index: 2
+
+    .fv-talk-title
+      font-family: Quattrocento
+      font-size: 18px
+      font-weight: bold
+      font-style: normal
+
+      strong
+        font-size: 34px
+
+      span
+        font-size: 18px
+
+    .fv-talk
+      width: calc(50% - 40px)
+      float: left
+      padding: 40px 20px 100px
+      clear: both
+      text-align: right
+
+      &:not(:first-child)
+        margin-top: -60px
+
+      div p
+        line-height: 1.4em
+        font-size: 1.4em
+
+        &:not(:first-child)
+          font-size: 0.9em
+
+        span
+          font-weight: 300
+
+      &:nth-child(2n)
+        text-align: left
+        float: right
+
+      &:nth-child(2n) .fv-talk-time img
+        left: -78px
+        right: auto
