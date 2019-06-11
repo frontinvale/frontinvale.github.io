@@ -36,6 +36,39 @@
   min-height: 100vh
   padding: 118px 0
 
+  .fv-mid
+    align-items: start
+    justify-content: space-between
+
+  &-desc
+    max-width: 400px
+    letter-spacing: 0.15px
+
+    p
+      padding-top: 30px
+      line-height: 22px
+
+  &-gallery
+    position: relative
+    max-width: 680px
+    margin-left: 85px
+
+    p
+      padding-bottom: 17px
+
+    &-left,
+    &-right
+      position: absolute
+      top: 50%
+      left: -20px
+
+    &-right
+      left: auto
+      right: -20px
+
+    img
+      max-width: 100%
+
 .fv-schedule
   background: white
   color: $brown
@@ -43,15 +76,21 @@
   .fv-title
     padding: 140px 0 0 0
 
+    ~ p
+      text-align: center
+      padding-bottom: 45px
+      min-width: 570px
+      border-bottom: 5px solid rgba(177, 177, 177, 0.57)
+
 .fv-timeline
-  padding: 30px 0 60px
+  padding: 70px 0 60px
   position: relative
   align-self: stretch
 
   &:before
     content: ""
     position: absolute
-    top: 80px
+    top: 115px
     left: calc(50% - 1px)
     bottom: 155px
     width: 2px
@@ -70,6 +109,8 @@
       font-weight: bold
       color: $orange
       position: relative
+      display: block
+      padding-bottom: 10px
 
       img
         position: absolute
@@ -103,6 +144,9 @@
 
       &:not(:first-child)
         margin-top: -60px
+
+      &:last-child
+        padding-bottom: 0
 
       div p
         line-height: 1.4em
