@@ -10,6 +10,10 @@ body
   display: flex
   align-items: center
 
+  &-column
+    @extend .fv-mid
+    flex-direction: column
+
 .fv-button
   min-width: 270px
   min-height: 48px
@@ -22,7 +26,8 @@ body
   justify-content: center
   font-weight: bold
 
-  &.orange
+  &-orange
+    @extend .fv-button
     border: none
     background: $orange
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5)
@@ -43,3 +48,10 @@ body
 .flex-column
   display: flex
   flex-direction: column
+
+.flex-wrap
+  @extend .flex-center
+  flex-wrap: wrap
+
+  .flex-wrap-item
+    flex: 1
