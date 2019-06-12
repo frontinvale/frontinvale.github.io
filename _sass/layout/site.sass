@@ -52,6 +52,7 @@
     position: relative
     max-width: 680px
     margin-left: 85px
+    margin-right: 25px
 
     p
       padding-bottom: 17px
@@ -178,7 +179,7 @@
   &-last
     padding-bottom: 175px
 
-  .fv-title
+  h2.fv-title
     padding: 128px 0 45px
     color: #58230f
 
@@ -198,3 +199,165 @@
       right: 0
       bottom: 0
       left: 0
+      padding: 0 25px 0
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      background-color: transparent
+      transition: all 0.4s 0.4s ease
+
+      &:hover,
+      &:focus
+        padding-bottom: 20px
+        background-color: $orange
+        transition-delay: 0s
+
+        .fv-description
+          max-height: 200px
+          transition-delay: 0.3s
+
+        a
+          opacity: 1
+          visibility: visible
+          transition-delay: 0.4s
+
+    h4
+      font-size: 24px
+      line-height: 26px
+      text-transform: uppercase
+
+    p
+      padding-top: 6px
+      line-height: 16px
+      font-size: 14px
+
+    a
+      position: absolute
+      top: 33px
+      right: 56px
+      opacity: 0
+      visibility: hidden
+      transition: all 0.5s 0s ease
+
+    .fv-description
+      padding-top: 17px
+      padding-bottom: 2px
+      overflow: hidden
+      max-height: 0
+      transition: all 0.5s 0.2s ease
+
+.fv-location
+  position: relative
+  min-height: 100vh
+
+  &-desc
+    justify-content: center
+    left: 50%
+    max-width: 50%
+    min-height: 680px
+    background-color: rgba(#1c1c1e, 0.93)
+
+    div
+      max-width: 385px
+      line-height: 22px
+      font-size: 20px
+
+  img
+    display: block
+
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+.fv-enrollment
+  background: white
+  color: $brown
+  padding-bottom: 100px
+
+  .fv-title
+    font-size: 44px
+    padding: 140px 0 0 0
+
+    ~ p
+      color: #7b7b7b
+      font-size: 20px
+      padding-bottom: 60px
+
+  &-sympla
+    width: 600px
+
+.fv-not-today
+  min-height: 345px
+  background: url(images/bg-editions.svg) no-repeat center center
+  background-size: cover
+  justify-content: center
+
+  .fv-title
+    font-size: 44px
+
+    span
+      color: $orange
+
+.fv-testemonials
+  min-width: 100%
+  padding: 95px 0 130px
+  color: $brown
+  background: #e7e7e7
+
+  .fv-title
+    padding-bottom: 70px
+
+  h5
+    font-size: 21px
+    font-weight: bold
+
+  p
+    padding-top: 28px
+    color: #7b7b7b
+    font-weight: 500
+    line-height: 35px
+
+  &-gallery
+    padding-right: 25px
+
+    li
+      position: relative
+      margin: 0 0 0 25px
+      padding: 40px 35px
+      border-radius: 10px
+      background-color: #ffffff
+      box-shadow: 10px 10px 60px 0 rgba(141, 154, 169, 0.5)
+
+      h5
+        position: relative
+
+      &.active
+        padding: 60px 45px
+
+.fv-stars
+  position: absolute
+  top: 0px
+  right: 0
+  display: block
+  width: 122px
+  background: url(images/icon-5-stars@3x.png) no-repeat 1px top
+  background-size: auto 15px
+  overflow: hidden
+  text-indent: -999px
+
+  &-5
+    @extend .fv-stars
+
+  &-4
+    @extend .fv-stars
+    background-position: -25px top
+
+  &-3
+    @extend .fv-stars
+    background-position: -52px top
+
+.fv-sponsors
+  align-items: center
