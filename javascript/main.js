@@ -8,7 +8,7 @@ function randombg(){
     'url("images/bg-7.jpg")',
     'url("images/bg-9.jpg")',
     'url("images/bg-10.jpg")',
-    'url("images/bg-11.jpg")',
+    'url("images/bg-11.jpg")'
   ],
   random = Math.floor(Math.random() * backgrounds.length);
 
