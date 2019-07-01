@@ -5,6 +5,9 @@
   padding: 118px 0
   position: relative
 
+  @include small-only
+    display: block
+
   .fv-mid
     h2, p
       font-size: 20px
@@ -16,11 +19,24 @@
     p
       font-size: 24px
 
+      @include small-only
+        padding-left: 10px
+        padding-right: 10px
+
     img
       margin-bottom: 47px
 
+      @include small-only
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: 85%
+
   .fv-button-orange
     min-width: 370px
+
+    @include small-only
+      min-width: 290px
 
 .fv-mouse
   position: absolute
