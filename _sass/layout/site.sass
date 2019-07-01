@@ -60,6 +60,11 @@
     max-width: 400px
     letter-spacing: 0.15px
 
+    @include small-only
+      width: 90%
+      margin-left: auto
+      margin-right: auto
+
     p
       padding-top: 30px
       line-height: 22px
@@ -69,6 +74,11 @@
     max-width: 680px
     margin-left: 85px
     margin-right: 25px
+
+    @include small-only
+      margin-left: 40px
+      margin-right: 40px
+      margin-top: 50px
 
     p
       padding-bottom: 17px
