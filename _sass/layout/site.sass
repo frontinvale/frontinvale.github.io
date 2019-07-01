@@ -97,6 +97,9 @@
     width: 2px
     background-color: #d8d8d8
 
+    @include fv-only
+      left: calc(95% - 36px)
+
   .fv-talks
     width: calc(100% - 80px)
     max-width: 900px
@@ -137,11 +140,14 @@
         font-size: 18px
 
     .fv-talk
-      width: calc(50% - 40px)
       float: left
       padding: 40px 20px 100px
       clear: both
       text-align: right
+      width: calc(50% - 40px)
+
+      @include fv-only
+        width: calc(95% - 40px)
 
       &:not(:first-child)
         margin-top: -60px
@@ -160,12 +166,14 @@
           font-weight: 300
 
       &:nth-child(2n)
-        text-align: left
-        float: right
+        @include fv
+          text-align: left
+          float: right
 
       &:nth-child(2n) .fv-talk-time img
-        left: -78px
-        right: auto
+        @include fv
+          left: -78px
+          right: auto
 
 .fv-speakers
   background: #e7e7e7
