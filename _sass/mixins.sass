@@ -3,6 +3,15 @@
 // $screen-sm: 768px
 // $screen-md: 1280px
 // $screen-lg: 1440px
+// $screen-fv: 992px
+@mixin fv-only
+  @media only screen and (max-width: $screen-fv - 1)
+    @content
+
+@mixin fv
+  @media only screen and (min-width: $screen-fv)
+    @content
+
 @mixin xs-only
   @media only screen and (max-width: $screen-xs - 1)
     @content
@@ -33,4 +42,8 @@
 
 @mixin custom-query($width)
   @media only screen and (min-width: $width)
+    @content
+
+@mixin custom-query-max($width)
+  @media only screen and (max-width: $width)
     @content
