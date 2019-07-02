@@ -1,15 +1,17 @@
 var frontinvale = function(module) {
-  var stopScroll = false;
-
   module.init = function init() {
+    $('header a').on('click', clickNav);
+
     $(window).on('scroll', function(e) {
-      if ($(this).scrollTop() > 350) {
-        $('header').addClass('fv-header-scrolled')
-      } else {
-        $('header').removeClass('fv-header-scrolled')
-      }
+      var toggleAction = $(this).scrollTop() > 350 ? 'addClass' : 'removeClass';
+
+      $('header')[toggleAction]('fv-header-scrolled');
     }).trigger('scroll');
   };
+
+  function clickNav() {
+    $("#fv-menu-control")[0].checked = false;
+  }
 
   return module;
 }({});
@@ -17,3 +19,4 @@ var frontinvale = function(module) {
 Zepto(function($){
   frontinvale.init();
 });
+

@@ -5,7 +5,7 @@
   padding: 118px 0
   position: relative
 
-  @include small-only
+  @include fv-only
     display: block
 
   .fv-mid
@@ -19,14 +19,14 @@
     p
       font-size: 24px
 
-      @include small-only
+      @include fv-only
         padding-left: 10px
         padding-right: 10px
 
     img
       margin-bottom: 47px
 
-      @include small-only
+      @include fv-only
         display: block
         margin-left: auto
         margin-right: auto
@@ -35,7 +35,7 @@
   .fv-button-orange
     min-width: 370px
 
-    @include small-only
+    @include fv-only
       min-width: 290px
 
 .fv-mouse
@@ -52,6 +52,9 @@
   min-height: 100vh
   padding: 118px 0
 
+  @include fv-only
+    padding-bottom: 50px
+
   .fv-mid
     align-items: start
     justify-content: space-between
@@ -60,8 +63,8 @@
     max-width: 400px
     letter-spacing: 0.15px
 
-    @include small-only
-      width: 90%
+    @include fv-only
+      max-width: 90%
       margin-left: auto
       margin-right: auto
 
@@ -75,7 +78,7 @@
     margin-left: 85px
     margin-right: 25px
 
-    @include small-only
+    @include fv-only
       margin-left: 40px
       margin-right: 40px
       margin-top: 50px
@@ -100,14 +103,28 @@
   background: white
   color: $brown
 
+  @include fv-only
+    overflow: hidden
+
+    img
+      width: 1400px
+      margin-left: -50px
+
   .fv-title
     padding: 140px 0 0 0
+
+    @include fv-only
+      padding-top: 50px
+      text-align: center
 
     ~ p
       text-align: center
       padding-bottom: 45px
       min-width: 570px
       border-bottom: 5px solid rgba(177, 177, 177, 0.57)
+
+      @include fv-only
+        min-width: 90vw
 
 .fv-timeline
   padding: 70px 0 60px
@@ -205,13 +222,15 @@
   background: #e7e7e7
 
   &-first
-    box-shadow: inset 0 293px white
+    @include fv
+      box-shadow: inset 0 293px white
 
     .flex-wrap
       max-width: 880px
 
   &-last
-    padding-bottom: 175px
+    @include fv
+      padding-bottom: 175px
 
   h2.fv-title
     padding: 128px 0 45px
@@ -284,36 +303,63 @@
   position: relative
   min-height: 100vh
 
+  @include fv-only
+    overflow: hidden
+
   &-desc
     justify-content: center
-    left: 50%
-    max-width: 50%
-    min-height: 680px
     background-color: rgba(#1c1c1e, 0.93)
+
+    @include fv
+      min-height: 680px
+      left: 50%
+      max-width: 50%
 
     div
       max-width: 385px
       line-height: 22px
       font-size: 20px
 
+      @include fv-only
+        max-width: 90%
+        padding: 40px 0
+
   img
     display: block
 
+    &.w100
+      @include fv-only
+        min-width: 1000px
+        position: relative
+        left: 50%
+        transform: translateX(-50%)
+
   iframe
-    position: absolute
-    top: 0
-    right: 0
-    width: 140%
-    height: 100%
+    width: 100%
+    height: 360px
+    display: block
+
+    @include fv
+      position: absolute
+      top: 0
+      right: 0
+      width: 140%
+      height: 100%
 
 .fv-enrollment
   background: white
   color: $brown
   padding-bottom: 100px
 
+  @include fv-only
+    text-align: center
+
   .fv-title
     font-size: 44px
     padding: 140px 0 0 0
+
+    @include fv-only
+      text-align: center
 
     ~ p
       color: #7b7b7b
@@ -321,13 +367,19 @@
       padding-bottom: 60px
 
   &-sympla
-    width: 600px
+    width: 90%
+
+    @include fv
+      width: 600px
 
 .fv-not-today
-  min-height: 345px
   background: url(images/bg-editions.svg) no-repeat center center
   background-size: cover
   justify-content: center
+  min-height: 345px
+
+  @include fv-only
+    padding: 40px 20px
 
   .fv-title
     font-size: 44px
@@ -357,19 +409,26 @@
   &-gallery
     padding-right: 25px
 
+    @include fv-only
+      flex-direction: column
+
     li
       position: relative
       margin: 0 0 0 25px
-      padding: 40px 35px
+      padding: 40px 20px
       border-radius: 10px
       background-color: #ffffff
       box-shadow: 10px 10px 60px 0 rgba(141, 154, 169, 0.5)
+      
+      @include fv-only
+        margin-top: 25px
 
       h5
         position: relative
 
       &.active
-        padding: 60px 45px
+        @include fv
+          padding: 60px 45px
 
 .fv-stars
   position: absolute
@@ -398,6 +457,9 @@
   align-items: center
   color: $brown
 
+  @include fv-only
+    padding-bottom: 60px
+
   .fv-mid-column
     width: 100%
 
@@ -414,7 +476,10 @@
     align-items: center
 
     li
-      padding: 0 35px
+      padding: 0 15px
+
+      @include fv
+        padding: 0 35px
 
   &-gold
     img
@@ -432,18 +497,29 @@
     img
       width: 120px
 
+  @include fv-only
+    img
+      max-width: 95%
+
 .fv-interested
   padding: 65px 0
   background: #e7e7e7
   color: #7b7b7b
   justify-content: space-between
+
+  @include fv-only
+    padding-bottom: 0
   
   &-desc
-    padding: 0px 130px 0 0
-    max-width: 560px
+    padding: 0 20px 40px
+
+    @include fv
+      padding: 0px 130px 0 0
+      max-width: 560px
 
   img
     width: 100%
+    display: block
 
   p
     font-size: 25px
@@ -454,7 +530,9 @@
 
 .fv-organization
   background: white
-  padding-bottom: 165px
+
+  @include fv
+    padding-bottom: 165px
 
   .flex-wrap
     max-width: 880px
@@ -469,6 +547,11 @@
     flex-wrap: wrap
     justify-content: space-between
 
+    @include fv-only
+      justify-content: center
+      text-align: center
+      padding: 40px 15px
+
   p
     min-width: 100%
     padding-top: 95px
@@ -476,10 +559,11 @@
   a
     margin: 0 0 0 29px
 
+    &:first-child
+      margin-left: 0
+
   img
     display: block
 
   .fv-title
     font-size: 56px
-
-    
