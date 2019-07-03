@@ -1,14 +1,80 @@
 [
   {
     "hour": "08:00",
-    "title": "Some title",
-    "description": "Some description",
+    "title": "Credenciamento <br>+ Welcome Coffee",
+    "description": "Momento da chegada no evento para encontrar com a galera, tomar um cafézinho e se preparar para curtir ao máximo esse dia recheado de conhecimento.",
+    "kind": "register"
+  },
+  {
+    "hour": "08:40",
+    "title": "Shall we begin?",
+    "description": "Abertura oficial do evento com os apresentadores do evento.",
+    "kind": "mc"
+  },
+  {
+    "hour": "09:00",
+    "title": "Palestra a definir.",
+    "description": "",
     "kind": "talk"
   },
   {
-    "hour": "08:30",
-    "title": "Some title",
-    "description": "Some description",
+    "hour": "10:00",
+    "title": "Palestra a definir.",
+    "description": "",
+    "kind": "talk"
+  },
+  {
+    "hour": "11:00",
+    "title": "Lightning Talks - Rodada #1",
+    "description": "",
     "kind": "lightning-talk"
-  }
+  },
+  {
+    "hour": "12:00",
+    "title": "Hora do Almoço",
+    "description": "Hora de se alimentar e fazer aquele networking maroto :)",
+    "kind": "lunch"
+  },
+  {
+    "hour": "13:30",
+    "title": "Palestra a definir.",
+    "description": "",
+    "kind": "talk"
+  },
+  {
+    "hour": "14:30",
+    "title": "Palestra a definir.",
+    "description": "",
+    "kind": "talk"
+  },
+  {
+    "hour": "15:30",
+    "title": "Coffee-break",
+    "description": "Hora do cafézinho e de conversar com os amigos.",
+    "kind": "coffee-break"
+  },
+  {
+    "hour": "16:00",
+    "title": "Lightning Talks - Rodada #2",
+    "description": "",
+    "kind": "lightning-talk"
+  },
+  {
+    "hour": "17:00",
+    "title": "Palestra a definir.",
+    "description": "",
+    "kind": "talk"
+  },
+  {
+    "hour": "18:00",
+    "title": "Palestra a definir.",
+    "description": "",
+    "kind": "talk"
+  },
+  {
+    "hour": "16:00",
+    "title": "Sorteios e encerramentos",
+    "description": "Ahh, ta acabando! Mas com certeza levaremos muitas lições para vida. Que venha a próxima edição.",
+    "kind": "mc"
+  },
 ]
