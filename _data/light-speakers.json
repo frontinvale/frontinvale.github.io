@@ -1,9 +1,66 @@
 [
   {
-    "name": "Silvio Rodrigues",
-    "job": "Front-end | mLabs",
-    "picture": "picture-name.jpg",
-    "description": "Descrição legal",
-    "linkedin": "https://linkedin.url"
-  }
+    "name": "Rita<br>Lino",
+    "job": "Front-end | Creditas",
+    "picture": "rita-lino.jpg",
+    "description": "Formada em Análise e Desenvolvimento de Sistemas pela FATEC de Santos. Hoje atua como Desenvolvedora de Software na Creditas.",
+    "social": "https://www.linkedin.com/in/rita-lino/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Erich<br>Rodrigues",
+    "job": "Fullstack | Quero Educação",
+    "picture": "erich-rodrigues.jpeg",
+    "description": "Programador há 6 anos. Mestrando em Ciências da computação. Fundador do uCoder, plataforma para desenvolvedores e Tech lead na Quero Educação.",
+    "social": "https://www.linkedin.com/in/erich-rodrigues-ferrares-72673091/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Graziele<br>Galvão",
+    "job": "QA/Tester | Justto",
+    "picture": "graziele-galvao.jpeg",
+    "description": "QA Analyst/Software Tester, estudante de ADS pela FATEC de SJC. Sou INFJ-T e acredito que Velozes e Furiosos é a maior saga do cinema (antes de Shrek 2).",
+    "social": "https://br.linkedin.com/in/graziele-galvão-130b09a0",
+    "network": "linkedin"
+  },
+  {
+    "name": "Felipe<br>Orlando",
+    "job": "Fullstack | Quero Educação",
+    "picture": "felipe-orlando.jpg",
+    "description": "Engenheiro de Software na Quero Educação, adora Javascript, seja no front, seja no back. Já passou por startups como GetNinjas, Revelo, Creditas e VTEX.",
+    "social": "https://www.linkedin.com/in/felipeorlando/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Kamila<br>de Fátima",
+    "job": "Back-end | Cognizant",
+    "picture": "kamila-fatima.jpg",
+    "description": "Futura cientista da computação, desenvolvedora backend que as vezes mexe no front, integrante da organização das DevsJavaGirl e voluntária da WoMakersCode.",
+    "social": "https://www.linkedin.com/in/kamila-santos-oliveira/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Mario<br>Souto",
+    "job": "Front-end/Instrutor | Caelum",
+    "picture": "mario-souto.jpeg",
+    "description": "Começou no mundo da web criando sites para meus servidores de Tibia quando tinha 11 anos e hoje com 21 está oficialmente a 4 anos na área de programação.",
+    "social": "https://twitter.com/omariosouto",
+    "network": "twitter"
+  },
+  {
+    "name": "Maísa<br>Maximo",
+    "job": "Fullstack | Quantum",
+    "picture": "maisa-maximo.png",
+    "description": "Atualmente atuando como fullstack e entusiasta em react e design. Aprendendo que front end é tão complexo quanto seu amado back. Ama comer, dormir e fingir que é fitness.",
+    "social": "https://www.linkedin.com/in/maisa-maximo-ferreira/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Pedro<br>Henrique",
+    "job": "Front-end | Dasa",
+    "picture": "pedro-henrique.png",
+    "description": "Desenvolvedor Front-End Sênior na Dasa. Evangelista do Vue.Js. Fundou uma startup na área de saúde e atualmente empreenden na área ambiental.",
+    "social": "https://www.instagram.com/pedro.baesso/",
+    "network": "instagram"
+  },
 ]

@@ -2,90 +2,21 @@
   <div class="fv-mid-column">
     <h2 class="fv-title">PALESTRANTES</h2>
     <ul class="flex-wrap">
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
+      {% for speaker in site.data.speakers %}
+        <li class="flex-wrap-item">
+          <img src="{{site.url}}/assets/images/speakers/{{speaker.picture}}">
+          <div>
+            <h4 class="fv-title">
+              {{speaker.name}}
+            </h4>
+            <p>{{speaker.job}}</p>
+            <p class="fv-description">{{speaker.description}}</p>
+            <a href="{{speaker.social}}" target="_blank">
+              <img class="fv-small-icon" src="{{site.url}}/assets/images/icon-{{speaker.network}}.svg">
+            </a>
+          </div>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </section>
@@ -94,118 +25,21 @@
   <div class="fv-mid-column">
     <h2 class="fv-title">LIGHTNING TALKS</h2>
     <ul class="flex-wrap">
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
+      {% for speaker in site.data.light-speakers %}
+        <li class="flex-wrap-item">
+          <img src="{{site.url}}/assets/images/speakers/{{speaker.picture}}">
+          <div>
+            <h4 class="fv-title">
+              {{speaker.name}}
+            </h4>
+            <p>{{speaker.job}}</p>
+            <p class="fv-description">{{speaker.description}}</p>
+            <a href="{{speaker.social}}" target="_blank">
+              <img class="fv-small-icon" src="{{site.url}}/assets/images/icon-{{speaker.network}}.svg">
+            </a>
+          </div>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </section>
@@ -214,34 +48,21 @@
   <div class="fv-mid-column">
     <h2 class="fv-title">APRESENTAÇÃO</h2>
     <ul class="flex-wrap">
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
-      <li class="flex-wrap-item">
-        <img src="{{site.url}}/assets/images/speakers/speaker.jpg">
-        <div>
-          <h4 class="fv-title">
-            Fernando<br>
-            Daciuk
-          </h4>
-          <p>Professor | Empresa</p>
-          <p class="fv-description">Gamer, front-end, developer, futura suicide girl, cantora, PotterHead e web plataform evangelist.</p>
-          <a href="javascript:;">
-            <img src="{{site.url}}/assets/images/icon-linkedin.svg">
-          </a>
-        </div>
-      </li>
+      {% for presenter in site.data.presenters %}
+        <li class="flex-wrap-item">
+          <img src="{{site.url}}/assets/images/speakers/{{presenter.picture}}">
+          <div>
+            <h4 class="fv-title">
+              {{presenter.name}}
+            </h4>
+            <p>{{presenter.job}}</p>
+            <p class="fv-description">{{presenter.description}}</p>
+            <a href="{{presenter.social}}" target="_blank">
+              <img class="fv-small-icon" src="{{site.url}}/assets/images/icon-{{presenter.network}}.svg">
+            </a>
+          </div>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </section>
