@@ -4,7 +4,7 @@
     <ul class="flex-wrap">
       {% for organization in site.data.organization %}
         <li class="flex-wrap-item">
-          <img src="{{site.url}}/assets/images/speakers/{{organization.picture}}">
+          <img src="./assets/images/speakers/{{organization.picture}}">
           <div>
             <h4 class="fv-title">
               {{organization.name}}
@@ -12,7 +12,7 @@
             <p>{{organization.job}}</p>
             <p class="fv-description">{{speaker.description}}</p>
             <a href="{{organization.social}}" target="_blank">
-              <img src="{{site.url}}/assets/images/icon-linkedin.svg">
+              <img src="./assets/images/icon-linkedin.svg">
             </a>
           </div>
         </li>

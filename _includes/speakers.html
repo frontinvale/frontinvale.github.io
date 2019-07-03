@@ -4,7 +4,7 @@
     <ul class="flex-wrap">
       {% for speaker in site.data.speakers %}
         <li class="flex-wrap-item">
-          <img src="{{site.url}}/assets/images/speakers/{{speaker.picture}}">
+          <img src="./assets/images/speakers/{{speaker.picture}}">
           <div>
             <h4 class="fv-title">
               {{speaker.name}}
@@ -12,7 +12,7 @@
             <p>{{speaker.job}}</p>
             <p class="fv-description">{{speaker.description}}</p>
             <a href="{{speaker.social}}" target="_blank">
-              <img class="fv-small-icon" src="{{site.url}}/assets/images/icon-{{speaker.network}}.svg">
+              <img class="fv-small-icon" src="./assets/images/icon-{{speaker.network}}.svg">
             </a>
           </div>
         </li>
@@ -27,7 +27,7 @@
     <ul class="flex-wrap">
       {% for speaker in site.data.light-speakers %}
         <li class="flex-wrap-item">
-          <img src="{{site.url}}/assets/images/speakers/{{speaker.picture}}">
+          <img src="./assets/images/speakers/{{speaker.picture}}">
           <div>
             <h4 class="fv-title">
               {{speaker.name}}
@@ -35,7 +35,7 @@
             <p>{{speaker.job}}</p>
             <p class="fv-description">{{speaker.description}}</p>
             <a href="{{speaker.social}}" target="_blank">
-              <img class="fv-small-icon" src="{{site.url}}/assets/images/icon-{{speaker.network}}.svg">
+              <img class="fv-small-icon" src="./assets/images/icon-{{speaker.network}}.svg">
             </a>
           </div>
         </li>
@@ -50,7 +50,7 @@
     <ul class="flex-wrap">
       {% for presenter in site.data.presenters %}
         <li class="flex-wrap-item">
-          <img src="{{site.url}}/assets/images/speakers/{{presenter.picture}}">
+          <img src="./assets/images/speakers/{{presenter.picture}}">
           <div>
             <h4 class="fv-title">
               {{presenter.name}}
@@ -58,7 +58,7 @@
             <p>{{presenter.job}}</p>
             <p class="fv-description">{{presenter.description}}</p>
             <a href="{{presenter.social}}" target="_blank">
-              <img class="fv-small-icon" src="{{site.url}}/assets/images/icon-{{presenter.network}}.svg">
+              <img class="fv-small-icon" src="./assets/images/icon-{{presenter.network}}.svg">
             </a>
           </div>
         </li>
