@@ -9,26 +9,14 @@
   <h2 class="fv-title">TESTEMONIALS</h2>
 
   <ul class="fv-testemonials-gallery flex-center">
-    <li>
-      <h5>
-        FELIPE DUTRA
-        <span class="fv-stars-5">Avaliação: 5/5</span>
-      </h5>
-      <p>Um p*** evento bom de mais *-* Eu virei fã, sempre que puder to indo \o/</p>
-    </li>
-    <li class="active">
-      <h5>
-        FELIPE DUTRA
-        <span class="fv-stars-4">Avaliação: 4/5</span>
-      </h5>
-      <p>Um p*** evento bom de mais *-* Eu virei fã, sempre que puder to indo \o/</p>
-    </li>
-    <li>
-      <h5>
-        FELIPE DUTRA
-        <span class="fv-stars-3">Avaliação: 3/5</span>
-      </h5>
-      <p>Um p*** evento bom de mais *-* Eu virei fã, sempre que puder to indo \o/</p>
-    </li>
+    {% for testemonial in site.data.testemonials %}
+      <li>
+        <h5>
+          {{testemonial.name}}
+          <span class="fv-stars-{{testemonial.stars}}">Avaliação: {{testemonial.stars}}/5</span>
+        </h5>
+        <p>{{testemonial.text}}</p>
+      </li>
+    {% endfor %}
   </ul>
 </section>
