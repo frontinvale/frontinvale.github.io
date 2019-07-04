@@ -1,8 +1,33 @@
 [
   {
-    "name": "mLabs",
-    "site": "https://mlabs.com.br",
-    "picture": "picture-name.png",
+    "name": "Quero Educação",
+    "site": "https://quero.education",
+    "picture": "quero-educacao.svg",
     "quota": "gold"
+  },
+  {
+    "name": "Guichê Virtual",
+    "site": "https://www.guichevirtual.com.br",
+    "picture": "guiche-virtual.png",
+    "quota": "silver"
+  },
+  {
+    "name": "Toptal",
+    "site": "https://www.toptal.com",
+    "picture": "toptal.png",
+    "quota": "bronze"
+  },
+  {
+    "name": "Alura",
+    "site": "https://www.alura.com.br/",
+    "picture": "alura.png",
+    "quota": "support"
   }
 ]
+
+// {
+//   "name": "DUXcoworkers",
+//   "site": "http://duxcoworkers.com/",
+//   "picture": "dux-coworkers.png",
+//   "quota": "bronze"
+// },
