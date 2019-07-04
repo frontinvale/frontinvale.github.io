@@ -13,20 +13,20 @@
   },
   {
     "hour": "09:00",
-    "title": "Palestra a definir.",
-    "description": "",
+    "title": "Go Pure with ClojureScript",
+    "description": "por Marcelo Piva",
     "kind": "talk"
   },
   {
     "hour": "10:00",
-    "title": "Palestra a definir.",
-    "description": "",
+    "title": "Afinal, UX pra quê?",
+    "description": "por Anna Flávia",
     "kind": "talk"
   },
   {
     "hour": "11:00",
     "title": "Lightning Talks - Rodada #1",
-    "description": "",
+    "description": "Build Tools: Entendendo as Ferramentas de Construção Front-End <br>por Rita Lino<br><br>E esse tal de WebAssembly? <br>por Erich Rodrigues<br><br>Cypress.Io - Testes End-2-End sem Selenium e Sem Dor de Cabeça <br>por Graziele Galvão<br><br>JS TO THE FUTURE <br>por Felipe Orlando",
     "kind": "lightning-talk"
   },
   {
@@ -37,14 +37,14 @@
   },
   {
     "hour": "13:30",
-    "title": "Palestra a definir.",
-    "description": "",
+    "title": "Lina - design system de multi brands",
+    "description": "por Emilio Aiolfi",
     "kind": "talk"
   },
   {
     "hour": "14:30",
-    "title": "Palestra a definir.",
-    "description": "",
+    "title": "O front-end como você conhece vai morrer",
+    "description": "por Carla Vieira",
     "kind": "talk"
   },
   {
@@ -56,19 +56,19 @@
   {
     "hour": "16:00",
     "title": "Lightning Talks - Rodada #2",
-    "description": "",
+    "description": "<br>Introdução ao maravilhoso mundo do GraphQl<br>por Kamila de Fátima<br><br>Esse tal de Flutter, é de comer?<br>por Mario Souto<br><br>Clean code - um código que não apenas você e Deus entenda.<br>por Maísa Maximo<br><br>Escalando contratos de dados em aplicações front-end.<br>por Pedro Henrique<br>",
     "kind": "lightning-talk"
   },
   {
     "hour": "17:00",
-    "title": "Palestra a definir.",
-    "description": "",
+    "title": "Acessibilidade é requisito funcional também!",
+    "description": "por Livia Gabos e Michelle Frasson",
     "kind": "talk"
   },
   {
     "hour": "18:00",
-    "title": "Palestra a definir.",
-    "description": "",
+    "title": "Quem tem medo do TypeScript?",
+    "description": "por William Grasel",
     "kind": "talk"
   },
   {
