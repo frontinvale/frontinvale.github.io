@@ -22,6 +22,12 @@
     "site": "https://www.alura.com.br/",
     "picture": "alura.png",
     "quota": "support"
+  },
+  {
+    "name": "Novatec",
+    "site": "https://novatec.com.br",
+    "picture": "novatec.svg",
+    "quota": "support"
   }
 ]
 
