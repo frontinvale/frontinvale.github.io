@@ -1,5 +1,11 @@
 [
   {
+    "name": "mLabs",
+    "site": "https://www.mlabs.com.br/",
+    "picture": "mlabs.svg",
+    "quota": "gold"
+  },
+  {
     "name": "Quero Educação",
     "site": "https://quero.education",
     "picture": "quero-educacao.svg",
@@ -30,10 +36,3 @@
     "quota": "support"
   }
 ]
-
-// {
-//   "name": "DUXcoworkers",
-//   "site": "http://duxcoworkers.com/",
-//   "picture": "dux-coworkers.png",
-//   "quota": "bronze"
-// },
