@@ -1,5 +1,11 @@
 [
   {
+    "name": "Buser",
+    "site": "https://www.buser.com.br/",
+    "picture": "buser.png",
+    "quota": "diamond"
+  },
+  {
     "name": "mLabs",
     "site": "https://www.mlabs.com.br/",
     "picture": "mlabs.svg",

@@ -5,6 +5,19 @@
     <strong class="fv-title">Ouro</strong>
     <ul class="fv-sponsors-gold">
       {% for sponsor in site.data.sponsors %}
+        {% if sponsor.quota == "diamond" %}
+          <li>
+            <a href="{{sponsor.site}}" target="_blank">
+              <img src="./assets/images/sponsors/{{sponsor.picture}}" alt="Logo da {{sponsor.name}}">
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <strong class="fv-title">Ouro</strong>
+    <ul class="fv-sponsors-gold">
+      {% for sponsor in site.data.sponsors %}
         {% if sponsor.quota == "gold" %}
           <li>
             <a href="{{sponsor.site}}" target="_blank">
