@@ -487,22 +487,31 @@
     align-items: center
 
     li
-      padding: 0 15px
+      padding: 50px 15px
+
+      &:first-child
+        padding-top: 0
 
       @include fv
-        padding: 0 35px
+        padding: 120px 0 0
+
+  &-diamond
+    img
+      width: 500px
 
   &-gold
+    flex-direction: column
+
     img
-      width: 400px
+      width: 415px
 
   &-silver
-      img
-        width: 300px
+    img
+      width: 290px
 
   &-bronze
-      img
-        width: 250px
+    img
+      width: 250px
 
   &-support
     img
