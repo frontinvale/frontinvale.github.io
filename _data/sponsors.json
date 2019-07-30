@@ -40,5 +40,18 @@
     "site": "https://novatec.com.br",
     "picture": "novatec.svg",
     "quota": "support"
+  },
+  {
+    "name": "Hotel Nacional Inn São José dos Campos",
+    "site": "http://bit.ly/FrontInVale2019-HotelOficial",
+    "picture": "nacional-inn-sao-jose-dos-campos.png",
+    "quota": "support-hotel"
+  },
+  {
+    "name": "Hotel Nacional Dan Inn São José dos Campos",
+    "site": "http://bit.ly/FrontInVale2019-HotelOficial",
+    "picture": "dan-inn-sao-jose-dos-campos.png",
+    "quota": "support-hotel"
   }
+
 ]

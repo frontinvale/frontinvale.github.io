@@ -514,13 +514,31 @@
       width: 250px
 
   &-support
-    flex-direction: column
+    &.support-hotel
+      padding-top: 50px
+      flex-wrap: wrap
+
+      & > a
+        width: 100%
+        text-align: center
+        padding-top: 10px
+        font-size: .8em
+        color: $orange
+
+      img
+        width: 150px
 
     li
-      padding: 60px 0 0
+      padding: 0 20px!important
 
     img
       width: 120px
+
+    @include fv-only
+      flex-direction: column
+
+      li
+        padding-bottom: 10px!important
 
   @include fv-only
     img
