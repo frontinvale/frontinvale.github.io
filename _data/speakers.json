@@ -40,6 +40,14 @@
     "network": "linkedin"
   },
   {
+    "name": "Tony<br>Lâmpada",
+    "job": "CTO | Buser",
+    "picture": "tony-lampada.jpg",
+    "description": "Desenvolvedor Web com 19 anos de experiência na área. CTO da Buser e criador do evolutio.io.",
+    "social": "https://www.linkedin.com/in/tonylampada",
+    "network": "linkedin"
+  },
+  {
     "name": "William<br>Grasel",
     "job": "Front-end | Itaú",
     "picture": "william-grasel.jpg",
