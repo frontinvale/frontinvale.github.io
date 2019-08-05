@@ -6,6 +6,12 @@
     "quota": "diamond"
   },
   {
+    "name": "DM Card",
+    "site": "https://www.dmcard.com.br",
+    "picture": "dmcard.png",
+    "quota": "diamond"
+  },
+  {
     "name": "mLabs",
     "site": "https://www.mlabs.com.br/",
     "picture": "mlabs.svg",
