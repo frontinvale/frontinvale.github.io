@@ -78,6 +78,9 @@
     margin-left: 85px
     margin-right: 25px
 
+    .gallery-image
+      filter: grayscale(100%)
+
     @include fv-only
       margin-left: 40px
       margin-right: 40px
@@ -226,9 +229,11 @@
       box-shadow: inset 0 293px white
 
     .flex-wrap
+      justify-content: center
+
       li:nth-last-child(-n+3)
-        width: 100%
-        max-width: 33.333%
+        @include fv
+          max-width: 25%
 
   &-last
     @include fv
