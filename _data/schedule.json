@@ -18,19 +18,25 @@
     "kind": "talk"
   },
   {
-    "hour": "10:00",
+    "hour": "09:50",
+    "title": "Vue.js + APIs de mentirinha: A arma secreta da Buser",
+    "description": "por Tony Lâmpada",
+    "kind": "talk"
+  },
+  {
+    "hour": "10:20",
     "title": "Afinal, UX pra quê?",
     "description": "por Anna Flávia Oliveira",
     "kind": "talk"
   },
   {
-    "hour": "11:00",
+    "hour": "11:10",
     "title": "Lightning Talks - Rodada #1",
     "description": "Build Tools: Entendendo as Ferramentas de Construção Front-End <br>por Rita Lino<br><br>E esse tal de WebAssembly? <br>por Erich Rodrigues<br><br>Cypress.Io - Testes End-2-End sem Selenium e Sem Dor de Cabeça <br>por Graziele Galvão<br><br>JS TO THE FUTURE <br>por Felipe Orlando",
     "kind": "lightning-talk"
   },
   {
-    "hour": "12:00",
+    "hour": "12:10",
     "title": "Hora do Almoço",
     "description": "Hora de se alimentar e fazer aquele networking maroto :)",
     "kind": "lunch"
