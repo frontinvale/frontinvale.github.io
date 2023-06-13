@@ -37,13 +37,23 @@ p {
   margin-bottom: 60px;
 }
 
+.actions {
+  margin-bottom: 60px;
+  display: flex;
+}
+
 .cta {
   background: #d6520d;
+  border: 2px solid #d6520d;
   font-weight: bold;
   font-size: 1.6rem;
   padding: 15px 50px;
   border-radius: 3px;
-  margin-bottom: 60px;
+  margin-right: 30px;
+}
+
+.cta.secondary {
+  background: transparent;
 }
 
 .icons img {
@@ -69,7 +79,13 @@ p {
     margin-bottom: 40px;
   }
 
+  .actions {
+    flex-direction: column;
+  }
+
   .cta {
     width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
   }
 }
