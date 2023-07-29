@@ -1,66 +1,66 @@
 [
   {
-    "name": "Rita<br>Lino",
-    "job": "Front-end | Creditas",
-    "picture": "rita-lino.jpg",
-    "description": "Formada em Análise e Desenvolvimento de Sistemas pela FATEC de Santos. Hoje atua como Desenvolvedora de Software na Creditas.",
-    "social": "https://www.linkedin.com/in/rita-lino/",
+    "name": "Caique<br>de Castro",
+    "job": "Software Engineer @ Venturus",
+    "picture": "caique-de-castro.jpeg",
+    "description": "Trabalha com desenvolvimento de software web há 15 anos. Já trabalhou com PHP, .NET e Javascript.",
+    "social": "https://github.com/caiquecastro",
+    "network": "github"
+  },
+  {
+    "name": "Camila<br>Monteiro",
+    "job": "Frontend Developer @ Poliedro Educação",
+    "picture": "camila-monteiro-chaves.jpeg",
+    "description": "É desenvolvedora front end e co-fundadora da rede Codivas.",
+    "social": "https://linkedin.com/in/camismonteiro",
     "network": "linkedin"
   },
   {
-    "name": "Erich<br>Rodrigues",
-    "job": "Fullstack | Quero Educação",
-    "picture": "erich-rodrigues.jpeg",
-    "description": "Programador há 6 anos. Mestrando em Ciências da computação. Fundador do uCoder, plataforma para desenvolvedores e Tech lead na Quero Educação.",
-    "social": "https://www.linkedin.com/in/erich-rodrigues-ferrares-72673091/",
+    "name": "Gabe Bo",
+    "job": "Product Designer @ BeatStars",
+    "picture": "gabe-bo.jpeg",
+    "description": "Product Designer na BeatStars, Webflow Designer na Axioma, fundador do movimento #jobnagringa",
+    "social": "https://www.linkedin.com/in/gabrielbo/",
     "network": "linkedin"
   },
   {
-    "name": "Graziele<br>Galvão",
-    "job": "QA/Tester | Justto",
-    "picture": "graziele-galvao.jpeg",
-    "description": "QA Analyst/Software Tester, estudante de ADS pela FATEC de SJC. Sou INFJ-T e acredito que Velozes e Furiosos é a maior saga do cinema (antes de Shrek 2).",
-    "social": "https://br.linkedin.com/in/graziele-galvão-130b09a0",
-    "network": "linkedin"
-  },
-  {
-    "name": "Felipe<br>Orlando",
-    "job": "Fullstack | Quero Educação",
-    "picture": "felipe-orlando.jpg",
-    "description": "Engenheiro de Software na Quero Educação, adora Javascript, seja no front, seja no back. Já passou por startups como GetNinjas, Revelo, Creditas e VTEX.",
-    "social": "https://www.linkedin.com/in/felipeorlando/",
-    "network": "linkedin"
-  },
-  {
-    "name": "Kamila<br>de Fátima",
-    "job": "Organizadora | DevsJavaGirl",
-    "picture": "kamila-fatima.jpg",
-    "description": "Futura cientista da computação, desenvolvedora backend que as vezes mexe no front, integrante da organização das DevsJavaGirl e voluntária da WoMakersCode.",
-    "social": "https://www.linkedin.com/in/kamila-santos-oliveira/",
-    "network": "linkedin"
-  },
-  {
-    "name": "Mario<br>Souto",
-    "job": "Front-end/Instrutor | Caelum",
-    "picture": "mario-souto.jpeg",
-    "description": "Começou no mundo da web criando sites para meus servidores de Tibia quando tinha 11 anos e hoje com 21 está oficialmente a 4 anos na área de programação.",
-    "social": "https://twitter.com/omariosouto",
+    "name": "Keit<br>Oliveira",
+    "job": "Specialist Front-End Engineer @ Zippi",
+    "picture": "keit-oliveira.jpeg",
+    "description": "Programadora a 15 anos, fundadora da @frontintech produtora de eventos como o FRONTIN Sampa, coder streamer, podcaster @devnaestrada, atleta fisiculturista e mais um monte de coisas.",
+    "social": "https://twitter.com/k8adev",
     "network": "twitter"
   },
   {
-    "name": "Maísa<br>Maximo",
-    "job": "Fullstack | Atlas Quantum",
-    "picture": "maisa-maximo.jpg",
-    "description": "Desenvolvedora Fullstack voltado para blockchain. Apaixonada por tudo relacionado a acessibilidade e inclusão. Aprendendo que front end é tão complexo quanto seu amado back.",
-    "social": "https://www.linkedin.com/in/maisa-maximo-ferreira/",
+    "name": "Maria Paula<br>Dias",
+    "job": "QA Analyst @ Zappts",
+    "picture": "maria-paula-dias.jpg",
+    "description": "Analista de Qualidade de Software há três anos, trabalha atualmente com testes backend e mobile. Gosta muito de tecnologia.",
+    "social": "https://www.linkedin.com/in/mariapaula-dias/",
     "network": "linkedin"
   },
   {
-    "name": "Pedro<br>Baesso",
-    "job": "Front-end | Dasa",
-    "picture": "pedro-henrique.png",
-    "description": "Desenvolvedor Front-End Sênior na Dasa. Evangelista do Vue.Js. Fundou uma startup na área de saúde e atualmente empreende na área ambiental.",
-    "social": "https://www.instagram.com/pedro.baesso/",
-    "network": "instagram"
+    "name": "Rodrigo<br>Gabriel",
+    "job": "Frontend Engineer @ Cuponomia",
+    "picture": "rodrigo-gabriel.jpeg",
+    "description": "É desenvolvedor a mais de 10 anos, começou fazendo freelances de sites para comercios, e-commerce, blogs etc... Trabalhou como fullstack em empresas como signa, quero educação e cuponomia.",
+    "social": "https://www.linkedin.com/in/rodrigorgrb/",
+    "network": "linkedin"
   },
+  {
+    "name": "Rodrigo<br>Yoshida",
+    "job": "IT Coordinator @ Cobasi",
+    "picture": "rodrigo-yoshida.jpeg",
+    "description": "Tribe lead na Cobasi Labs, núcleo de inovação e desenvolvimento na Cobasi. ",
+    "social": "https://www.linkedin.com/in/rodrigoyoshida/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Roger<br>Camargo",
+    "job": "Instrutor de Tecnologia @ Buser",
+    "picture": "roger-camargo.jpg",
+    "description": "Devenvolvedor Backend, no início trabalhava com Java em bancos, depois gostei muito mais de trabalhar em startups e linguagens como Python! Nos últimos anos tenho estudado e focado em projetos Frontend!",
+    "social": "https://github.com/huogerac",
+    "network": "github"
+  }
 ]
