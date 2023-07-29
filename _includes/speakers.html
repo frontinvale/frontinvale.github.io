@@ -1,6 +1,6 @@
 <section class="fv-speakers fv-speakers-first" id="speakers">
   <div class="fv-mid-column">
-    <h2 class="fv-title">PALESTRANTES</h2>
+    <h2 class="fv-title">PALESTRANTES CONFIRMADOS</h2>
     <ul class="flex-wrap">
       {% for speaker in site.data.speakers %}
         <li class="flex-wrap-item">
@@ -21,7 +21,7 @@
   </div>
 </section>
 
-<section class="fv-speakers">
+<section class="fv-speakers fv-speakers-last">
   <div class="fv-mid-column">
     <h2 class="fv-title">LIGHTNING TALKS</h2>
     <ul class="flex-wrap">
@@ -36,29 +36,6 @@
             <p class="fv-description">{{speaker.description}}</p>
             <a href="{{speaker.social}}" target="_blank">
               <img class="fv-small-icon" src="./assets/images/icon-{{speaker.network}}.svg">
-            </a>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<section class="fv-speakers fv-speakers-last">
-  <div class="fv-mid-column">
-    <h2 class="fv-title">APRESENTAÇÃO</h2>
-    <ul class="flex-wrap">
-      {% for presenter in site.data.presenters %}
-        <li class="flex-wrap-item">
-          <img src="./assets/images/speakers/{{presenter.picture}}">
-          <div>
-            <h4 class="fv-title">
-              {{presenter.name}}
-            </h4>
-            <p>{{presenter.job}}</p>
-            <p class="fv-description">{{presenter.description}}</p>
-            <a href="{{presenter.social}}" target="_blank">
-              <img class="fv-small-icon" src="./assets/images/icon-{{presenter.network}}.svg">
             </a>
           </div>
         </li>
