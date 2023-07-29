@@ -41,30 +41,37 @@
 .fv-mouse
   position: absolute
   bottom: 50px
-  left: 50%
+  left: calc(50% - 10.5px)
 
   img:first-child
     margin-bottom: 5px
 
 .fv-is-coming
-  background: url(images/bg-editions.svg) no-repeat center center
-  background-size: cover
-  min-height: 100vh
-  padding: 118px 0
+  background: linear-gradient(119deg, #070707 0%, #181818 100%)
+  padding: 115px 0
+
+  .fv-title
+    font-size: 48px
+
+    span
+      color: $secondary-color
+
+  .fv-button-primary
+    margin-top: 20px
 
   @include fv-only
     padding-bottom: 50px
 
   .fv-mid
-    align-items: start
+    align-items: center
     justify-content: space-between
 
   &-desc
-    max-width: 400px
     letter-spacing: 0.15px
+    width: 50%
 
     @include fv-only
-      max-width: 90%
+      width: 90%
       margin-left: auto
       margin-right: auto
 
@@ -74,30 +81,18 @@
 
   &-gallery
     position: relative
-    max-width: 680px
-    margin-left: 85px
-    margin-right: 25px
+    margin-left: 30px
+    width: 50%
 
     @include fv-only
-      margin-left: 40px
-      margin-right: 40px
+      width: 90%
+      margin-left: 0
       margin-top: 50px
 
     p
       padding-bottom: 17px
 
-    &-left,
-    &-right
-      position: absolute
-      top: 50%
-      left: -20px
-
-    &-right
-      left: auto
-      right: -20px
-
-    img
-      max-width: 100%
+    
 
 .fv-schedule
   background: white
