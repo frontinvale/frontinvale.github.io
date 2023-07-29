@@ -1,0 +1,86 @@
+[
+  {
+    "hour": "08:00",
+    "title": "Credenciamento <br>+ Welcome Coffee",
+    "description": "Momento da chegada no evento para encontrar com a galera, tomar um cafézinho e se preparar para curtir ao máximo esse dia recheado de conhecimento.",
+    "kind": "register"
+  },
+  {
+    "hour": "08:40",
+    "title": "Shall we begin?",
+    "description": "Abertura oficial do evento com os apresentadores do evento.",
+    "kind": "mc"
+  },
+  {
+    "hour": "09:00",
+    "title": "Go Pure with ClojureScript",
+    "description": "por Marcelo Piva",
+    "kind": "talk"
+  },
+  {
+    "hour": "09:50",
+    "title": "Vue.js + APIs de mentirinha: A arma secreta da Buser",
+    "description": "por Tony Lâmpada",
+    "kind": "talk"
+  },
+  {
+    "hour": "10:20",
+    "title": "Afinal, UX pra quê?",
+    "description": "por Anna Flávia Oliveira",
+    "kind": "talk"
+  },
+  {
+    "hour": "11:10",
+    "title": "Lightning Talks - Rodada #1",
+    "description": "Build Tools: Entendendo as Ferramentas de Construção Front-End <br>por Rita Lino<br><br>E esse tal de WebAssembly? <br>por Erich Rodrigues<br><br>Cypress.Io - Testes End-2-End sem Selenium e Sem Dor de Cabeça <br>por Graziele Galvão<br><br>JS TO THE FUTURE <br>por Felipe Orlando",
+    "kind": "lightning-talk"
+  },
+  {
+    "hour": "12:10",
+    "title": "Hora do Almoço",
+    "description": "Hora de se alimentar e fazer aquele networking maroto :)",
+    "kind": "lunch"
+  },
+  {
+    "hour": "13:30",
+    "title": "Lina - design system de multi brands",
+    "description": "por Emilio Aiolfi",
+    "kind": "talk"
+  },
+  {
+    "hour": "14:30",
+    "title": "O front-end como você conhece vai morrer",
+    "description": "por Carla Vieira",
+    "kind": "talk"
+  },
+  {
+    "hour": "15:30",
+    "title": "Coffee-break",
+    "description": "Hora do cafézinho e de conversar com os amigos.",
+    "kind": "coffee-break"
+  },
+  {
+    "hour": "16:00",
+    "title": "Lightning Talks - Rodada #2",
+    "description": "<br>Introdução ao maravilhoso mundo do GraphQl<br>por Kamila de Fátima<br><br>Esse tal de Flutter, é de comer?<br>por Mario Souto<br><br>Clean code - um código que não apenas você e Deus entenda.<br>por Maísa Maximo<br><br>Escalando contratos de dados em aplicações front-end.<br>por Pedro Baesso<br>",
+    "kind": "lightning-talk"
+  },
+  {
+    "hour": "17:00",
+    "title": "Acessibilidade é requisito funcional também!",
+    "description": "por Livia Gabos e Michelle Frasson",
+    "kind": "talk"
+  },
+  {
+    "hour": "18:00",
+    "title": "Quem tem medo do TypeScript?",
+    "description": "por William Grasel",
+    "kind": "talk"
+  },
+  {
+    "hour": "19:00",
+    "title": "Sorteios e encerramentos",
+    "description": "Ahh, ta acabando! Mas com certeza levaremos muitas lições para vida. Que venha a próxima edição.",
+    "kind": "mc"
+  },
+]

@@ -1,0 +1,11 @@
+title: FrontInVale 2023
+email: contato@frontinvale.com.br
+description: Maior evento de front-end no Vale do Paraíba.
+keywords: frontend, front-end, html, html5, css, css3, javascript, js
+url: "https://frontinvale.com.br"
+sympla: https://www.sympla.com.br/event__1901636
+
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed

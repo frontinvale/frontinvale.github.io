@@ -1,0 +1,64 @@
+body
+  font-size: 16px
+  font-family: Montserrat
+  font-weight: normal
+  color: white
+
+.fv-mid
+  max-width: 1169px
+  margin: 0 auto
+  display: flex
+  align-items: center
+
+  &-column
+    @extend .fv-mid
+    flex-direction: column
+
+.fv-button
+  min-width: 270px
+  min-height: 48px
+  display: flex
+  border-radius: 3px
+  border: solid 1px $primary-color
+  color: $primary-color
+  display: flex
+  align-items: center
+  justify-content: center
+  font-weight: bold
+
+  &-primary
+    @extend .fv-button
+    border: none
+    background: $primary-color
+    color: #000
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5)
+
+.fv-title
+  font-family: League Gothic
+  font-size: 39px
+  font-weight: bold
+  font-style: normal
+  font-stretch: normal
+  line-height: 1.15
+  letter-spacing: normal
+
+.flex-center
+  display: flex
+  align-items: center
+
+.flex-column
+  display: flex
+  flex-direction: column
+
+.flex-wrap
+  @extend .flex-center
+  flex-wrap: wrap
+
+  .flex-wrap-item
+    flex: 1
+
+@include fv-only
+  .flex-fv-column
+    display: flex
+    flex-direction: column
+    align-items: stretch

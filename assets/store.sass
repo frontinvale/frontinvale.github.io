@@ -1,0 +1,49 @@
+---
+---
+
+@import 'reset'
+@import 'variables'
+@import 'mixins'
+
+body
+  background: url(images/bg-throne.jpg) no-repeat center center
+  background-size: cover
+  min-height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 50px
+  font-size: 16px
+  font-family: Montserrat
+  font-weight: normal
+  color: white
+
+.fiv-products
+  display: flex
+  flex-wrap: wrap
+
+  li
+    flex: 1
+    text-align: center
+    margin: 20px 20px 40px
+
+    img
+      max-width: 300px
+      margin-bottom: 10px
+
+    p
+      display: block
+      font-weight: bold
+      font-size: 1.2em
+
+    span
+      display: block
+      margin: 5px 0 10px
+
+    a
+      display: inline-block
+      border-radius: 3px
+      background-color: $primary-color
+      color: white
+      padding: 15px 30px
+      font-weight: bold
