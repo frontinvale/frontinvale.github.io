@@ -16,5 +16,23 @@
     "job": "Front-end | mLabs",
     "picture": "silvio-rodrigues.jpg",
     "social": "https://www.linkedin.com/in/silviorrr/"
+  },
+  {
+    "name": "Michel<br>Amaral",
+    "job": "CEO | Designa",
+    "picture": "michel-amaral.jpg",
+    "social": "https://www.linkedin.com/in/michelamaral/"
+  },
+  {
+    "name": "Palloi<br>Hofmann",
+    "job": "Front-end | mLabs",
+    "picture": "palloi-hofmann.jpg",
+    "social": "https://www.linkedin.com/in/palloi/"
+  },
+  {
+    "name": "Silvio<br>Rodrigues",
+    "job": "Front-end | mLabs",
+    "picture": "silvio-rodrigues.jpg",
+    "social": "https://www.linkedin.com/in/silviorrr/"
   }
 ]
