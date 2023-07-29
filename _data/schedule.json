@@ -13,44 +13,38 @@
   },
   {
     "hour": "09:00",
-    "title": "Go Pure with ClojureScript",
-    "description": "por Marcelo Piva",
+    "title": "Como Aplicar Domain Driven Design no Frontend",
+    "description": "por Thomas Alvarenga",
     "kind": "talk"
   },
   {
-    "hour": "09:50",
-    "title": "Vue.js + APIs de mentirinha: A arma secreta da Buser",
-    "description": "por Tony Lâmpada",
+    "hour": "10:00",
+    "title": "Explodindo sua mente com TypeScript",
+    "description": "por William Grasel",
     "kind": "talk"
   },
   {
-    "hour": "10:20",
-    "title": "Afinal, UX pra quê?",
-    "description": "por Anna Flávia Oliveira",
-    "kind": "talk"
-  },
-  {
-    "hour": "11:10",
+    "hour": "11:00",
     "title": "Lightning Talks -<br>Rodada nº1",
-    "description": "Build Tools: Entendendo as Ferramentas de Construção Front-End <br>por Rita Lino<br><br>E esse tal de WebAssembly? <br>por Erich Rodrigues<br><br>Cypress.Io - Testes End-2-End sem Selenium e Sem Dor de Cabeça <br>por Graziele Galvão<br><br>JS TO THE FUTURE <br>por Felipe Orlando",
+    "description": "Mapa de estudo dev frontend em 2023<br>por Roger Camargo<br><br>Você já tem um app e talvez não saiba disso<br>por Rodrigo Yoshida<br><br>Web Components: como começar?<br>por Caique de Castro<br><br>Caminho das trevas, metodologia CSS além do BEM<br>por Rodrigo Gabriel",
     "kind": "lightning-talk"
   },
   {
-    "hour": "12:10",
+    "hour": "12:00",
     "title": "Hora do Almoço",
     "description": "Hora de se alimentar e fazer aquele networking maroto :)",
     "kind": "lunch"
   },
   {
     "hour": "13:30",
-    "title": "Lina - design system de multi brands",
-    "description": "por Emilio Aiolfi",
+    "title": "Virei tech lead e agora ? Aprendizados e conselhos para líderes de todas as stacks",
+    "description": "por Kamila Santos",
     "kind": "talk"
   },
   {
     "hour": "14:30",
-    "title": "O front-end como você conhece vai morrer",
-    "description": "por Carla Vieira",
+    "title": "Onde esta a Qualidade?",
+    "description": "por Gabriela Rodrigues da Cruz",
     "kind": "talk"
   },
   {
@@ -62,19 +56,19 @@
   {
     "hour": "16:00",
     "title": "Lightning Talks -<br>Rodada nº2",
-    "description": "<br>Introdução ao maravilhoso mundo do GraphQl<br>por Kamila de Fátima<br><br>Esse tal de Flutter, é de comer?<br>por Mario Souto<br><br>Clean code - um código que não apenas você e Deus entenda.<br>por Maísa Maximo<br><br>Escalando contratos de dados em aplicações front-end.<br>por Pedro Baesso<br>",
+    "description": "Aplicação - Do Figma pra produção em 1 minuto<br>por Gabe Bo<br><br>A corrida pela mediocridade<br>por Keit Oliveira<br><br>Boas práticas para testes exploratórios em Mobile<br>por Maria Paula Dias<br><br>Site portfólio nao é bug, perca o medo e resolva rápido<br>por Camila Monteiro",
     "kind": "lightning-talk"
   },
   {
     "hour": "17:00",
-    "title": "Acessibilidade é requisito funcional também!",
-    "description": "por Livia Gabos e Michelle Frasson",
+    "title": "Melhorando a Experiência do Usuário com Web Vitals",
+    "description": "por Bruno Cardoso",
     "kind": "talk"
   },
   {
     "hour": "18:00",
-    "title": "Quem tem medo do TypeScript?",
-    "description": "por William Grasel",
+    "title": "Criando e distribuindo Packages Frontend, uma introdução amigável",
+    "description": "por Felippe Regazio",
     "kind": "talk"
   },
   {
