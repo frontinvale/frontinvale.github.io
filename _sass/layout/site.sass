@@ -225,6 +225,12 @@
 .fv-speakers
   background: #e7e7e7
 
+  .flex-wrap
+    justify-content: center
+
+    &-item
+      flex-grow: initial
+
   &-first
     @include fv
       box-shadow: inset 0 293px white
@@ -590,9 +596,6 @@
 
   @include fv
     padding-bottom: 165px
-
-  .flex-wrap
-    max-width: 880px
 
 .fv-footer
   min-height: 300px
