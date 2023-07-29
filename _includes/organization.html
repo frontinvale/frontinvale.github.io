@@ -1,0 +1,22 @@
+<section class="fv-organization fv-speakers" id="organization">
+  <div class="fv-mid-column">
+    <h2 class="fv-title">ORGANIZAÇÃO</h2>
+    <ul class="flex-wrap">
+      {% for organization in site.data.organization %}
+        <li class="flex-wrap-item">
+          <img src="./assets/images/speakers/{{organization.picture}}">
+          <div>
+            <h4 class="fv-title">
+              {{organization.name}}
+            </h4>
+            <p>{{organization.job}}</p>
+            <p class="fv-description">{{speaker.description}}</p>
+            <a href="{{organization.social}}" target="_blank">
+              <img src="./assets/images/icon-linkedin.svg">
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

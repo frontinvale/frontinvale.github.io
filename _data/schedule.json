@@ -1,0 +1,80 @@
+[
+  {
+    "hour": "08:00",
+    "title": "Credenciamento <br>+ Welcome Coffee",
+    "description": "Momento da chegada no evento para encontrar com a galera, tomar um cafézinho e se preparar para curtir ao máximo esse dia recheado de conhecimento.",
+    "kind": "register"
+  },
+  {
+    "hour": "08:40",
+    "title": "INÍCIO DO EVENTO",
+    "description": "Abertura oficial do FrontInVale com os apresentadores do evento.",
+    "kind": "mc"
+  },
+  {
+    "hour": "09:00",
+    "title": "Como Aplicar Domain Driven Design no Frontend",
+    "description": "por Thomas Alvarenga",
+    "kind": "talk"
+  },
+  {
+    "hour": "10:00",
+    "title": "Explodindo sua mente com TypeScript",
+    "description": "por William Grasel",
+    "kind": "talk"
+  },
+  {
+    "hour": "11:00",
+    "title": "Lightning Talks -<br>Rodada nº1",
+    "description": "Mapa de estudo dev frontend em 2023<br>por Roger Camargo<br><br>Você já tem um app e talvez não saiba disso<br>por Rodrigo Yoshida<br><br>Web Components: como começar?<br>por Caique de Castro<br><br>Caminho das trevas, metodologia CSS além do BEM<br>por Rodrigo Gabriel",
+    "kind": "lightning-talk"
+  },
+  {
+    "hour": "12:00",
+    "title": "Hora do Almoço",
+    "description": "Hora de se alimentar e fazer aquele networking maroto :)",
+    "kind": "lunch"
+  },
+  {
+    "hour": "13:30",
+    "title": "Virei tech lead e agora ? Aprendizados e conselhos para líderes de todas as stacks",
+    "description": "por Kamila Santos",
+    "kind": "talk"
+  },
+  {
+    "hour": "14:30",
+    "title": "Onde esta a Qualidade?",
+    "description": "por Gabriela Rodrigues da Cruz",
+    "kind": "talk"
+  },
+  {
+    "hour": "15:30",
+    "title": "Coffee-break",
+    "description": "Hora do cafézinho e de conversar com os amigos.",
+    "kind": "coffee-break"
+  },
+  {
+    "hour": "16:00",
+    "title": "Lightning Talks -<br>Rodada nº2",
+    "description": "Aplicação - Do Figma pra produção em 1 minuto<br>por Gabe Bo<br><br>A corrida pela mediocridade<br>por Keit Oliveira<br><br>Boas práticas para testes exploratórios em Mobile<br>por Maria Paula Dias<br><br>Site portfólio nao é bug, perca o medo e resolva rápido<br>por Camila Monteiro",
+    "kind": "lightning-talk"
+  },
+  {
+    "hour": "17:00",
+    "title": "Melhorando a Experiência do Usuário com Web Vitals",
+    "description": "por Bruno Cardoso",
+    "kind": "talk"
+  },
+  {
+    "hour": "18:00",
+    "title": "Criando e distribuindo Packages Frontend, uma introdução amigável",
+    "description": "por Felippe Regazio",
+    "kind": "talk"
+  },
+  {
+    "hour": "19:00",
+    "title": "Sorteios e encerramentos",
+    "description": "Ahh, tá acabando! :( Mas com certeza levaremos muitas lições para vida. Que venha a próxima edição.",
+    "kind": "mc"
+  }
+]

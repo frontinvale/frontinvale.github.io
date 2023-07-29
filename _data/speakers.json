@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Bruno<br>Cardoso",
+    "job": "Software Engineer @ Buser",
+    "picture": "bruno-cardoso.jpg",
+    "description": "Trabalha com desenvolvimento web há cerca de 15 anos. Ao longo desse tempo, criou várias aplicações e trabalhou em projetos diversos como desenvolvedor e também liderando equipes de desenvolvimento.",
+    "social": "https://www.linkedin.com/in/brunopicinin/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Felippe<br>Regazio",
+    "job": "Frontend Engineer @ Mercado Livre",
+    "picture": "felippe-regazio.png",
+    "description": "Engenheiro de software - Especialista Front End, Desenvolvedor Generalista and Entusiasta de Software Livre. Resumidamente: Uma estranha forma de vida baseada em carbono.",
+    "social": "https://twitter.com/felipperegazio",
+    "network": "twitter"
+  },
+  {
+    "name": "Gabriela Rodrigues<br>da Cruz",
+    "job": "Chapter Leader QA @ Agrotools",
+    "picture": "gabriela-rodrigues-da-cruz.jpeg",
+    "description": "Apaixonada por tecnologia, inovação, criatividade, diversidade, aprender e ensinar. Formada em Análise e Desenvolvimento de Sistemas com MBA em Engenharia de Software e Governança de TI.",
+    "social": "https://www.linkedin.com/in/gabriela-rodrigues-da-cruz-82306925/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Kamila<br>Santos",
+    "job": "Tech Lead @ Zup Innovation",
+    "picture": "kamila-santos.png",
+    "description": "Estuda programação desde 2013, atualmente é líder técnica, sua especialidade é Java com Spring, Microsserviços e AWS. É co-autora dos livros Jornada Java e Jornada Microsserviços, cria conteúdo no Instagram e Youtube Kamila code e é Microsoft MVP",
+    "social": "https://www.instagram.com/kamila_code/",
+    "network": "instagram"
+  },
+  {
+    "name": "Thomas<br>Alvarenga",
+    "job": "Senior Full Stack Developer @ Bloq",
+    "picture": "thomas-alvarenga.jpeg",
+    "description": "É desenvolvedor a mais de 13 anos atuando em diversas áreas como logística, coleta de dados, web page builders e agora com blockchains. Iniciou sua carreira internacional no começo de 2020 e se considera um evangelista de Clean Code e Domain Driven Design.",
+    "social": "https://www.linkedin.com/in/alvarengathomas",
+    "network": "linkedin"
+  },
+  {
+    "name": "William<br>Grasel",
+    "job": "Principal Software Engineer @ Stone",
+    "picture": "william-grasel.png",
+    "description": "Desenvolvedor Web apaixonado com mais de 19 anos de experiência na área, Google Developer Expert, Microsoft MVP, especializado em FrontEnd com Single Page Apps e Progressive Web Apps, contribuidor open source, consultor, organizador de comunidades, palestrante.",
+    "social": "https://twitter.com/willgmbr",
+    "network": "twitter"
+  }
+]
