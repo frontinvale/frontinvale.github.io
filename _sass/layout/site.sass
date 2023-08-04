@@ -482,9 +482,9 @@
     background-position: -52px top
 
 .fv-sponsors
-  padding: 135px 0
+  padding: 65px 0
   align-items: center
-  color: $brown
+  color: $secondary-color
 
   @include fv-only
     padding-bottom: 60px
@@ -494,75 +494,48 @@
 
   strong
     display: block
-    padding-bottom: 45px
-    padding-top: 95px
-    color: #0e1e27
+    font-family: Montserrat
+    font-size: 16px
+    padding-bottom: 30px
+    padding-top: 80px
+    color: #070707
 
   ul
     width: 100%
+    padding: 0 20px
     display: flex
     justify-content: center
     align-items: center
+    flex-wrap: wrap
 
     li
-      padding: 50px 15px
+      padding: 20px
 
-      &:first-child
-        padding-top: 0
+      @include fv-only
+        img
+          max-width: 100%
 
-      @include fv
-        padding: 120px 0 0
+  &-diamond img
+      width: 470px
+      padding: 20px 40px
 
-  &-diamond
-    flex-direction: column
+      @include fv-only
+        padding: 0
 
-    img
-      width: 500px
+  &-gold img
+      width: 320px
 
-  &-gold
-    flex-direction: column
+  &-silver imgg
+      width: 220px
 
-    img
-      width: 415px
+  &-bronze img
+      width: 140px
 
-  &-silver
-    img
-      width: 290px
+  &-support img
+      width: 50px
 
-  &-bronze
-    img
-      width: 250px
-
-  &-support
-    &.support-hotel
-      padding-top: 50px
-      flex-wrap: wrap
-
-      & > a
-        width: 100%
-        text-align: center
-        padding-top: 10px
-        font-size: .8em
-        color: $primary-color
-
-      img
-        width: 150px
-
-    li
-      padding: 0 20px!important
-
-    img
+  &-realization img
       width: 120px
-
-    @include fv-only
-      flex-direction: column
-
-      li
-        padding-bottom: 10px!important
-
-  @include fv-only
-    img
-      max-width: 95%
 
 .fv-interested
   padding: 65px 0

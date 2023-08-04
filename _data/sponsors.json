@@ -1,63 +1,146 @@
 [
   {
-    "name": "Buser",
-    "site": "https://www.buser.com.br/",
-    "picture": "buser.png",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "diamond"
   },
   {
-    "name": "DM Card",
-    "site": "https://www.dmcard.com.br",
-    "picture": "dmcard.png",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "diamond"
   },
   {
-    "name": "mLabs",
-    "site": "https://www.mlabs.com.br/",
-    "picture": "mlabs.svg",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "gold"
   },
   {
-    "name": "Quero Educação",
-    "site": "https://quero.education",
-    "picture": "quero-educacao.svg",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "gold"
   },
   {
-    "name": "Guichê Virtual",
-    "site": "https://www.guichevirtual.com.br",
-    "picture": "guiche-virtual.png",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "gold"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "silver"
   },
   {
-    "name": "Toptal",
-    "site": "https://www.toptal.com",
-    "picture": "toptal.png",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "silver"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "silver"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "bronze"
   },
   {
-    "name": "Alura",
-    "site": "https://www.alura.com.br/",
-    "picture": "alura.png",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "bronze"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "bronze"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "bronze"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "bronze"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "support"
   },
   {
-    "name": "Novatec",
-    "site": "https://novatec.com.br",
-    "picture": "novatec.svg",
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
     "quota": "support"
   },
   {
-    "name": "Hotel Nacional Inn São José dos Campos",
-    "site": "http://bit.ly/FrontInVale2019-HotelOficial",
-    "picture": "nacional-inn-sao-jose-dos-campos.png",
-    "quota": "support-hotel"
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
   },
   {
-    "name": "Hotel Nacional Dan Inn São José dos Campos",
-    "site": "http://bit.ly/FrontInVale2019-HotelOficial",
-    "picture": "dan-inn-sao-jose-dos-campos.png",
-    "quota": "support-hotel"
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Designa",
+    "site": "https://designa.com.br",
+    "picture": "designa.svg",
+    "quota": "support"
   }
-
 ]
