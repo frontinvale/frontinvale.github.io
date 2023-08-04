@@ -31,31 +31,31 @@
   },
   {
     "name": "DevJr",
-    "site": "devjrbr.com.br",
+    "site": "https://devjrbr.com.br",
     "picture": "devjr.jpg",
     "quota": "support"
   },
   {
     "name": "perifacode",
-    "site": "perifacode.com.br",
+    "site": "https://perifacode.com",
     "picture": "perifacode.png",
     "quota": "support"
   },
   {
     "name": "IxDA São José dos Campos",
-    "site": "ixdasjc.com.br",
+    "site": "https://ixdasjc.com.br",
     "picture": "ixda-sjc.svg",
     "quota": "support"
   },
   {
     "name": "Tech In Rio",
-    "site": "techinrio.com",
+    "site": "https://techinrio.com",
     "picture": "tech-in-rio.png",
     "quota": "support"
   },
   {
     "name": "He4rt",
-    "site": "heartdevs.com",
+    "site": "https://heartdevs.com",
     "picture": "he4rt.png",
     "quota": "support"
   },
