@@ -1,44 +1,62 @@
 [
   {
-    "name": "Buser",
-    "site": "https://www.buser.com.br/",
-    "picture": "buser.png",
+    "name": "Andela",
+    "site": "https://www.andela.com/talent",
+    "picture": "andela.svg",
     "quota": "diamond"
   },
   {
-    "name": "DM Card",
-    "site": "https://www.dmcard.com.br",
-    "picture": "dmcard.png",
-    "quota": "diamond"
-  },
-  {
-    "name": "mLabs",
-    "site": "https://www.mlabs.com.br/",
-    "picture": "mlabs.svg",
+    "name": "Twilio",
+    "site": "https://www.twilio.com",
+    "picture": "twilio.svg",
     "quota": "gold"
   },
   {
-    "name": "Quero Educação",
-    "site": "https://quero.education",
-    "picture": "quero-educacao.svg",
-    "quota": "gold"
-  },
-  {
-    "name": "Guichê Virtual",
-    "site": "https://www.guichevirtual.com.br",
-    "picture": "guiche-virtual.png",
+    "name": "Zappts",
+    "site": "https://www.zappts.com.br",
+    "picture": "zappts.svg",
     "quota": "silver"
   },
   {
-    "name": "Toptal",
-    "site": "https://www.toptal.com",
-    "picture": "toptal.png",
-    "quota": "bronze"
+    "name": "Quero Educação",
+    "site": "https://sobre.quero.com",
+    "picture": "quero.svg",
+    "quota": "silver"
   },
   {
-    "name": "Alura",
-    "site": "https://www.alura.com.br/",
-    "picture": "alura.png",
+    "name": "GDG São José dos Campos",
+    "site": "gdgsjc.github.io",
+    "picture": "gdg-sjc.png",
+    "quota": "support"
+  },
+  {
+    "name": "DevJr",
+    "site": "devjrbr.com.br",
+    "picture": "devjr.jpg",
+    "quota": "support"
+  },
+  {
+    "name": "perifacode",
+    "site": "perifacode.com.br",
+    "picture": "perifacode.png",
+    "quota": "support"
+  },
+  {
+    "name": "IxDA São José dos Campos",
+    "site": "ixdasjc.com.br",
+    "picture": "ixda-sjc.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Tech In Rio",
+    "site": "techinrio.com",
+    "picture": "tech-in-rio.png",
+    "quota": "support"
+  },
+  {
+    "name": "He4rt",
+    "site": "heartdevs.com",
+    "picture": "he4rt.png",
     "quota": "support"
   },
   {
@@ -46,18 +64,5 @@
     "site": "https://novatec.com.br",
     "picture": "novatec.svg",
     "quota": "support"
-  },
-  {
-    "name": "Hotel Nacional Inn São José dos Campos",
-    "site": "http://bit.ly/FrontInVale2019-HotelOficial",
-    "picture": "nacional-inn-sao-jose-dos-campos.png",
-    "quota": "support-hotel"
-  },
-  {
-    "name": "Hotel Nacional Dan Inn São José dos Campos",
-    "site": "http://bit.ly/FrontInVale2019-HotelOficial",
-    "picture": "dan-inn-sao-jose-dos-campos.png",
-    "quota": "support-hotel"
   }
-
 ]
