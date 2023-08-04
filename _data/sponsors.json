@@ -78,69 +78,39 @@
     "quota": "bronze"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "GDG São José dos Campos",
+    "site": "gdgsjc.github.io",
+    "picture": "gdg-sjc.png",
     "quota": "support"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "DevJr",
+    "site": "devjrbr.com.br",
+    "picture": "devjr.svg",
     "quota": "support"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "perifacode",
+    "site": "perifacode.com.br",
+    "picture": "perifacode.png",
     "quota": "support"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "IxDA São José dos Campos",
+    "site": "ixdasjc.com.br",
+    "picture": "ixda-sjc.svg",
     "quota": "support"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "Tech In Rio",
+    "site": "techinrio.com",
+    "picture": "tech-in-rio.png",
     "quota": "support"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "support"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "support"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "support"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "support"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "support"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "He4rt",
+    "site": "heartdevs.com",
+    "picture": "he4rt.png",
     "quota": "support"
   }
 ]
