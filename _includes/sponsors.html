@@ -7,7 +7,7 @@
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.quota == "diamond" %}
           <li>
-            <a href="{{sponsor.site}}" target="_blank">
+            <a href="{{sponsor.site}}?utm_source=frontinvale" target="_blank">
               <img src="./assets/images/sponsors/{{sponsor.picture}}" alt="Logo da {{sponsor.name}}">
             </a>
           </li>
@@ -20,7 +20,7 @@
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.quota == "gold" %}
           <li>
-            <a href="{{sponsor.site}}" target="_blank">
+            <a href="{{sponsor.site}}?utm_source=frontinvale" target="_blank">
               <img src="./assets/images/sponsors/{{sponsor.picture}}" alt="Logo da {{sponsor.name}}">
             </a>
           </li>
@@ -33,7 +33,7 @@
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.quota == "silver" %}
           <li>
-            <a href="{{sponsor.site}}" target="_blank">
+            <a href="{{sponsor.site}}?utm_source=frontinvale" target="_blank">
               <img src="./assets/images/sponsors/{{sponsor.picture}}" alt="Logo da {{sponsor.name}}">
             </a>
           </li>
@@ -41,25 +41,25 @@
       {% endfor %}
     </ul>
 
-    <strong class="fv-title">Bronze</strong>
+    <!-- <strong class="fv-title">Bronze</strong>
     <ul class="fv-sponsors-bronze">
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.quota == "bronze" %}
           <li>
-            <a href="{{sponsor.site}}" target="_blank">
+            <a href="{{sponsor.site}}?utm_source=frontinvale" target="_blank">
               <img src="./assets/images/sponsors/{{sponsor.picture}}" alt="Logo da {{sponsor.name}}">
             </a>
           </li>
         {% endif %}
       {% endfor %}
-    </ul>
+    </ul> -->
 
     <strong class="fv-title">Apoio</strong>
     <ul class="fv-sponsors-support">
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.quota == "support" %}
           <li>
-            <a href="{{sponsor.site}}" target="_blank">
+            <a href="{{sponsor.site}}?utm_source=frontinvale" target="_blank">
               <img src="./assets/images/sponsors/{{sponsor.picture}}" alt="Logo da {{sponsor.name}}">
             </a>
           </li>
@@ -70,7 +70,7 @@
     <strong class="fv-title">Realização</strong>
     <ul class="fv-sponsors-realization">
       <li>
-        <a href="https://designa.com.br/" target="_blank">
+        <a href="https://designa.com.br?utm_source=frontinvale" target="_blank">
           <img src="./assets/images/sponsors/designa.svg">
         </a>
       </li>

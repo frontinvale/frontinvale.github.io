@@ -1,81 +1,21 @@
 [
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "Andela",
+    "site": "https://www.andela.com/talent",
+    "picture": "andela.svg",
     "quota": "diamond"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "diamond"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "Twilio",
+    "site": "https://www.twilio.com",
+    "picture": "twilio.svg",
     "quota": "gold"
   },
   {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "gold"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "gold"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
+    "name": "Zappts",
+    "site": "https://www.zappts.com.br",
+    "picture": "zappts.svg",
     "quota": "silver"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "silver"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "silver"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "bronze"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "bronze"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "bronze"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "bronze"
-  },
-  {
-    "name": "Designa",
-    "site": "https://designa.com.br",
-    "picture": "designa.svg",
-    "quota": "bronze"
   },
   {
     "name": "GDG São José dos Campos",
@@ -111,6 +51,12 @@
     "name": "He4rt",
     "site": "heartdevs.com",
     "picture": "he4rt.png",
+    "quota": "support"
+  },
+  {
+    "name": "Novatec",
+    "site": "https://novatec.com.br",
+    "picture": "novatec.svg",
     "quota": "support"
   }
 ]
