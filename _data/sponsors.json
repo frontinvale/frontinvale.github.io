@@ -18,6 +18,12 @@
     "quota": "silver"
   },
   {
+    "name": "Quero Educação",
+    "site": "https://sobre.quero.com",
+    "picture": "quero.svg",
+    "quota": "silver"
+  },
+  {
     "name": "GDG São José dos Campos",
     "site": "gdgsjc.github.io",
     "picture": "gdg-sjc.png",
