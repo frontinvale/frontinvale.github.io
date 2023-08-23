@@ -24,6 +24,18 @@
     "quota": "silver"
   },
   {
+    "name": "Embras",
+    "site": "https://www.embras.net",
+    "picture": "embras.png",
+    "quota": "bronze"
+  },
+  {
+    "name": "Dev Sincero",
+    "site": "https://www.devsincero.com",
+    "picture": "dev-sincero.png",
+    "quota": "bronze"
+  },
+  {
     "name": "GDG São José dos Campos",
     "site": "https://gdgsjc.github.io",
     "picture": "gdg-sjc.png",
