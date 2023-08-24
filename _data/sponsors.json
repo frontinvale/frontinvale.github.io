@@ -30,6 +30,12 @@
     "quota": "bronze"
   },
   {
+    "name": "Venturus",
+    "site": "https://www.venturus.org.br/",
+    "picture": "venturus.svg",
+    "quota": "bronze"
+  },
+  {
     "name": "Dev Sincero",
     "site": "https://www.devsincero.com",
     "picture": "dev-sincero.png",
