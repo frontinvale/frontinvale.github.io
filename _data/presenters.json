@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Eduardo<br>Matos",
+    "job": "",
+    "picture": "eduardo-matos.jpeg",
+    "description": "Criador do People Tech, Co-host do DevNaEstrada e Líder de Engenharia no iFood",
+    "social": "https://www.linkedin.com/in/eduardojmatos/",
+    "network": "linkedin"
+  },
+  {
+    "name": "Tuanny<br>Dias",
+    "job": "",
+    "picture": "tuanny-dias.jpeg",
+    "description": "Professora de UX na Alura e Design Lead na RaiaDrogasil",
+    "social": "https://www.linkedin.com/in/tuannydias/",
+    "network": "linkedin"
+  }
+]
