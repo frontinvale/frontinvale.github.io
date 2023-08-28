@@ -26,7 +26,7 @@
   {
     "hour": "11:00",
     "title": "Lightning Talks -<br>Rodada nº1",
-    "description": "Mapa de estudo dev frontend em 2023<br>por Roger Camargo<br><br>Você já tem um app e talvez não saiba disso<br>por Rodrigo Yoshida<br><br>Web Components: como começar?<br>por Caique de Castro<br><br>Caminho das trevas, metodologia CSS além do BEM<br>por Rodrigo Gabriel",
+    "description": "Mapa de estudo dev frontend em 2023<br>por Roger Camargo<br><br>Você já tem um app e talvez não saiba disso<br>por Rodrigo Yoshida<br><br>Web Components: como começar?<br>por Caique de Castro<br><br>Caminho das trevas, metodologia CSS além do BEM<br>por Rodrigo Gabriel<br><br>Compartilhando front-end entre diferentes stacks<br>por Willian Fernandes",
     "kind": "lightning-talk"
   },
   {
@@ -56,7 +56,7 @@
   {
     "hour": "16:00",
     "title": "Lightning Talks -<br>Rodada nº2",
-    "description": "Aplicação - Do Figma pra produção em 1 minuto<br>por Gabe Bo<br><br>A corrida pela mediocridade<br>por Keit Oliveira<br><br>Site portfólio nao é bug, perca o medo e resolva rápido<br>por Camila Monteiro<br><br>Boas práticas para testes exploratórios em Mobile<br>por Maria Paula Dias",
+    "description": "Aplicação - Do Figma pra produção em 1 minuto<br>por Gabe Bo<br><br>A corrida pela mediocridade<br>por Keit Oliveira<br><br>Site portfólio nao é bug, perca o medo e resolva rápido<br>por Camila Monteiro<br><br>Integrando com Whatsapp utilizando APIs da Twilio<br>por Luís Leão<br><br>Boas práticas para testes exploratórios em Mobile<br>por Maria Paula Dias",
     "kind": "lightning-talk"
   },
   {

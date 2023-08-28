@@ -32,6 +32,14 @@
     "network": "twitter"
   },
   {
+    "name": "Luís<br>Leão",
+    "job": "Desenvolvedor evangelista @ Twilio",
+    "picture": "luis-leao.jpg",
+    "description": "Ajuda pessoas desenvolvedoras a criarem aplicações e serviços para se conectar com pessoas e construir juntos o futuro da comunicação através de APIs. Foi professor de programação para escolas com Miami Ad School e EBAC e co-organizou comunidades de tecnologia.",
+    "social": "https://www.linkedin.com/in/luisleao/",
+    "network": "linkedin"
+  },
+  {
     "name": "Maria Paula<br>Dias",
     "job": "QA Analyst @ Zappts",
     "picture": "maria-paula-dias.jpg",
@@ -62,5 +70,13 @@
     "description": "Devenvolvedor Backend, no início trabalhava com Java em bancos, depois gostei muito mais de trabalhar em startups e linguagens como Python! Nos últimos anos tenho estudado e focado em projetos Frontend!",
     "social": "https://github.com/huogerac",
     "network": "github"
+  },
+  {
+    "name": "Willian<br>Fernandes",
+    "job": "Staff Engineer @ Andela",
+    "picture": "willian-fernandes.jpg",
+    "description": "Desenvolvedor web full-stack há mais de 2 décadas, mora em São José dos Campos. Atualmente lidera um time de desenvolvedores na Andela, responsável pela plataforma de Talentos. Fora do trabalho gosta de música, cinema, café, e praticar esportes.",
+    "social": "https://www.linkedin.com/in/willian/",
+    "network": "linkedin"
   }
 ]
