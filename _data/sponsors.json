@@ -76,5 +76,17 @@
     "site": "https://novatec.com.br",
     "picture": "novatec.svg",
     "quota": "support"
+  },
+  {
+    "name": "Devnaestrada",
+    "site": "https://devnaestrada.com.br/",
+    "picture": "devnaestrada.svg",
+    "quota": "support"
+  },
+  {
+    "name": "Frontin",
+    "site": "https://frontinsampa.com.br",
+    "picture": "frontin.svg",
+    "quota": "support"
   }
 ]
