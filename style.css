@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 
+html, body {
+  overflow-x:hidden 
+}
+
 body {
   background: #070707;
   background: -webkit-linear-gradient(to right, #070707, #181818);
