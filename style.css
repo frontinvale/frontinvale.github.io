@@ -1,6 +1,7 @@
 :root {
   --primary-color: #e55126;
-  --gray-color: #737375;
+  --gray: #737375;
+  --black: #070707;
 }
 
 * {
@@ -10,20 +11,17 @@
   text-decoration: none;
 }
 
-html, body {
-  overflow-x:hidden 
-}
-
 body {
-  background: #070707;
-  background: -webkit-linear-gradient(to right, #070707, #181818);
-  background: linear-gradient(to right, #070707, #181818);
+  background: var(--black);
+  background: -webkit-linear-gradient(to right, var(--black), #181818);
+  background: linear-gradient(to right, var(--black), #181818);
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   height: 100vh;
   padding: 4rem;
   display: flex;
   flex-direction: column;
+  overscroll-behavior: none;
 }
 
 .container,
@@ -54,7 +52,7 @@ h1 span {
 }
 
 .info p {
-  color: var(--gray-color);
+  color: var(--gray);
   margin-top: 16px;
   line-height: 1.5rem;
   font-size: 1.2rem;
@@ -90,7 +88,7 @@ h1 span {
 .video p {
   margin-bottom: 16px;
   font-size: 1.2rem;
-  color: var(--gray-color);
+  color: var(--gray);
 }
 
 .social-media a {
