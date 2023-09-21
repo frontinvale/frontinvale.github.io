@@ -11,8 +11,12 @@
   text-decoration: none;
 }
 
+html,
 body {
   background: var(--black);
+}
+
+body {
   background: -webkit-linear-gradient(to right, var(--black), #181818);
   background: linear-gradient(to right, var(--black), #181818);
   font-family: 'Montserrat', sans-serif;
